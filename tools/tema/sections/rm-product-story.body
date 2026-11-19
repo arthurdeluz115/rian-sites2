@@ -1,0 +1,20 @@
+{%- assign base = section.settings.prompt_base -%}
+{% if section.settings.show_contexts %}
+<section class="container">
+  <div class="section-head"><h2>{{ section.settings.contextsTitle | escape }}</h2></div>
+  <div class="context-rail">
+    {% for i in (1..4) %}{% assign t = 'context' | append: i | append: 'Title' %}{% assign x = 'context' | append: i | append: 'Text' %}{% assign n = i | plus: 5 %}{% assign img_key = 'image_' | append: n %}{% assign asset_key = 'asset_' | append: n %}
+      <article class="context-card">{% assign pn = base | plus: n %}{% render 'rm-image', image: section.settings[img_key], asset: section.settings[asset_key], number: pn, width: 1000, height: 1000 %}<h3>{{ section.settings[t] | escape }}</h3><p>{{ section.settings[x] | escape }}</p></article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+{% for i in (1..3) %}
+  {% assign show = 'show_benefit' | append: i %}{% assign e = 'benefit' | append: i | append: 'Eyebrow' %}{% assign t = 'benefit' | append: i | append: 'Title' %}{% assign x = 'benefit' | append: i | append: 'Text' %}{% assign n = i | plus: 9 %}{% assign img_key = 'image_' | append: n %}{% assign asset_key = 'asset_' | append: n %}
+  {% if section.settings[show] %}
+  <section class="container split benefit{% if i == 2 %} reverse{% endif %}">
+    <div class="split-media">{% assign pn = base | plus: n %}{% render 'rm-image', image: section.settings[img_key], asset: section.settings[asset_key], number: pn, width: 1200, height: 1000 %}</div>
+    <div class="split-copy"><p class="eyebrow">{{ section.settings[e] | escape }}</p><h2>{{ section.settings[t] | escape }}</h2><p>{{ section.settings[x] | escape | newline_to_br }}</p></div>
+  </section>
+  {% endif %}
+{% endfor %}

@@ -1,0 +1,225 @@
+{
+  "store": {
+    "tagline": "Casa",
+    "categories": ["Orden en la cocina", "Básicos del hogar", "Dormitorio y salón", "Mesa y bebidas"],
+    "headline": "Una casa más bonita, más ordenada y más tuya",
+    "subtitle": "Piezas elegidas para un hogar cálido y natural.",
+    "aboutTitle": "Bienvenido a {{store_name}}",
+    "aboutText": "Elegimos piezas sencillas y bonitas que ponen orden y calidez en tu día a día, de la cocina al dormitorio.",
+    "bannerTitle": "Encuentra tu próximo imprescindible.",
+    "announcement": "Envíos a toda España · Pago 100% seguro"
+  },
+  "products": [
+    {
+      "t": "Dispensador giratorio de cereales",
+      "badge": "Cocina ordenada",
+      "h": "Adiós a las bolsas abiertas en la despensa.",
+      "s": "Arroz, legumbres y cereales juntos en un dispensador giratorio con compartimentos: todo a la vista y a un giro de distancia.",
+      "b": ["Compartimentos transparentes separados", "Gira para tener cada ingrediente a mano", "Botón dispensador y cajón de recogida"],
+      "ben": [
+        ["Orden", "Una despensa que se entiende", "Cada grano en su compartimento y a la vista: sabes qué te queda sin abrir paquetes."],
+        ["Comodidad", "Un giro y listo", "Gira la base hasta el ingrediente que necesitas y sírvelo con el botón."],
+        ["Espacio", "Todo en una sola pieza", "Agrupa varios ingredientes en un único dispensador sobre la encimera."]
+      ],
+      "ctxT": "Para una cocina sin caos",
+      "ctx": [["En la encimera", "Tus básicos siempre a mano."], ["En la despensa", "Menos bolsas, más orden."], ["Cocina de diario", "Arroz, lentejas o avena en segundos."], ["Casa compartida", "Cada uno sabe dónde está todo."]],
+      "dT": "Compartimentos a la vista",
+      "dX": "Dispensador beige con compartimentos transparentes, botones dispensadores y cajón de recogida. Mide 24 cm de diámetro arriba, 27 cm de base y 27 cm de alto.",
+      "steps": ["Llena cada compartimento con un ingrediente seco.", "Gira hasta el que necesitas.", "Pulsa el botón y recógelo en el cajón."],
+      "spec": ["Color: beige", "Formato: giratorio con compartimentos", "Diámetro superior: 24 cm", "Base: 27 cm", "Altura: 27 cm"],
+      "faq": [["¿Qué puedo guardar?", "Ingredientes secos como arroz, legumbres, cereales o frutos secos pequeños."], ["¿Cuánto ocupa?", "Unos 27 cm de base y 27 cm de alto: cabe en la mayoría de encimeras."], ["¿Cómo se limpia?", "Con tu pedido te indicamos cómo desmontarlo y limpiarlo."]],
+      "fT": "Pon orden en tu despensa.",
+      "fX": "Un dispensador que hace la cocina más fácil y más bonita."
+    },
+    {
+      "t": "Zapatero abierto de varios niveles",
+      "badge": "Más orden",
+      "h": "Cada par en su sitio. Por fin.",
+      "s": "Zapatero abierto de varios niveles para reunir todos los zapatos de la entrada y encontrarlos de un vistazo al salir.",
+      "b": ["Varios niveles en poco espacio", "Diseño abierto: ves cada par", "Estructura negra que combina con todo"],
+      "ben": [
+        ["Entrada despejada", "Se acabaron los zapatos por el suelo", "Todos los pares agrupados en un solo mueble junto a la puerta."],
+        ["A la vista", "Sales de casa más rápido", "El diseño abierto te deja ver cada par sin abrir puertas ni cajas."],
+        ["Vertical", "Aprovecha la altura", "Varios niveles apilados ocupan poco suelo."]
+      ],
+      "ctxT": "Dónde pone orden",
+      "ctx": [["En la entrada", "Dejas los zapatos al llegar."], ["En el armario", "Más espacio para la ropa."], ["Pisos pequeños", "Orden en vertical."], ["Habitación compartida", "Cada uno con sus niveles."]],
+      "dT": "Abierto y de varios niveles",
+      "dX": "Zapatero independiente con conectores negros y soportes horizontales claros. Disponible en negro.",
+      "steps": ["Monta la estructura siguiendo las instrucciones.", "Colócalo sobre una superficie plana.", "Organiza los pares por uso o por persona."],
+      "spec": ["Tipo: zapatero independiente", "Formato: abierto, varios niveles", "Color: negro"],
+      "faq": [["¿Cuántos niveles tiene?", "Te confirmamos el número de niveles de la versión disponible antes de tu compra."], ["¿Es difícil de montar?", "Se monta encajando las piezas y no necesita herramientas especiales."], ["¿Cuántos pares caben?", "Depende del tamaño del calzado. Escríbenos y te orientamos."]],
+      "fT": "Una entrada que da gusto ver.",
+      "fX": "Ordena tus zapatos y gana espacio en casa."
+    },
+    {
+      "t": "Funda de sofá de chenilla",
+      "badge": "4 tamaños",
+      "h": "Un sofá renovado sin cambiar de sofá.",
+      "s": "Funda de chenilla con rayas que da una textura nueva a tu salón, en cuatro tamaños para cada parte del sofá.",
+      "b": ["Chenilla suave al tacto", "Estampado de rayas", "Tamaños de 70×70 a 70×180 cm"],
+      "ben": [
+        ["Nuevo look", "Cambia el salón en minutos", "Coloca la funda y tu sofá luce una textura distinta al instante."],
+        ["Suavidad", "Chenilla agradable", "Un tejido suave para sentarse y tumbarse a gusto."],
+        ["A medida", "Combina tamaños", "Brazos, respaldo, asiento doble o grande: elige las piezas que necesitas."]
+      ],
+      "ctxT": "Para tu salón",
+      "ctx": [["Sofás modulares", "Una pieza para cada módulo."], ["Casa con mascotas", "Una capa extra sobre el tapizado."], ["Cambio de temporada", "Renueva sin gastar en muebles."], ["Piso de alquiler", "Personaliza sin obras."]],
+      "dT": "Rayas y textura de chenilla",
+      "dX": "Funda gris a rayas de chenilla, disponible en cuatro tamaños para reposabrazos, respaldo y asientos.",
+      "steps": ["Mide cada parte de tu sofá.", "Elige los tamaños que necesitas.", "Extiende la funda y ajústala a la forma."],
+      "spec": ["Material: chenilla", "Estampado: rayas", "Formato: funda para sofá", "Tamaños: 70×70 / 70×120 / 70×150 / 70×180 cm"],
+      "faq": [["¿Qué tamaño elijo?", "Mide el ancho de cada asiento o reposabrazos y elige la medida más cercana."], ["¿Se puede lavar?", "Te enviamos las indicaciones de lavado con tu pedido."], ["¿Viene una o varias piezas?", "Cada tamaño se vende por separado; combina los que necesites."]],
+      "fT": "Dale a tu sofá una segunda vida.",
+      "fX": "Textura nueva, mismo sofá de siempre."
+    },
+    {
+      "t": "Jarra de cristal para servir",
+      "badge": "Estilo nórdico",
+      "h": "La jarra que convierte el agua en protagonista.",
+      "s": "Jarra de cristal de estilo nórdico con asa y tapa, para llevar la bebida al centro de la mesa.",
+      "b": ["Cristal de estilo nórdico", "Con asa y tapa", "Ideal para agua, limonada o infusiones frías"],
+      "ben": [
+        ["Mesa bonita", "El centro de la mesa", "Su forma facetada luce en comidas, cenas y desayunos."],
+        ["Práctica", "Asa y tapa", "Se sirve con comodidad y la tapa mantiene la bebida protegida."],
+        ["Para todo", "Del día a día a las visitas", "Agua con limón, limonada casera o té frío."]
+      ],
+      "ctxT": "Para cada momento",
+      "ctx": [["Comida en familia", "Agua fresca para todos."], ["Verano en la terraza", "Limonada casera a la vista."], ["Cena con amigos", "Un detalle elegante."], ["En la nevera", "Siempre lista para servir."]],
+      "dT": "Cristal facetado con asa",
+      "dX": "Jarra de cristal con superficie facetada, asa y tapa, de estilo nórdico.",
+      "steps": ["Lávala antes del primer uso.", "Llénala con tu bebida fría favorita.", "Sirve y lávala con cuidado después."],
+      "spec": ["Material: cristal", "Estilo: nórdico", "Formato: jarra para servir", "Incluye: asa y tapa"],
+      "faq": [["¿Qué capacidad tiene?", "Te confirmamos la capacidad del modelo disponible antes de tu compra."], ["¿Sirve para bebidas calientes?", "Te recomendamos usarla para bebidas frías o a temperatura ambiente."], ["¿Incluye vasos?", "Se vende la jarra. Si te interesan los vasos, escríbenos."]],
+      "fT": "Lleva la bebida a la mesa con estilo.",
+      "fX": "Una jarra sencilla que cambia toda la mesa."
+    },
+    {
+      "t": "Organizador colgante para perchas",
+      "badge": "Gana espacio",
+      "h": "Más perchas, menos espacio.",
+      "s": "Organizador de plástico con varias ranuras que agrupa tus perchas en horizontal o en vertical.",
+      "b": ["Varias perchas en una sola pieza", "Uso horizontal o vertical", "Ganchos en los extremos"],
+      "ben": [
+        ["Espacio", "Armario más despejado", "Agrupa varias perchas en un solo punto y libera la barra."],
+        ["Flexible", "Horizontal o vertical", "Cuélgalo de un extremo o apóyalo en los dos según el espacio."],
+        ["Tendedero", "También para secar", "Útil para tender camisetas o ropa delicada en perchas."]
+      ],
+      "ctxT": "Donde lo vas a usar",
+      "ctx": [["En el armario", "Más ropa en la misma barra."], ["En el tendedero", "Varias prendas a la vez."], ["En el baño", "Para toallas pequeñas y ropa delicada."], ["De viaje", "Organiza en el apartamento."]],
+      "dT": "Ranuras y ganchos",
+      "dX": "Organizador alargado de plástico con ranuras para perchas y ganchos en los extremos. Funciona en horizontal o en vertical.",
+      "steps": ["Elige si lo usarás en horizontal o en vertical.", "Cuélgalo de la barra con los ganchos.", "Coloca tus perchas en las ranuras."],
+      "spec": ["Material: plástico", "Tipo: organizador de perchas", "Uso: horizontal y vertical", "Ganchos en los extremos"],
+      "faq": [["¿Incluye perchas?", "No, se usa con tus perchas de siempre."], ["¿Cuánto peso aguanta?", "Te confirmamos el peso recomendado antes de tu compra."], ["¿Cuántas ranuras tiene?", "Escríbenos y te confirmamos el modelo disponible."]],
+      "fT": "Un armario que respira.",
+      "fX": "Pon orden en tus perchas en un minuto."
+    },
+    {
+      "t": "Juego de cama acolchado en rombos",
+      "badge": "Juego completo",
+      "h": "Un dormitorio de revista con un solo juego.",
+      "s": "Colcha acolchada gris con rombos y dos fundas de almohada a juego. Tu cama coordinada en un minuto.",
+      "b": ["Colcha + 2 fundas de almohada", "Acolchado en rombos", "Tono gris fácil de combinar"],
+      "ben": [
+        ["Coordinado", "Todo combina sin pensarlo", "Colcha y fundas en el mismo tono y acabado."],
+        ["Textura", "Rombos que dan profundidad", "El acolchado en rombos aporta un aire hotelero."],
+        ["Versátil", "Gris para todo", "Combina con madera, blanco o colores vivos."]
+      ],
+      "ctxT": "Para tu dormitorio",
+      "ctx": [["Dormitorio principal", "Un acabado de hotel."], ["Habitación de invitados", "Lista en un momento."], ["Cambio de estación", "Una capa extra en la cama."], ["Para regalar", "Un regalo práctico y bonito."]],
+      "dT": "Acolchado en rombos",
+      "dX": "Colcha gris con acolchado en rombos y dos fundas de almohada a juego.",
+      "steps": ["Extiende la colcha sobre la cama.", "Pon las fundas en tus almohadas.", "Sigue las indicaciones de lavado de la etiqueta."],
+      "spec": ["Color: gris", "Acabado: acolchado en rombos", "Colcha: 135 × 200 cm", "Fundas: 51 × 76 cm"],
+      "box": "1 colcha\n2 fundas de almohada",
+      "faq": [["¿Para qué cama es?", "La colcha mide 135 × 200 cm. Compárala con tu cama antes de comprar."], ["¿Qué incluye?", "Una colcha y dos fundas de almohada."], ["¿Se puede lavar?", "Te enviamos las indicaciones de lavado con tu pedido."]],
+      "fT": "Haz la cama más bonita de la casa.",
+      "fX": "Un juego coordinado que transforma el dormitorio."
+    },
+    {
+      "t": "Botella térmica 950 ml con soporte para móvil",
+      "badge": "6 colores",
+      "h": "Tu bebida y tu móvil, siempre juntos.",
+      "s": "Botella térmica de 950 ml en acero inoxidable 304 con soporte magnético para el móvil en la tapa y correa para llevarla.",
+      "b": ["950 ml de capacidad", "Acero inoxidable 304 y aislamiento al vacío", "Soporte magnético para el móvil"],
+      "ben": [
+        ["Dos en uno", "Mira vídeos mientras bebes", "El soporte magnético de la tapa sujeta tu móvil en el gimnasio o la oficina."],
+        ["Aislamiento", "Doble pared al vacío", "Interior y exterior de acero inoxidable 304 con aislamiento al vacío."],
+        ["Para todo el día", "950 ml contigo", "Capacidad para acompañarte toda la jornada, con correa para llevarla."]
+      ],
+      "ctxT": "Para tu día a día",
+      "ctx": [["En el gimnasio", "Tu rutina en pantalla."], ["En la oficina", "Agua a mano en el escritorio."], ["De viaje", "Con correa para llevarla."], ["En el coche", "Bebida fresca en ruta."]],
+      "dT": "Soporte magnético en la tapa",
+      "dX": "Botella de acero inoxidable con soporte magnético articulado en la tapa y correa. Disponible en azul, blanco, rosa, negro, amarillo y morado.",
+      "steps": ["Lávala antes del primer uso.", "Llénala y cierra bien la tapa.", "Coloca el móvil en el soporte magnético."],
+      "spec": ["Capacidad: 950 ml", "Interior: acero inoxidable 304", "Exterior: acero inoxidable 304", "Aislamiento: al vacío", "Extras: soporte magnético y correa", "Colores: azul, blanco, rosa, negro, amarillo y morado"],
+      "faq": [["¿Sirve para cualquier móvil?", "Funciona con móviles compatibles con soporte magnético. Escríbenos con tu modelo y te ayudamos."], ["¿Mantiene la temperatura?", "Tiene aislamiento al vacío de doble pared."], ["¿Qué colores hay?", "Azul, blanco, rosa, negro, amarillo y morado."]],
+      "fT": "La botella que va contigo a todas partes.",
+      "fX": "Elige tu color y lleva bebida y móvil en una sola mano."
+    },
+    {
+      "t": "Báscula de baño digital",
+      "badge": "Pantalla iluminada",
+      "h": "Tu rutina, clara y a la vista.",
+      "s": "Báscula digital con pantalla iluminada y plataforma negra, hasta 180 kg. Elige la versión a pilas o recargable.",
+      "b": ["Pantalla digital iluminada", "Hasta 180 kg", "Versión a pilas o recargable por USB"],
+      "ben": [
+        ["Lectura fácil", "Números que se ven bien", "La pantalla iluminada se lee con claridad incluso con poca luz."],
+        ["Elegante", "Diseño negro minimalista", "Una plataforma negra que queda bien en cualquier baño."],
+        ["Tú eliges", "Pilas o USB", "Disponible a pilas o recargable por USB."]
+      ],
+      "ctxT": "Parte de tu rutina",
+      "ctx": [["Por la mañana", "Un control rápido antes de empezar."], ["En el baño", "Plana y discreta."], ["Para toda la familia", "Hasta 180 kg."], ["Objetivos personales", "Sigue tu progreso."]],
+      "dT": "Plataforma negra y pantalla azul",
+      "dX": "Báscula digital con plataforma negra y pantalla iluminada en azul, con un peso máximo de 180 kg.",
+      "steps": ["Colócala sobre un suelo firme y plano.", "Súbete descalzo y quédate quieto.", "Lee el resultado en la pantalla."],
+      "spec": ["Tipo: báscula de baño digital", "Peso máximo: 180 kg", "Tamaño: 26 cm", "Versiones: a pilas o recargable", "Pantalla: digital iluminada"],
+      "faq": [["¿Funciona con pilas?", "Hay versión a pilas y versión recargable por USB."], ["¿Cuál es el peso máximo?", "Hasta 180 kg."], ["¿Tiene app?", "Te confirmamos la compatibilidad del modelo disponible antes de tu compra."]],
+      "fT": "Pequeños hábitos, grandes cambios.",
+      "fX": "Una báscula bonita y fácil de leer para tu día a día."
+    },
+    {
+      "t": "Frutero de cristal texturizado",
+      "badge": "Toque dorado",
+      "h": "La fruta, convertida en decoración.",
+      "s": "Frutero de cristal verde texturizado con detalles dorados y base elevada. Un centro de mesa que no pasa desapercibido.",
+      "b": ["Cristal verde texturizado", "Borde de color dorado", "Base elevada"],
+      "ben": [
+        ["Decoración", "El centro de todas las miradas", "Su color verde y el detalle dorado decoran la mesa incluso vacío."],
+        ["Textura", "Juego de luces", "La superficie texturizada refleja la luz de forma preciosa."],
+        ["Altura", "Base elevada", "La base realza la fruta y le da presencia en la mesa."]
+      ],
+      "ctxT": "Dónde luce",
+      "ctx": [["En la mesa del comedor", "Un centro de mesa con color."], ["En la isla de la cocina", "Fruta siempre a mano."], ["En el aparador", "Como pieza decorativa."], ["Para regalar", "Un detalle para casas nuevas."]],
+      "dT": "Verde, texturizado y dorado",
+      "dX": "Frutero poco profundo de cristal verde con superficie texturizada, borde dorado y base circular elevada.",
+      "steps": ["Lávalo a mano antes del primer uso.", "Colócalo en un lugar estable.", "Llénalo con tu fruta de temporada."],
+      "spec": ["Material: cristal", "Color: verde", "Acabado: texturizado con detalles dorados", "Forma: cuenco con base elevada"],
+      "faq": [["¿Qué medidas tiene?", "Escríbenos y te confirmamos las medidas antes de tu compra."], ["¿Se puede meter en el lavavajillas?", "Te recomendamos lavarlo a mano para cuidar el detalle dorado."], ["¿Viene uno o varios?", "Se vende por unidad."]],
+      "fT": "Dale color a tu mesa.",
+      "fX": "Un frutero que decora todos los días."
+    },
+    {
+      "t": "Plato llano de cerámica texturizada",
+      "badge": "Estilo restaurante",
+      "h": "Emplata como en un restaurante.",
+      "s": "Plato de cerámica con textura radial que convierte cualquier comida de diario en una presentación especial.",
+      "b": ["Cerámica de acabado elegante", "Textura radial en relieve", "Ideal para carnes, pastas y platos principales"],
+      "ben": [
+        ["Presentación", "La comida luce más", "El fondo oscuro y la textura realzan los colores de cada plato."],
+        ["Detalle", "Relieve radial", "Las líneas en relieve dan un aire artesanal a tu mesa."],
+        ["Para ocasiones", "Del diario a la cena especial", "Eleva una comida normal o una cena con invitados."]
+      ],
+      "ctxT": "Para tu mesa",
+      "ctx": [["Cena en casa", "Un emplatado de restaurante."], ["Con invitados", "Mesa que sorprende."], ["Fotos de comida", "Perfecto para redes."], ["Comida de diario", "Pequeños lujos cotidianos."]],
+      "dT": "Textura radial en cerámica",
+      "dX": "Plato de cerámica oscuro con relieve radial, pensado como plato principal.",
+      "steps": ["Lávalo antes del primer uso.", "Emplata tu receta favorita.", "Lávalo con cuidado para conservar el acabado."],
+      "spec": ["Material: cerámica", "Tipo: plato llano", "Diseño: textura radial", "Color: oscuro"],
+      "faq": [["¿Qué medida tiene?", "Te confirmamos el diámetro antes de tu compra."], ["¿Va al microondas o lavavajillas?", "Te confirmamos las indicaciones de uso del modelo disponible."], ["¿Se vende en set?", "Se vende por unidad; combina los que necesites."]],
+      "fT": "Pon la mesa que te mereces.",
+      "fX": "Platos que hacen especial cada comida."
+    }
+  ]
+}

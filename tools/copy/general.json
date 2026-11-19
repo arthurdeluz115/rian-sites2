@@ -1,0 +1,224 @@
+{
+  "store": {
+    "tagline": "Hogar y detalles",
+    "categories": ["Orden en la cocina", "Cocina y té", "Lámparas e iluminación", "Rincones acogedores"],
+    "headline": "Pequeños hallazgos que hacen tu día más bonito",
+    "subtitle": "Cocina, iluminación y detalles acogedores para tu casa.",
+    "aboutTitle": "Bienvenido a {{store_name}}",
+    "aboutText": "Reunimos objetos bonitos y útiles de distintas categorías para que cada rincón de tu casa tenga algo especial.",
+    "bannerTitle": "Haz tu casa más acogedora.",
+    "announcement": "Envíos a toda España · Pago 100% seguro"
+  },
+  "products": [
+    {
+      "t": "Organizador de fregadero para grifo",
+      "badge": "Ahorra espacio",
+      "h": "Un fregadero ordenado en un minuto.",
+      "s": "Organizador negro compacto que mantiene estropajos, botes y el paño de cocina juntos junto al grifo.",
+      "b": ["Se coloca junto al grifo", "Barra frontal para el paño", "Rejilla abierta que escurre"],
+      "ben": [
+        ["Orden", "Todo en su sitio", "Estropajos, jabón y paño agrupados en un solo lugar."],
+        ["Espacio", "Aprovecha el grifo", "Libera la encimera colocándolo alrededor del grifo."],
+        ["Escurre", "Rejilla abierta", "El diseño de rejilla deja escurrir el agua."]
+      ],
+      "ctxT": "Para tu cocina",
+      "ctx": [["Cocinas pequeñas", "Cada centímetro cuenta."], ["Fregadero diario", "Lo esencial a mano."], ["Pisos de alquiler", "Sin taladrar."], ["Para regalar", "Un básico para casa nueva."]],
+      "dT": "Rejilla negra con barra",
+      "dX": "Organizador negro de rejilla abierta con barra frontal para colgar el paño.",
+      "steps": ["Colócalo alrededor del grifo.", "Pon estropajos y jabón en la rejilla.", "Cuelga el paño en la barra delantera."],
+      "spec": ["Color: negro", "Formato: organizador para grifo", "Diseño: rejilla abierta con barra para el paño"],
+      "faq": [["¿Vale para mi grifo?", "Escríbenos con una foto de tu grifo y te confirmamos la compatibilidad."], ["¿Hay que taladrar?", "No, se coloca alrededor del grifo."], ["¿Qué medidas tiene?", "Te las confirmamos antes de tu compra."]],
+      "fT": "Un fregadero que da gusto.",
+      "fX": "Orden en la cocina con un solo gesto."
+    },
+    {
+      "t": "Escurreplatos plegable de bambú",
+      "badge": "Bambú natural",
+      "h": "Tus platos secándose con estilo natural.",
+      "s": "Escurreplatos plegable de bambú para platos, cuencos y cubiertos. Calidez natural junto al fregadero.",
+      "b": ["Bambú natural", "Plegable: se guarda en nada", "Dos niveles de listones"],
+      "ben": [
+        ["Natural", "Calidez en la cocina", "El bambú aporta un toque cálido y natural."],
+        ["Plegable", "Se guarda en un cajón", "Plégalo cuando no lo uses."],
+        ["Capacidad", "Dos niveles", "Platos abajo, cuencos y vasos arriba."]
+      ],
+      "ctxT": "Para tu día a día",
+      "ctx": [["Después de comer", "Secado rápido."], ["Cocina pequeña", "Plegable."], ["Cocina nórdica", "Madera clara."], ["Para regalar", "Un detalle natural."]],
+      "dT": "Listones en dos niveles",
+      "dX": "Escurreplatos de bambú de dos niveles con soporte lateral para cubiertos. Mide 41 × 33 × 9,5 cm.",
+      "steps": ["Despliega el escurreplatos.", "Coloca platos y cuencos en los niveles.", "Sécalo y pliégalo después de usar."],
+      "spec": ["Material: bambú", "Color: bambú natural", "Diseño: plegable, dos niveles", "Medidas: 41 × 33 × 9,5 cm"],
+      "faq": [["¿Incluye el portacubiertos?", "Te lo confirmamos antes de tu compra."], ["¿Le afecta el agua?", "Sécalo después de usar para cuidar el bambú."], ["¿Ocupa mucho?", "Plegado ocupa muy poco."]],
+      "fT": "Una cocina más natural.",
+      "fX": "Bambú, orden y estilo junto al fregadero."
+    },
+    {
+      "t": "Fiambrera eléctrica calentadora",
+      "badge": "Comida caliente",
+      "h": "Comida casera y caliente, también en la oficina.",
+      "s": "Fiambrera eléctrica de 1 litro que calienta sin añadir agua, con asa y bandeja con compartimentos.",
+      "b": ["Calienta a 70 °C sin agua", "Interior de acero inoxidable 304", "Capacidad de 1 litro"],
+      "ben": [
+        ["Ahorro", "Adiós al menú del día", "Llévate la comida de casa y caliéntala allí."],
+        ["Fácil", "Enchufa y espera", "Calienta sin añadir agua, a temperatura constante."],
+        ["Práctica", "Con compartimentos", "Bandeja interior dividida y asa para llevarla."]
+      ],
+      "ctxT": "Para tu jornada",
+      "ctx": [["En la oficina", "Sin colas en el microondas."], ["En el taller", "Comida caliente donde trabajas."], ["Estudiantes", "Comer sano y barato."], ["Viajes", "Tu comida, lista."]],
+      "dT": "Asa, rueda y bandeja dividida",
+      "dX": "Fiambrera blanca con asa, mando frontal y bandeja interior dividida. Mide 16 × 14,5 × 23,8 cm y pesa 0,9 kg.",
+      "steps": ["Pon la comida en la bandeja de acero.", "Cierra y enchufa la fiambrera.", "Espera a que se caliente y disfruta."],
+      "spec": ["Modelo: MD-FH02A", "Capacidad: 1 L", "Calentado: eléctrico, 70 °C constantes, 75 W", "Interior: acero inoxidable 304", "Exterior: aluminio con esmalte cerámico", "Medidas: 16 × 14,5 × 23,8 cm", "Peso: 0,9 kg"],
+      "faq": [["¿Trae enchufe europeo?", "Te confirmamos el tipo de enchufe antes de tu compra."], ["¿Necesita agua?", "No, calienta sin añadir agua."], ["¿Cuánto tarda?", "Depende de la comida; te recomendamos encenderla un rato antes de comer."]],
+      "fT": "Come bien estés donde estés.",
+      "fX": "Tu comida casera, caliente a la hora de comer."
+    },
+    {
+      "t": "Tetera de arcilla Zisha",
+      "badge": "Hecha a mano",
+      "h": "Una tetera pequeña para un té sin prisas.",
+      "s": "Tetera de arcilla púrpura con acabado pintado a mano, para una o dos tazas. Llega en caja de regalo.",
+      "b": ["Arcilla púrpura (zisha)", "Unos 220 ml: para 1-2 tazas", "Caja de regalo antigolpes"],
+      "ben": [
+        ["Ritual", "El té como pausa", "Una tetera pequeña invita a preparar el té con calma."],
+        ["Artesanía", "Acabado a mano", "Pintada a mano con diseño de hoja de loto."],
+        ["Regalo", "Lista para regalar", "Llega en caja de regalo protegida."]
+      ],
+      "ctxT": "Para tus momentos de té",
+      "ctx": [["Té de la tarde", "Una pausa para ti."], ["Té para dos", "Conversaciones tranquilas."], ["Decoración", "Una pieza en la estantería."], ["Para regalar", "A los amantes del té."]],
+      "dT": "Diseño de hoja de loto",
+      "dX": "Tetera oscura de arcilla púrpura con diseño de hoja de loto. Mide 14 cm de largo y 6 cm de alto.",
+      "steps": ["Enjuaga la tetera con agua caliente.", "Añade las hojas de té y el agua.", "Deja reposar y sirve."],
+      "spec": ["Material: arcilla púrpura", "Color: oscuro, arena negra y dorada", "Capacidad: unos 220 ml", "Medidas: 14 cm de largo, 6 cm de alto", "Acabado: pintado a mano", "Embalaje: caja de regalo"],
+      "faq": [["¿Cuántas tazas sirve?", "Unos 220 ml, para una o dos tazas."], ["¿Viene en caja?", "Sí, en caja de regalo antigolpes."], ["¿Cómo se limpia?", "Solo con agua caliente, sin jabón."]],
+      "fT": "Haz del té un ritual.",
+      "fX": "Una tetera artesanal para tus pausas."
+    },
+    {
+      "t": "Lámpara de mesita plisada con base de madera",
+      "badge": "Estilo vintage",
+      "h": "Una luz cálida y plisada junto a tu cama.",
+      "s": "Lámpara de inspiración vintage con pantalla plisada de tela y base de madera con bandeja redonda.",
+      "b": ["Pantalla plisada de tela", "Base de madera con bandeja", "Luz LED"],
+      "ben": [
+        ["Ambiente", "Luz que abraza", "La pantalla plisada filtra una luz suave y cálida."],
+        ["Práctica", "Bandeja incluida", "Deja tus anillos, gafas o llaves en la base."],
+        ["Diseño", "Vintage nórdico", "Madera, latón y tela: un clásico que nunca falla."]
+      ],
+      "ctxT": "Dónde la pondrás",
+      "ctx": [["Mesita de noche", "Lectura antes de dormir."], ["Salón", "Luz de ambiente."], ["Recibidor", "Bienvenida cálida."], ["Escritorio", "Un toque decorativo."]],
+      "dT": "Plisada, latón y madera",
+      "dX": "Pantalla blanca plisada, cordón, vástago en tono latón y base de madera con bandeja redonda. Mide 46 × 26 × 26 cm.",
+      "steps": ["Coloca la lámpara sobre la mesita.", "Conéctala a la corriente.", "Enciéndela con el cordón o el botón."],
+      "spec": ["Pantalla: tela plisada", "Base: madera con bandeja redonda", "Luz: LED", "Medidas: 46 × 26 × 26 cm", "Peso: 3 kg", "Opciones: luz cálida, tres tonos, regulable con mando o carga inalámbrica"],
+      "faq": [["¿Qué versión elijo?", "Elige entre luz cálida con cordón, tres tonos, regulación con mando o carga inalámbrica."], ["¿Trae enchufe europeo?", "Te lo confirmamos antes de tu compra."], ["¿Incluye bombilla?", "Funciona con luz LED; te confirmamos el detalle de la versión."]],
+      "fT": "Luz cálida para tus noches.",
+      "fX": "Una lámpara que hace acogedor cualquier rincón."
+    },
+    {
+      "t": "Lámpara de mesa ondulada con pantalla plisada",
+      "badge": "Tendencia",
+      "h": "La lámpara con curvas que todo el mundo quiere.",
+      "s": "Lámpara de mesa retro con pantalla plisada amplia y pie de hierro ondulado. Ocho pantallas a elegir.",
+      "b": ["Pie de hierro ondulado", "Pantalla plisada de algodón", "8 estilos de pantalla"],
+      "ben": [
+        ["Diseño", "Una pieza que llama la atención", "El pie ondulado convierte la lámpara en decoración."],
+        ["Elige", "Ocho pantallas", "Blanca, cuadros, flores, rosa y más."],
+        ["Calidez", "Luz suave", "La pantalla de algodón difumina la luz."]
+      ],
+      "ctxT": "Dónde queda genial",
+      "ctx": [["Dormitorio", "Mesita con personalidad."], ["Salón", "Rincón de lectura."], ["Escritorio", "Inspiración diaria."], ["Para regalar", "Un regalo muy de tendencia."]],
+      "dT": "Pantalla amplia y pie ondulado",
+      "dX": "Pantalla blanca plisada amplia, pie de hierro negro ondulado y base redonda negra. Casquillo E14.",
+      "steps": ["Coloca la pantalla sobre el pie.", "Enrosca una bombilla E14.", "Conéctala y enciéndela."],
+      "spec": ["Cuerpo: hierro", "Pantalla: tela de algodón plisada", "Casquillo: E14", "Pantallas: blanca, flores, cuadros amarillos, café, rosa, crudo, cuadros azules, pétalos"],
+      "faq": [["¿Incluye bombilla?", "Te lo confirmamos antes de tu compra. Usa casquillo E14."], ["¿Qué medidas tiene?", "Te confirmamos las medidas antes de tu compra."], ["¿Qué pantallas hay?", "Ocho estilos, de la blanca a los cuadros."]],
+      "fT": "Ilumina con curvas.",
+      "fX": "Elige tu pantalla y dale personalidad a tu casa."
+    },
+    {
+      "t": "Lámpara colgante de mármol cilíndrica",
+      "badge": "Mármol",
+      "h": "Pequeñas esculturas de mármol que dan luz.",
+      "s": "Lámpara colgante moderna con cuerpo de mármol y parte superior dorada. Perfecta sobre la barra o la mesita.",
+      "b": ["Cuerpo de mármol", "Detalle superior dorado", "4 acabados a elegir"],
+      "ben": [
+        ["Lujo", "Mármol de verdad", "Un material noble que eleva cualquier espacio."],
+        ["Diseño", "Fina y elegante", "Cilindro estilizado con remate dorado."],
+        ["Combinable", "Cuelga varias", "Agrupa varias a distintas alturas para un efecto espectacular."]
+      ],
+      "ctxT": "Dónde colgarla",
+      "ctx": [["Sobre la barra", "Ambiente de restaurante."], ["Junto a la cama", "En lugar de lámpara de mesita."], ["Sobre la mesa", "Centro de atención."], ["En la entrada", "Una bienvenida elegante."]],
+      "dT": "Mármol y remate dorado",
+      "dX": "Cilindro fino de mármol blanco o verde con remate metálico dorado y cable negro. Pesa 2 kg.",
+      "steps": ["Elige el punto de luz del techo.", "Instala siguiendo las indicaciones eléctricas.", "Ajusta la altura del cable."],
+      "spec": ["Material: mármol", "Luz: LED", "Peso: 2 kg", "Colores: terrazo blanco, mármol verde, mármol negro, mármol blanco", "Unidad: 1 lámpara"],
+      "faq": [["¿Viene una o varias?", "Se vende por unidad. Puedes combinar varias."], ["¿Es difícil de instalar?", "Recomendamos que la instale un profesional."], ["¿Qué largo tiene el cable?", "Te lo confirmamos antes de tu compra."]],
+      "fT": "Luz con alma de escultura.",
+      "fX": "Una lámpara de mármol que transforma el espacio."
+    },
+    {
+      "t": "Colcha de algodón jacquard floral",
+      "badge": "230 × 250 cm",
+      "h": "Un jardín de flores sobre tu cama.",
+      "s": "Colcha de algodón con diseño jacquard, motivos florales y cenefa estampada. Grande para cubrir toda la cama.",
+      "b": ["Algodón", "Jacquard con flores y plantas", "230 × 250 cm"],
+      "ben": [
+        ["Color", "Alegría para el dormitorio", "Crema, naranja y verde azulado en un diseño floral."],
+        ["Tamaño", "Cubre toda la cama", "230 × 250 cm para camas grandes."],
+        ["Textura", "Tejido jacquard", "El dibujo está tejido, no impreso."]
+      ],
+      "ctxT": "Para tu casa",
+      "ctx": [["Dormitorio", "Cama de revista."], ["Sofá", "Una manta para el salón."], ["Picnic", "Un toque bohemio."], ["Para regalar", "Un regalo cálido."]],
+      "dT": "Flores naranjas y cenefa",
+      "dX": "Colcha crema con motivos florales naranjas, banda verde azulada y cenefa estampada. Pesa entre 2 y 3 kg.",
+      "steps": ["Extiéndela sobre la cama.", "Dobla la parte superior para lucir la cenefa.", "Lávala siguiendo la etiqueta."],
+      "spec": ["Material: algodón", "Diseño: jacquard floral", "Colores: crema, naranja y verde azulado", "Medidas: 230 × 250 cm", "Peso: 2-3 kg"],
+      "faq": [["¿Para qué cama es?", "Mide 230 × 250 cm: cubre camas de 135 y 150 cm."], ["¿Se puede lavar a máquina?", "Te enviamos las indicaciones de lavado con tu pedido."], ["¿Hay otros colores?", "Te confirmamos los colores disponibles."]],
+      "fT": "Florece tu dormitorio.",
+      "fX": "Una colcha que lo cambia todo."
+    },
+    {
+      "t": "Vela de soja farolillo origami",
+      "badge": "Artesanal",
+      "h": "Una vela que parece papel plegado.",
+      "s": "Vela de cera de soja con forma facetada tipo origami, hecha a mano, en dos tamaños y tres aromas.",
+      "b": ["Cera de soja orgánica", "Forma facetada tipo origami", "3 aromas a elegir"],
+      "ben": [
+        ["Diseño", "Decora incluso apagada", "Su forma facetada luce en cualquier estantería."],
+        ["Natural", "Cera de soja", "Cera de soja orgánica hecha a mano."],
+        ["Aroma", "Tres fragancias", "Black Ice, Algodón limpio o Lavanda salvaje y salvia."]
+      ],
+      "ctxT": "Para tus momentos",
+      "ctx": [["Baño relajante", "Luz y aroma."], ["Cena especial", "Ambiente íntimo."], ["Estantería", "Decoración escultórica."], ["Para regalar", "Hecha a mano y con envoltorio."]],
+      "dT": "Facetada en crema y miel",
+      "dX": "Velas facetadas en crema y miel. Grande: 9 cm de ancho y 15 cm de alto. Pequeña: 9 cm de alto y 7,5 cm de ancho.",
+      "steps": ["Corta la mecha a medio centímetro.", "Enciéndela sobre una superficie estable.", "Nunca la dejes encendida sin vigilancia."],
+      "spec": ["Material: cera de soja orgánica", "Forma: facetada tipo origami", "Grande: 9 cm de ancho × 15 cm de alto", "Pequeña: 7,5 cm de ancho × 9 cm de alto", "Aromas: Black Ice, Algodón limpio, Lavanda salvaje y salvia", "Colores: crema y miel"],
+      "faq": [["¿Qué tamaños hay?", "Grande (15 cm de alto) y pequeña (9 cm de alto)."], ["¿Se puede envolver para regalo?", "Sí, con envoltorio de regalo."], ["¿Puedo elegir el color?", "El color se coordina después de la compra."]],
+      "fT": "Luz, aroma y diseño.",
+      "fX": "Una vela tan bonita que da pena encenderla."
+    },
+    {
+      "t": "Vela jardín de cactus en cuenco de madera",
+      "badge": "50-60 h",
+      "h": "Un pequeño jardín de cactus que se enciende.",
+      "s": "Vela de cera de soja hecha a mano en cuenco de madera, con suculentas y cactus esculpidos en cera.",
+      "b": ["Cactus y suculentas de cera", "Cuenco de madera", "50-60 horas de combustión"],
+      "ben": [
+        ["Original", "Decoración que sorprende", "Parece un jardín de cactus real dentro de un cuenco."],
+        ["Duradera", "Hasta 60 horas", "Unos 280 g de cera de soja con mechas de algodón."],
+        ["Aroma", "Tres fragancias", "Flor de cactus, Sal marina y orquídea, o Bambú del Himalaya."]
+      ],
+      "ctxT": "Para tu casa",
+      "ctx": [["Centro de mesa", "Verde que se enciende."], ["Terraza", "Ambiente de verano."], ["Salón", "Un toque desértico."], ["Para regalar", "Hecha a mano, con envoltorio."]],
+      "dT": "Cuenco blanqueado y cera verde",
+      "dX": "Cuenco de madera blanqueado de unos 25 × 13 × 4 cm lleno de piezas de cera verde con forma de cactus y suculentas.",
+      "steps": ["Recorta las mechas antes de encender.", "Enciende todas las mechas a la vez.", "Apágala antes de que la cera llegue a la madera."],
+      "spec": ["Material: cera de soja orgánica y mechas de algodón", "Recipiente: cuenco de madera", "Medidas del cuenco: unos 25 × 13 × 4 cm", "Cera: unos 280 g", "Duración: 50-60 horas", "Aromas: Flor de cactus, Sal marina y orquídea, Bambú del Himalaya"],
+      "faq": [["¿Cuánto dura?", "Entre 50 y 60 horas."], ["¿Se puede envolver para regalo?", "Sí, con envoltorio de regalo."], ["¿Es segura la madera?", "Apágala antes de que la llama se acerque a la madera y no la dejes sin vigilancia."]],
+      "fT": "Un desierto en tu mesa.",
+      "fX": "Una vela única hecha a mano."
+    }
+  ]
+}

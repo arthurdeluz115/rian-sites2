@@ -1,0 +1,48 @@
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign base = section.settings.prompt_base
+-%}
+<div class="product-top" id="product-top">
+  <nav class="breadcrumb container" aria-label="{{ 'general.breadcrumb' | t }}"><a href="{{ routes.root_url }}">{{ 'general.home' | t }}</a> / <span>{{ product.title | escape }}</span></nav>
+  <div class="product-detail container">
+    <div class="product-gallery">
+      <div class="gallery-track" data-gallery>
+        {%- for i in (1..5) -%}
+          {%- assign img_key = 'image_' | append: i -%}{%- assign asset_key = 'asset_' | append: i -%}{%- assign idx = i | minus: 1 -%}
+          {%- assign gallery_image = section.settings[img_key] | default: product.images[idx] -%}
+          {%- if gallery_image != blank or section.settings[asset_key] != blank or request.design_mode -%}
+            <div class="gallery-slide" id="foto-{{ section.id }}-{{ i }}">{% assign pn = base | plus: i %}{% render 'rm-image', image: gallery_image, asset: section.settings[asset_key], number: pn, width: 1200, height: 1200, loading: 'eager' %}</div>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+      <div class="gallery-dots" data-gallery-dots></div>
+    </div>
+    <div class="product-copy">
+      <div class="offer-badges">{% if section.settings.offer_badge != blank %}<span>{{ section.settings.offer_badge | escape }}</span>{% endif %}{% if product.type != blank %}<span class="soft">{{ product.type | escape }}</span>{% endif %}</div>
+      <h1 class="product-title">{{ product.title | escape }}</h1>
+      {%- assign rating = product.metafields.reviews.rating.value -%}{%- assign rating_count = product.metafields.reviews.rating_count.value -%}
+      {% if rating != blank and rating_count > 0 %}<div class="product-rating"><span aria-hidden="true">★★★★★</span> {{ rating.rating | round: 1 }}/{{ rating.scale_max }} · {{ rating_count }} {{ 'product.reviews' | t }}</div>{% endif %}
+      <div class="price-row"><strong class="price">{{ current_variant.price | money }}</strong>{% if current_variant.compare_at_price > current_variant.price %}<s>{{ current_variant.compare_at_price | money }}</s><span class="discount-badge">−{{ current_variant.compare_at_price | minus: current_variant.price | times: 100.0 | divided_by: current_variant.compare_at_price | round }}%</span>{% endif %}</div>
+      {% if section.settings.headline != blank %}<h2 class="offer-headline">{{ section.settings.headline | escape | newline_to_br }}</h2>{% endif %}
+      <p class="offer-subtitle">{{ section.settings.subtitle | escape | newline_to_br }}</p>
+      <ul class="quick-benefits">{% assign benefit_lines = section.settings.quickBenefits | newline_to_br | split: '<br />' %}{% for line in benefit_lines %}{% assign line = line | strip %}{% if line != blank %}<li>{{ line | escape }}</li>{% endif %}{% endfor %}</ul>
+      {% form 'product', product, class: 'buy-form', id: 'buy-form' %}
+        {{ form.errors | default_errors }}
+        <input type="hidden" name="id" value="{{ current_variant.id }}">
+        {% unless product.has_only_default_variant %}<div class="options" data-product-options>{% for option in product.options_with_values %}<label for="option-{{ section.id }}-{{ option.position }}">{{ option.name | escape }}</label><select id="option-{{ section.id }}-{{ option.position }}" data-option-select>{% for value in option.values %}<option value="{{ value.id }}" {% if value.selected %}selected{% endif %}>{{ value | escape }}</option>{% endfor %}</select>{% endfor %}</div>{% endunless %}
+        <div class="purchase-row">
+          <div class="quantity-control"><button type="button" data-quantity-step="-1" aria-label="{{ 'product.decrease' | t }}">−</button><input aria-label="{{ 'product.quantity' | t }}" type="number" min="1" value="1" name="quantity"><button type="button" data-quantity-step="1" aria-label="{{ 'product.increase' | t }}">+</button></div>
+          <button class="add-to-cart" type="submit" data-main-buy {% unless current_variant.available %}disabled{% endunless %}>{% if current_variant.available %}{{ 'product.add_to_cart' | t }}{% else %}{{ 'product.unavailable' | t }}{% endif %}</button>
+        </div>
+      {% endform %}
+      <ul class="mini-trust"><li>{{ 'product.trust_payment' | t }}</li><li>{{ 'product.trust_support' | t }}</li></ul>
+      {% if section.settings.shipping_note != blank %}<div class="dispatch-note">{{ section.settings.shipping_note | escape | newline_to_br }}</div>{% endif %}
+      {% if shop.shipping_policy != blank %}<a class="shipping-link" href="{{ shop.shipping_policy.url }}">{{ 'product.shipping' | t }} →</a>{% endif %}
+      {% if shop.enabled_payment_types.size > 0 %}<div class="payment-methods" aria-label="{{ 'product.payment_methods' | t }}">{% for type in shop.enabled_payment_types %}{{ type | payment_type_svg_tag: class: 'payment-icon' }}{% endfor %}</div>{% endif %}
+    </div>
+  </div>
+</div>
+<div class="sticky-buy" data-sticky-buy hidden>
+  <div><strong>{{ current_variant.price | money }}</strong><small>{{ product.title | escape }}</small></div>
+  <button type="submit" form="buy-form" class="add-to-cart" {% unless current_variant.available %}disabled{% endunless %}>{{ 'product.add_to_cart' | t }}</button>
+</div>

@@ -1,0 +1,235 @@
+{
+ "id": "technology",
+ "storeName": "Volt Corner",
+ "palette": {
+  "background": "#FAFAF8",
+  "surface": "#EEEEEA",
+  "text": "#222522",
+  "muted": "#5D635D",
+  "accent": "#333D37",
+  "onAccent": "#FFFFFF",
+  "border": "#CBCFC9"
+ },
+ "paletteName": "Branco e grafite",
+ "categories": [
+  {
+   "en": "Audio & Sound",
+   "productIds": [
+    "ali_3256806491717893",
+    "zd_2864333",
+    "zd_2601323",
+    "zd_2902603"
+   ]
+  },
+  {
+   "en": "Creator Gear",
+   "productIds": [
+    "zd_2906661",
+    "wh_1729399390639920001"
+   ]
+  },
+  {
+   "en": "Power & Charging",
+   "productIds": [
+    "zd_2922184",
+    "zd_2783221"
+   ]
+  },
+  {
+   "en": "Desk & Travel Tech",
+   "productIds": [
+    "zd_2877201",
+    "zd_2895824"
+   ]
+  }
+ ],
+ "products": [
+  {
+   "n": 1,
+   "id": "ali_3256806491717893",
+   "nameEn": "Transparent LED Display Earbuds",
+   "categoryEn": "Audio & Sound",
+   "facts": "Supplier title: Transparent TWS Bluetooth Earphones Soft Silicone In-ear Design Wireless Sports Gaming Earbuds HiFi Stereo Audio LED Display. No supplier description provided. Source images show a transparent charging case with a digital LED display (reading 90) and a black in-ear earbud with a stem. Pending supplier confirmation: Bluetooth version, battery and play time, charging time, water resistance, microphone and call quality, device compatibility, what the display shows and package contents. No evidence for noise cancelling or sound-quality claims.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p01-1.webp",
+    "p01-2.webp",
+    "p01-3.webp",
+    "p01-4.webp",
+    "p01-5.webp"
+   ]
+  },
+  {
+   "n": 2,
+   "id": "zd_2864333",
+   "nameEn": "Glow Black Wireless Gaming Headset",
+   "categoryEn": "Audio & Sound",
+   "facts": "Supplier title: B60 Professional Gaming Headset with Microphone. Supplier description lists Bluetooth 5.0, a transmission range of up to 15 meters, bilateral stereo sound, battery life of over 8 hours, an IPX4 rating, a Glow Black design, a head-mounted style, NFC, voice control and music support. Source image shows a black over-ear headset with cushioned ear cups, a glowing accent on the cups and text referencing a 40 mm neodymium magnet driver. Pending supplier confirmation: microphone type, wired mode, charging time and port, weight, platform compatibility and package contents. 'Professional' and 'crystal-clear' wording not verified and not used.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p02-1.webp",
+    "p02-2.webp",
+    "p02-3.webp",
+    "p02-4.webp",
+    "p02-5.webp"
+   ]
+  },
+  {
+   "n": 3,
+   "id": "zd_2601323",
+   "nameEn": "Wave Light Bluetooth Speaker",
+   "categoryEn": "Audio & Sound",
+   "facts": "Supplier title: Bluetooth Speaker with Light. Supplier description lists varied ambient lighting settings, playback by Bluetooth, AUX input and TF card, a white noise option, a volume knob and 360-degree sound. Source images show compact units in green and white with a clear hinged lid, a wave-patterned record-style centerpiece and a front knob. Pending supplier confirmation: battery capacity and play time, power output, dimensions, weight, number of lighting modes, charging method and package contents.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p03-1.webp",
+    "p03-2.webp",
+    "p03-3.webp",
+    "p03-4.webp",
+    "p03-5.webp"
+   ]
+  },
+  {
+   "n": 4,
+   "id": "zd_2902603",
+   "nameEn": "Retro Bluetooth Record Player",
+   "categoryEn": "Audio & Sound",
+   "facts": "Supplier title: Retro Vinyl Record Player with Bluetooth and USB card slot (title contains stray Chinese characters for 'card slot'). Supplier description lists wireless Bluetooth connectivity, a built-in USB port and card slot, PVC material, a dust cover, a Maple color, weight of 3.2 kg and dimensions of 30.3 x 17.4 x 36.5 cm. Source images show a light wood-toned turntable with a clear lid, a front speaker grille and a side knob; one image carries a supplier watermark. Pending supplier confirmation: playback speeds, record sizes, stylus and cartridge, speaker power, line output, power supply, how the dimensions were measured and package contents. Service-life figure not used.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p04-1.webp",
+    "p04-2.webp",
+    "p04-3.webp",
+    "p04-4.webp"
+   ]
+  },
+  {
+   "n": 5,
+   "id": "zd_2906661",
+   "nameEn": "3-Axis Smartphone Gimbal Stabilizer",
+   "categoryEn": "Creator Gear",
+   "facts": "Supplier title: M01 3-Axis Gimbal Stabilizer for Smartphone Vlogs. Supplier description lists ABS material, built-in Bluetooth, intelligent face tracking, a 360-degree rotating pan head and a tripod. Source image shows a light gray handheld stabilizer holding a phone, with controls on the handle and text reading 'Three axis stabilization', 'Intelligent tracking' and 'One machine for multiple purposes'. Pending supplier confirmation: battery capacity and run time, phone weight limit, app requirements, folded size, weight, charging method and package contents. 'Professional-grade' and 'cinematic' wording not verified and not used.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p05-1.webp",
+    "p05-2.webp",
+    "p05-3.webp",
+    "p05-4.webp",
+    "p05-5.webp"
+   ]
+  },
+  {
+   "n": 6,
+   "id": "wh_1729399390639920001",
+   "nameEn": "Compact 44MP Digital Camera",
+   "categoryEn": "Creator Gear",
+   "facts": "Supplier title: Digital Camera for Photography, 1080P & 44MP Mini Cameras with 32G Memory Card, 16X Digital Zoom, Compact & Portable Digital Camera Photos For Teens & Beginners, Gift. No supplier description provided. Source image shows a pink compact camera with a rear screen and buttons, a front flash, a lens marked 16X zoom, F/3.2 and f=7.36 mm, plus a battery and a memory card; the image carries a 'Top Picks' badge that is not used. Pending supplier confirmation: screen size, battery capacity and charging, sensor type, whether 44MP is a native or interpolated figure, other color options and full package contents.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p06-1.webp",
+    "p06-2.webp",
+    "p06-3.webp",
+    "p06-4.webp",
+    "p06-5.webp"
+   ]
+  },
+  {
+   "n": 7,
+   "id": "zd_2922184",
+   "nameEn": "Wireless Charging Stand with USB Ports",
+   "categoryEn": "Power & Charging",
+   "facts": "Supplier title: Multi-Port Wireless Charger with 6 USB-C Ports. Supplier description lists up to 60W of power, QC 3.0 and PD USB-C, 4 USB ports at 2.4A, 18W Quick Charge, wireless charging up to 10W (max), AC 100-240V input, size 133 x 80 x 70 mm, weight 336 g, black and white colors and several plug variants (listed as Beauty gauge, European gauge, English rules and Australian rules; 'Beauty gauge' likely means a US plug). Source image shows a black angled stand with a wireless charging pad and five ports along the front, labeled with 2.4A, QC 3.0 and Type-C. Title says 6 USB-C ports, which conflicts with the description and image; port count is not promised. Pending supplier confirmation: exact port layout, plug type for the selected variant and package contents.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p07-1.webp",
+    "p07-2.webp",
+    "p07-3.webp",
+    "p07-4.webp",
+    "p07-5.webp"
+   ]
+  },
+  {
+   "n": 8,
+   "id": "zd_2783221",
+   "nameEn": "Mini Car Jump Starter Power Bank",
+   "categoryEn": "Power & Charging",
+   "facts": "Supplier title: 2019 Mini Car Emergency Jump Starter Power Supply. Supplier description lists a 6000mAh battery, 300A boot current, 600A peak current, an operating temperature of -25 to 65 degrees Celsius, a size of 131 x 75 x 25 mm and use as a portable power bank for phones and portable computers. Source image shows a slim black unit beside a car, with text reading 'Emergency starting power supply for gasoline vehicle' and '6000MAH'. Pending supplier confirmation: compatible engine sizes, charging method and time, output ports, included clamps and cables, built-in protections and package contents. Success-rate, certification and 'most vehicles' wording not verified and not used.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p08-1.webp",
+    "p08-2.webp",
+    "p08-3.webp",
+    "p08-4.webp",
+    "p08-5.webp"
+   ]
+  },
+  {
+   "n": 9,
+   "id": "zd_2877201",
+   "nameEn": "USB-C Dual HDMI Docking Station",
+   "categoryEn": "Desk & Travel Tech",
+   "facts": "Supplier title: Type-C Docking Station USB Hub Adapter with Dual HDMI. Supplier description lists USB-C 3.0 ports with data transfer of up to 10Gbps, PD 3.0 charging at 60W, 87W or 100W, dual HDMI outputs at 1080p and 2K at 60Hz, Gigabit Ethernet up to 1000Mbps, a 3.5mm audio jack with microphone support, simultaneous SD and TF card reading, aluminum alloy and acrylic construction and a size of 120.4 x 62.03 x 20 mm. Source image shows a slim silver hub connected between a laptop and a large monitor with text reading 'Ultra HD HDMI, Support Multiple Monitors Up to 4K', which conflicts with the 1080p/2K description; 4K is not promised. Pending supplier confirmation: exact port count, laptop compatibility for dual displays, cable length and package contents.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p09-1.webp",
+    "p09-2.webp",
+    "p09-3.webp"
+   ]
+  },
+  {
+   "n": 10,
+   "id": "zd_2895824",
+   "nameEn": "Pocket Voice & Photo Translator",
+   "categoryEn": "Desk & Travel Tech",
+   "facts": "Supplier title: M9 Smart Voice Translator with WiFi and Camera. Supplier description lists voice translation, photo translation through the camera, WiFi, a size of 120 x 48 x 12.2 mm and black and golden color options. Source image shows gold and black handheld devices with a touchscreen showing app icons and a camera on the back, with text reading 'Offline Translator', which conflicts with the WiFi title; offline use is not promised. Pending supplier confirmation: supported languages, accuracy, whether offline translation exists, battery, weight (the listed 400 g does not match the size), app or subscription requirements and package contents. 'Never miss a beat' and 'without language barriers' wording not verified and not used.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p10-1.webp",
+    "p10-2.webp",
+    "p10-3.webp",
+    "p10-4.webp",
+    "p10-5.webp"
+   ]
+  }
+ ]
+}

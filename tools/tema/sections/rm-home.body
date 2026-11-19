@@ -1,0 +1,53 @@
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">{{ settings.brand | escape }}</p>
+    <h1>{{ section.settings.headline | escape | newline_to_br }}</h1>
+    <p class="hero-sub">{{ section.settings.subtitle | escape | newline_to_br }}</p>
+    <a class="button" href="#coleccion">{{ section.settings.cta | default: 'Ver la colección' | escape }}</a>
+  </div>
+  <a class="hero-media" href="#coleccion" tabindex="-1" aria-hidden="true">
+    <span class="desktop-only">{% render 'rm-image', image: section.settings.image_2, asset: section.settings.asset_2, number: 2, width: 1600, height: 1100, loading: 'eager' %}</span>
+    <span class="mobile-only">{% render 'rm-image', image: section.settings.image_3, asset: section.settings.asset_3, number: 3, width: 900, height: 1000, loading: 'eager' %}</span>
+  </a>
+</section>
+<ul class="trust-row">
+  {% if section.settings.trust_1 != blank %}<li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6l7-3z"/></svg>{{ section.settings.trust_1 | escape }}</li>{% endif %}
+  {% if section.settings.trust_2 != blank %}<li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7M7 19a2 2 0 100-4 2 2 0 000 4zM17 19a2 2 0 100-4 2 2 0 000 4z"/></svg>{{ section.settings.trust_2 | escape }}</li>{% endif %}
+  {% if section.settings.trust_3 != blank %}<li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H8l-4 4V5z"/></svg>{{ section.settings.trust_3 | escape }}</li>{% endif %}
+</ul>
+<section class="container" id="coleccion">
+  <div class="section-head"><p class="eyebrow">{{ 'home.selected_eyebrow' | t }}</p><h2>{{ 'home.selected' | t }}</h2></div>
+  <div class="product-rail">{% for block in section.blocks limit: 5 %}{% render 'rm-card', block: block %}{% endfor %}</div>
+</section>
+<section class="container">
+  <div class="section-head"><p class="eyebrow">{{ 'home.categories_eyebrow' | t }}</p><h2>{{ 'home.categories' | t }}</h2></div>
+  <div class="category-grid">
+    {% for i in (1..4) %}
+      {% assign cat_key = 'category_' | append: i %}{% assign col_key = 'collection_' | append: i %}
+      {% assign img_n = i | plus: 3 %}{% assign img_setting = 'image_' | append: img_n %}{% assign asset_setting = 'asset_' | append: img_n %}
+      {% if section.settings[cat_key] != blank %}
+        <a class="category-tile" href="{% if section.settings[col_key] != blank %}{{ section.settings[col_key].url }}{% else %}{{ routes.all_products_collection_url }}{% endif %}">
+          {% render 'rm-image', image: section.settings[img_setting], asset: section.settings[asset_setting], number: img_n, width: 800, height: 1000 %}
+          <span>{{ section.settings[cat_key] | escape }}</span>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% if section.blocks.size > 5 %}
+<section class="container">
+  <div class="section-head"><p class="eyebrow">{{ 'home.more_eyebrow' | t }}</p><h2>{{ 'home.more' | t }}</h2></div>
+  <div class="product-grid">{% for block in section.blocks offset: 5 %}{% render 'rm-card', block: block %}{% endfor %}</div>
+</section>
+{% endif %}
+<section class="container split about">
+  <div class="split-media">{% render 'rm-image', image: section.settings.image_8, asset: section.settings.asset_8, number: 8, width: 1200, height: 1200 %}</div>
+  <div class="split-copy"><p class="eyebrow">{{ 'home.our_story' | t }}</p><h2>{{ section.settings.aboutTitle | escape | newline_to_br }}</h2><p>{{ section.settings.aboutText | escape | newline_to_br }}</p></div>
+</section>
+<section class="banner">
+  <div class="banner-copy"><h2>{{ section.settings.bannerTitle | escape | newline_to_br }}</h2><a class="button button-light" href="#coleccion">{{ 'home.banner_cta' | t }}</a></div>
+  <div class="banner-media">
+    <span class="desktop-only">{% render 'rm-image', image: section.settings.image_9, asset: section.settings.asset_9, number: 9, width: 1600, height: 700 %}</span>
+    <span class="mobile-only">{% render 'rm-image', image: section.settings.image_10, asset: section.settings.asset_10, number: 10, width: 900, height: 900 %}</span>
+  </div>
+</section>

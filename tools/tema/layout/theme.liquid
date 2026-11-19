@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="theme-color" content="{{ settings.color_bg }}">
+    <link rel="canonical" href="{{ canonical_url }}">
+    <title>{{ page_title | escape }}{% unless page_title contains shop.name %} · {{ shop.name | escape }}{% endunless %}</title>
+    {% if page_description %}<meta name="description" content="{{ page_description | escape }}">{% endif %}
+    <style>
+      :root{--bg:{{ settings.color_bg }};--surface:{{ settings.color_surface }};--text:{{ settings.color_text }};--muted:{{ settings.color_muted }};--accent:{{ settings.color_accent }};--on-accent:{{ settings.color_on_accent }};--border:{{ settings.color_border }}}
+    </style>
+    {{ content_for_header }}
+    {{ 'loja.css' | asset_url | stylesheet_tag }}
+    <script src="{{ 'loja.js' | asset_url }}" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#MainContent">{{ 'general.skip' | t }}</a>
+    {% if settings.announcement != blank %}<div class="announcement">{{ settings.announcement | escape }}</div>{% endif %}
+    <header class="store-header">
+      <button class="icon-btn menu-btn" type="button" data-menu-open aria-label="{{ 'general.menu' | t }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <a class="logo" href="{{ routes.root_url }}" aria-label="{{ settings.brand | escape }}">
+        {% if settings.logo != blank %}{{ settings.logo | image_url: width: 480 | image_tag: alt: settings.brand }}{% elsif settings.logo_asset != blank %}<img src="{{ settings.logo_asset | asset_url }}" width="1200" height="400" alt="{{ settings.brand | escape }}">{% else %}<span>{{ settings.brand | escape }}</span>{% endif %}
+      </a>
+      <nav class="main-nav" aria-label="{{ 'general.navigation' | t }}" data-menu>
+        <button class="icon-btn menu-close" type="button" data-menu-close aria-label="{{ 'general.close' | t }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+        <a href="{{ routes.root_url }}">{{ 'general.home' | t }}</a>
+        <a href="{{ routes.all_products_collection_url }}">{{ 'general.shop' | t }}</a>
+        {% for link in settings.menu.links %}<a href="{{ link.url }}">{{ link.title | escape }}</a>{% endfor %}
+        <a href="{{ routes.search_url }}">{{ 'general.search' | t }}</a>
+      </nav>
+      <a class="icon-btn cart-btn" href="{{ routes.cart_url }}" aria-label="{{ 'general.bag' | t }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8zM9 8a3 3 0 016 0"/></svg>{% if cart.item_count > 0 %}<span class="cart-count">{{ cart.item_count }}</span>{% endif %}</a>
+    </header>
+    <main id="MainContent">{{ content_for_layout }}</main>
+    <footer class="store-footer">
+      <div class="footer-brand"><strong>{{ settings.brand | escape }}</strong><p>{{ settings.footer_text | escape }}</p></div>
+      <div><h3>{{ 'general.explore' | t }}</h3><a href="{{ routes.all_products_collection_url }}">{{ 'general.shop' | t }}</a><a href="{{ routes.search_url }}">{{ 'general.search' | t }}</a></div>
+      <div><h3>{{ 'general.information' | t }}</h3>{% for policy in shop.policies %}{% if policy != blank %}<a href="{{ policy.url }}">{{ policy.title | escape }}</a>{% endif %}{% endfor %}{% if settings.support_email != blank %}<a href="mailto:{{ settings.support_email | escape }}">{{ 'general.contact' | t }}</a>{% endif %}</div>
+      <small class="footer-copy">© {{ 'now' | date: '%Y' }} {{ settings.brand | escape }}</small>
+    </footer>
+  </body>
+</html>

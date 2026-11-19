@@ -1,0 +1,225 @@
+{
+ "id": "general",
+ "storeName": "Everyday Edit",
+ "palette": {
+  "background": "#FFF8F3",
+  "surface": "#F7E9DF",
+  "text": "#3A2A24",
+  "muted": "#7A6258",
+  "accent": "#B4513B",
+  "onAccent": "#FFFFFF",
+  "border": "#E6CFC2"
+ },
+ "paletteName": "Creme e coral",
+ "categories": [
+  {
+   "en": "Kitchen Organization",
+   "productIds": [
+    "ali_3256810520436796",
+    "zd_2657519"
+   ]
+  },
+  {
+   "en": "Kitchen & Tea",
+   "productIds": [
+    "zd_2900152",
+    "zd_2790293"
+   ]
+  },
+  {
+   "en": "Lamps & Lighting",
+   "productIds": [
+    "zd_2896854",
+    "zd_2606067",
+    "zd_2606813"
+   ]
+  },
+  {
+   "en": "Cozy Comforts",
+   "productIds": [
+    "zd_2901241",
+    "zd_1850709",
+    "zd_1850722"
+   ]
+  }
+ ],
+ "products": [
+  {
+   "n": 1,
+   "id": "ali_3256810520436796",
+   "nameEn": "Tap-Mounted Sink Organizer",
+   "categoryEn": "Kitchen Organization",
+   "facts": "Supplier title: Compact Tap-Mounted Spice Shelf – Sink Organizer with Drainage Rack – Space-Saving Kitchen Storage for Utensils/Accessories. No supplier description. Source images show a black open-wire caddy with a front towel bar holding sponges, bottles and a sink strainer. Pending supplier confirmation: dimensions, material, mounting method and faucet compatibility, load capacity, drainage details and package contents.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p01-1.webp",
+    "p01-2.webp",
+    "p01-3.webp",
+    "p01-4.webp",
+    "p01-5.webp"
+   ]
+  },
+  {
+   "n": 2,
+   "id": "zd_2657519",
+   "nameEn": "Bamboo Folding Dish Rack",
+   "categoryEn": "Kitchen Organization",
+   "facts": "Supplier title: Bamboo Folding Dish Rack for Kitchen Organization. Supplier description: made of bamboo, folding design, natural bamboo color, listed size 41 x 33 x 9.5 cm, for drying dishes, cups and utensils. Source image shows a two-tier slatted rack holding plates and bowls, with a side holder for utensils. Pending supplier confirmation: whether the listed size is folded or open, whether the utensil holder is included, surface finish and water resistance, load capacity and package contents.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p02-1.webp",
+    "p02-2.webp",
+    "p02-3.webp"
+   ]
+  },
+  {
+   "n": 3,
+   "id": "zd_2900152",
+   "nameEn": "Electric Heating Lunch Box",
+   "categoryEn": "Kitchen & Tea",
+   "facts": "Supplier title: Electric Heating Lunch Box for Office Workers MD-FH02A. Supplier description: plug-in heating without adding water, 70°C constant temperature, 75W heating plate, 304 stainless steel liner (MD-FH02A; MD-FH01A is an aluminum die-casting liner), exterior die-cast aluminum alloy with ceramic glaze, 1 L capacity, 16 cm wide x 14.5 cm high x 23.8 cm long, 0.9 kg. Source image shows a white box with a carry handle and a front dial, plus a divided inner tray. Pending supplier confirmation: plug type and voltage for US use, heating time, tray material, package contents and cleaning instructions.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p03-1.webp",
+    "p03-2.webp",
+    "p03-3.webp",
+    "p03-4.webp",
+    "p03-5.webp"
+   ]
+  },
+  {
+   "n": 4,
+   "id": "zd_2790293",
+   "nameEn": "Zisha Clay Teapot",
+   "categoryEn": "Kitchen & Tea",
+   "facts": "Supplier title: Handcrafted Black Gold Sand Zisha Teapot Set. Supplier description: purple clay teapot of raw ore mud, capacity about 220 ml, 14 cm long and 6 cm high, manual mud painting process, packed in a shockproof gift box. Source image shows a dark teapot with a lotus-leaf design and its lid set beside it. Pending supplier confirmation: what the set includes beyond the pot, food-contact suitability, lid fit, heat limits and care instructions.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p04-1.webp",
+    "p04-2.webp",
+    "p04-3.webp"
+   ]
+  },
+  {
+   "n": 5,
+   "id": "zd_2896854",
+   "nameEn": "Pleated Wood Bedside Lamp",
+   "categoryEn": "Lamps & Lighting",
+   "facts": "Supplier title: Nordic Solid Wood Pleated Bedside Vintage Lamp. Supplier description: fabric lampshade, wooden base, LED light source, 46 x 26 x 26 cm, 3 kg. Switch options listed: warm light with pull rope and button switch; three-color light; remote-control dimming; wireless charging. Source image shows a pleated white shade, a pull cord, a brass-tone stem and a wooden base with a round tray, on a bedside table. Pending supplier confirmation: which features belong to which option, bulb or LED module details, plug type and voltage for US use, cord length and wood species.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p05-1.webp",
+    "p05-2.webp",
+    "p05-3.webp",
+    "p05-4.webp"
+   ]
+  },
+  {
+   "n": 6,
+   "id": "zd_2606067",
+   "nameEn": "Squiggle Pleated Table Lamp",
+   "categoryEn": "Lamps & Lighting",
+   "facts": "Supplier title: Squiggle Umbrella Table Lamp - Retro Iron Design (One Piece). Supplier description: iron body, cotton cloth lampshade, E14 light source, shade variants listed (white, small flower cover, yellow grid, coffee, pink, off-white, blue grid, petal khaki black edge). Source image shows a wide pleated white shade, a wavy black stem and a round black base. Pending supplier confirmation: dimensions, weight, bulb included or not, wattage limit, plug type and voltage for US use, cord and switch details.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p06-1.webp"
+   ]
+  },
+  {
+   "n": 7,
+   "id": "zd_2606813",
+   "nameEn": "Marble Cylinder Pendant Lamp",
+   "categoryEn": "Lamps & Lighting",
+   "facts": "Supplier title: Modern Marble Pendant Lamp for Bedroom and Bar (One). Supplier description: marble, LED light source, 2 kg, colors Terrazzo White, Marble Green, Marble Black, Marble White. Source image shows a cluster of five slim hanging cylinders on black cords, each with a gold-tone metal top and a white or green marble lower part; title says one piece, so confirm how many pendants are in the selected option. Pending supplier confirmation: dimensions, cord length, ceiling mount and installation requirements, voltage and bulb details.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p07-1.webp"
+   ]
+  },
+  {
+   "n": 8,
+   "id": "zd_2901241",
+   "nameEn": "Floral Jacquard Cotton Blanket",
+   "categoryEn": "Cozy Comforts",
+   "facts": "Supplier title: Cotton Blanket with Jacquard Design - 230cm Size. Supplier description: cotton bed cover (Cotton Small Love 230 Brilliant), 230 x 250 cm, plant and flower patterns, weight listed between 2000 g and 2999 g. Source image shows a bed covered with a cream blanket with orange flower motifs, a teal band at the head and a patterned border. Pending supplier confirmation: cotton content or blend, fabric weight per sq m, care instructions, other sizes and colors, and package contents.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p08-1.webp",
+    "p08-2.webp",
+    "p08-3.webp",
+    "p08-4.webp",
+    "p08-5.webp"
+   ]
+  },
+  {
+   "n": 9,
+   "id": "zd_1850709",
+   "nameEn": "Origami Lantern Soy Candle",
+   "categoryEn": "Cozy Comforts",
+   "facts": "Supplier title: Origami Lantern Soy Wax Candle. Supplier description: handcrafted in Florida with organic soy wax; large is 3.5 in wide and 6 in tall, small is 3.5 in tall and 3 in wide; scents listed: Black Ice, Clean Cotton, Wild Lavender & Sage; color chosen after the sale; made to order; gift wrap available. Source image shows four faceted, ribbed candles in cream and honey colors, in pear and teardrop shapes. Pending supplier confirmation: net wax weight, burn time, wick type, color options and which size matches each photo.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p09-1.webp",
+    "p09-2.webp",
+    "p09-3.webp",
+    "p09-4.webp",
+    "p09-5.webp"
+   ]
+  },
+  {
+   "n": 10,
+   "id": "zd_1850722",
+   "nameEn": "Cactus Garden Candle Bowl",
+   "categoryEn": "Cozy Comforts",
+   "facts": "Supplier title: Arizona Dream Scented Cactus Garden Candle in Wooden Bowl. Supplier description: cactus garden in a wooden bowl, organic soy wax and cotton wicks, handmade in Florida, bowl approx 10 in L x 5 in W x 1.6 in D, wax about 10 oz, burn time 50-60 hours, scents listed: Baja Cactus Blossom, Sea Salt and Orchid, Himalayan Bamboo; made to order; gift wrapping available. Source image shows two whitewashed wooden bowls filled with green succulent- and cactus-shaped wax pieces. Pending supplier confirmation: wooden bowl material and finish, how the candle should be lit and safe burning limits, and wick count.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p10-1.webp",
+    "p10-2.webp",
+    "p10-3.webp",
+    "p10-4.webp",
+    "p10-5.webp"
+   ]
+  }
+ ]
+}

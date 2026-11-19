@@ -1,0 +1,229 @@
+{
+ "id": "outdoors",
+ "storeName": "Green Nook",
+ "palette": {
+  "background": "#F5F7F0",
+  "surface": "#E7ECDF",
+  "text": "#1F3326",
+  "muted": "#56695B",
+  "accent": "#3F6B45",
+  "onAccent": "#FFFFFF",
+  "border": "#CBD5C2"
+ },
+ "paletteName": "Verde musgo e linho",
+ "categories": [
+  {
+   "en": "Planters & Pots",
+   "productIds": [
+    "ali_3256806984392002",
+    "zd_3335863"
+   ]
+  },
+  {
+   "en": "Indoor Grow Gardens",
+   "productIds": [
+    "zd_3425959",
+    "zd_3335732"
+   ]
+  },
+  {
+   "en": "Garden Lighting",
+   "productIds": [
+    "zd_1994868",
+    "zd_2009073",
+    "shop_8724048117954"
+   ]
+  },
+  {
+   "en": "Garden Tools & Seating",
+   "productIds": [
+    "zd_3482909",
+    "zd_3346939",
+    "zd_3324740"
+   ]
+  }
+ ],
+ "products": [
+  {
+   "n": 1,
+   "id": "ali_3256806984392002",
+   "nameEn": "Self-Watering Double-Layer Planter",
+   "categoryEn": "Planters & Pots",
+   "facts": "Supplier title: Lazy Hydroponic Flower Pot Automatic Water-Absorbing Flowerpot Transparent Double Layer Plastic Self Watering Planter Office. Source images show two planters on a windowsill, one white with faceted sides and one blush pink, each with a transparent lower section; plants are shown in the photos. Pending supplier confirmation: dimensions, water capacity, plastic type, how the water-absorbing mechanism works, colors offered, pieces per order and whether plants are included. No evidence for watering intervals or plant-care outcomes.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p01-1.webp",
+    "p01-2.webp",
+    "p01-3.webp",
+    "p01-4.webp",
+    "p01-5.webp"
+   ]
+  },
+  {
+   "n": 2,
+   "id": "zd_3335863",
+   "nameEn": "Smart Grow Light Planter",
+   "categoryEn": "Planters & Pots",
+   "facts": "Supplier title: Hydroponic Smart Flower Pot with Grow Light. Supplier description: adjustable red, blue and all-color growth lights with a timer; for home or patio use; ABS and aluminum alloy construction, ventilated; add water and a plant, soil or hydroponic style; includes accessories and a charger. Source image shows a rectangular planter with a wood-tone top and white base, an extending lamp arm over green plants, in a kitchen. Pending supplier confirmation: dimensions, power or battery details, light output, timer settings, exact accessories and variant options. No evidence for plant growth results.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p02-1.webp",
+    "p02-2.webp",
+    "p02-3.webp",
+    "p02-4.webp",
+    "p02-5.webp"
+   ]
+  },
+  {
+   "n": 3,
+   "id": "zd_3425959",
+   "nameEn": "Indoor Hydroponic Planter with Grow Light",
+   "categoryEn": "Indoor Grow Gardens",
+   "facts": "Supplier title: LED Hydroponic Indoor Planter with Full Spectrum Grow Light. Supplier description: smart hydroponic planter for growing vegetables indoors; full spectrum LED grow light; multiple sizes and colors; home or office use. Source image shows a white rounded planter with an overhead LED panel on a central stem, leafy greens and herbs growing, and a blue water-level window on the front. Pending supplier confirmation: dimensions, number of plant positions, tank capacity, power details, timer, pump, variant options and seed or pod contents. No evidence for growth speed or harvest results.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p03-1.webp",
+    "p03-2.webp",
+    "p03-3.webp",
+    "p03-4.webp",
+    "p03-5.webp"
+   ]
+  },
+  {
+   "n": 4,
+   "id": "zd_3335732",
+   "nameEn": "Bamboo Indoor Planter with LED Lights",
+   "categoryEn": "Indoor Grow Gardens",
+   "facts": "Supplier title: Bamboo Smart Indoor Planter with LED Grow Lights. Supplier description: natural bamboo design with 80 LED lights; choice of international outlets; operates on 110-220V power; one smart planter per set; for home, kitchen or workspace. Source image shows a bamboo-framed unit with an overhead LED panel above a gray tray of leafy greens on a kitchen counter. Pending supplier confirmation: dimensions, tray capacity, light schedule, pump or timer, US plug selection and care instructions. No evidence for growth results or year-round yields.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p04-1.webp",
+    "p04-2.webp",
+    "p04-3.webp",
+    "p04-4.webp",
+    "p04-5.webp"
+   ]
+  },
+  {
+   "n": 5,
+   "id": "zd_1994868",
+   "nameEn": "Rustic Stump Garden Lamp",
+   "categoryEn": "Garden Lighting",
+   "facts": "Supplier title: Outdoor Stump Lawn Lamp. Supplier description: lamp designed to resemble a rustic tree stump with soft light; material wood and others; sizes S and M, outdoor waterproof type, warm light; continuous lighting time 6-12 hours; protection level IP54; LED source; rated power 5W and below; voltage 111V-240V; pastoral style; voice-activated switch; shade of environmentally friendly resin; connection by wiring. Source image shows a stump-shaped lamp with warm light glowing through vertical slits, set on gravel beside plants. Pending supplier confirmation: exact dimensions of each size (package sizes listed without clear units), US plug or wiring requirements, installation method and voice-switch details.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p05-1.webp",
+    "p05-2.webp",
+    "p05-3.webp",
+    "p05-4.webp"
+   ]
+  },
+  {
+   "n": 6,
+   "id": "zd_2009073",
+   "nameEn": "Modern Outdoor Wall Lamp",
+   "categoryEn": "Garden Lighting",
+   "facts": "Supplier title: Modern Outdoor Wall Lamp. Supplier description: contemporary design, weather-resistant, warm light for patios, gardens, doorways or balconies. Source image shows a black rectangular-frame wall lamp with warm light cast downward on a textured wall, with a second lamp, a doorway and potted plants in the background. Pending supplier confirmation: dimensions, material, bulb type, power, voltage, ingress protection rating, mounting hardware and wiring requirements. No evidence for energy savings or a specific installation method.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p06-1.webp"
+   ]
+  },
+  {
+   "n": 7,
+   "id": "shop_8724048117954",
+   "nameEn": "Solar Hanging Bee Garden Lights",
+   "categoryEn": "Garden Lighting",
+   "facts": "Supplier title: Solar Hanging Bee Garden Lights - 2 Pack. Supplier description: solar powered, metal bee-shaped lanterns with a warm glow, designed to hang from railings or tree branches with a spring hook; weatherproof, all-weather materials; styles Yellow Bee and Orange Bee; quantity 2. Source image shows a black-and-gold bee lantern with heart-shaped wings glowing warmly in a garden at night. The photo includes marketing text and icons. Pending supplier confirmation: dimensions, battery type, charge time, run time, brightness, protection rating and which style comes in the pack. Actual color may vary slightly.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p07-1.webp"
+   ]
+  },
+  {
+   "n": 8,
+   "id": "zd_3482909",
+   "nameEn": "Cordless Electric Pruning Shears",
+   "categoryEn": "Garden Tools & Seating",
+   "facts": "Supplier title: Cordless Electric Branch Pruning Shears. Supplier description: SK5 high-carbon steel blades, rubber and plastic handle, trims branches up to 5 cm in diameter; each set is a bare tool or a complete kit with optional power supply stored in a plastic box. Source image shows two blue-and-black cordless pruning shears with attached battery packs and a small display on the top. Pending supplier confirmation: battery voltage and capacity, run time, weight, charger, kit contents by variant and safety features. No evidence for cutting performance beyond the listed branch diameter. Blades require safe handling.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p08-1.webp",
+    "p08-2.webp",
+    "p08-3.webp",
+    "p08-4.webp",
+    "p08-5.webp"
+   ]
+  },
+  {
+   "n": 9,
+   "id": "zd_3346939",
+   "nameEn": "Mini Cordless Leaf Blower",
+   "categoryEn": "Garden Tools & Seating",
+   "facts": "Supplier title: Mini Cordless Leaf Blower. Supplier description: 130000RPM wind speed, two 3Ah rechargeable batteries for up to 40 minutes of use, 1000W motor, cordless and portable, for leaves, snow, dust and water on various surfaces. Source image shows a black handheld blower with a pistol grip, a battery pack on the base labeled 21V, two spare batteries and a charger, with supplier text badges. Pending supplier confirmation: weight, dimensions, measured airflow, noise level, nozzle attachments, real-world run time and charger rating. Supplier power and speed figures not independently verified.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p09-1.webp",
+    "p09-2.webp",
+    "p09-3.webp",
+    "p09-4.webp",
+    "p09-5.webp"
+   ]
+  },
+  {
+   "n": 10,
+   "id": "zd_3324740",
+   "nameEn": "Rotating Folding Outdoor Chair",
+   "categoryEn": "Garden Tools & Seating",
+   "facts": "Supplier title: 360 Rotating Folding Aluminum Outdoor Chair. Supplier description: aluminum folding chair with 360-degree rotation, for camping, fishing or the backyard; durable and lightweight; colors Army Green, Black, Brown; one folding chair included. Source image shows two low-back folding chairs with sage green and tan seats on black pedestal bases with four legs, on grass, with a black folding table at the right. Pending supplier confirmation: dimensions, folded size, weight, weight capacity, seat fabric and carry bag. The photo colors differ from listed color names. No evidence for load limits.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p10-1.webp",
+    "p10-2.webp",
+    "p10-3.webp",
+    "p10-4.webp",
+    "p10-5.webp"
+   ]
+  }
+ ]
+}

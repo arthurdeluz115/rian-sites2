@@ -1,0 +1,224 @@
+{
+  "store": {
+    "tagline": "Tecnología",
+    "categories": ["Audio y sonido", "Para creadores", "Carga y energía", "Escritorio y viaje"],
+    "headline": "Tecnología con estilo para tu día a día",
+    "subtitle": "Audio, carga y gadgets para trabajar, crear y viajar.",
+    "aboutTitle": "Bienvenido a {{store_name}}",
+    "aboutText": "Seleccionamos gadgets útiles y con diseño que hacen más fácil trabajar, crear contenido y moverte por el mundo.",
+    "bannerTitle": "Sube de nivel tu setup.",
+    "announcement": "Envíos a toda España · Pago 100% seguro"
+  },
+  "products": [
+    {
+      "t": "Auriculares inalámbricos transparentes con pantalla LED",
+      "badge": "Diseño transparente",
+      "h": "Se ven tan bien como suenan.",
+      "s": "Auriculares true wireless con estuche transparente y pantalla LED. Para música, deporte y partidas.",
+      "b": ["Estuche transparente con pantalla LED", "Ajuste in-ear de silicona suave", "Para deporte y gaming"],
+      "ben": [
+        ["Diseño", "Un estuche que llama la atención", "El estuche transparente deja ver la tecnología por dentro."],
+        ["Pantalla", "Información de un vistazo", "La pantalla LED del estuche muestra la información de carga."],
+        ["Comodidad", "Silicona suave", "Puntas de silicona para un ajuste cómodo dentro del oído."]
+      ],
+      "ctxT": "Para cada plan",
+      "ctx": [["En el gimnasio", "Tu playlist sin cables."], ["Partidas", "Sonido para tus juegos."], ["En el metro", "Música de camino."], ["Para regalar", "Un regalo que sorprende."]],
+      "dT": "Estuche transparente y pantalla",
+      "dX": "Auriculares negros in-ear con varilla y estuche de carga transparente con pantalla LED digital.",
+      "steps": ["Carga el estuche antes del primer uso.", "Saca los auriculares y actívalos.", "Vincúlalos por Bluetooth desde tu móvil."],
+      "spec": ["Tipo: auriculares true wireless Bluetooth", "Ajuste: in-ear, silicona suave", "Estuche: transparente con pantalla LED", "Color: negro", "Usos: deporte y gaming"],
+      "faq": [["¿Son compatibles con mi móvil?", "Funcionan con dispositivos Bluetooth. Escríbenos con tu modelo si tienes dudas."], ["¿Cuánto dura la batería?", "Te confirmamos la autonomía del modelo antes de tu compra."], ["¿Tienen micrófono?", "Te lo confirmamos antes de tu compra."]],
+      "fT": "Tu música, con estilo.",
+      "fX": "Auriculares que se ven tan bien como suenan."
+    },
+    {
+      "t": "Cascos gaming inalámbricos Glow Black",
+      "badge": "+8 h de batería",
+      "h": "Sonido envolvente con un brillo propio.",
+      "s": "Cascos inalámbricos over-ear con micrófono, Bluetooth 5.0, más de 8 horas de batería y detalles luminosos en los auriculares.",
+      "b": ["Bluetooth 5.0, alcance de hasta 15 m", "Más de 8 horas de batería", "Micrófono integrado e IPX4"],
+      "ben": [
+        ["Sonido", "Estéreo en los dos oídos", "Altavoces de 40 mm para escuchar cada detalle de tus partidas."],
+        ["Libertad", "Sin cables", "Bluetooth 5.0 con alcance de hasta 15 metros."],
+        ["Estilo", "Luz que se nota", "Acabado Glow Black con detalle luminoso en los auriculares."]
+      ],
+      "ctxT": "Para tus sesiones",
+      "ctx": [["Partidas largas", "Almohadillas acolchadas."], ["Llamadas", "Micrófono integrado."], ["Música", "Estéreo envolvente."], ["Streaming", "Un look que destaca en cámara."]],
+      "dT": "Over-ear con almohadillas",
+      "dX": "Cascos negros over-ear con almohadillas acolchadas, detalle luminoso y altavoces de 40 mm.",
+      "steps": ["Carga los cascos por completo.", "Enciéndelos y actívalos en modo Bluetooth.", "Vincúlalos con tu móvil, consola u ordenador."],
+      "spec": ["Tipo: cascos gaming inalámbricos over-ear", "Bluetooth: 5.0", "Alcance: hasta 15 m", "Batería: más de 8 horas", "Resistencia: IPX4", "Altavoz: 40 mm", "Extras: micrófono, NFC y control por voz"],
+      "faq": [["¿Funcionan con consola?", "Funcionan con dispositivos Bluetooth. Escríbenos con tu consola y te confirmamos."], ["¿Cuánto dura la batería?", "Más de 8 horas."], ["¿Tienen micrófono?", "Sí, micrófono integrado."]],
+      "fT": "Entra en la partida.",
+      "fX": "Cascos con estilo y sonido para horas de juego."
+    },
+    {
+      "t": "Altavoz Bluetooth con luz de ondas",
+      "badge": "Luz ambiental",
+      "h": "Tu música, con una ola de luz.",
+      "s": "Altavoz Bluetooth compacto con luz ambiental, centro tipo vinilo y sonido 360°. También ruido blanco para dormir.",
+      "b": ["Sonido 360° y luz ambiental", "Bluetooth, AUX y tarjeta TF", "Modo ruido blanco"],
+      "ben": [
+        ["Ambiente", "Luz que acompaña", "Varios ajustes de luz ambiental para cada momento."],
+        ["Conexión", "Tres formas de escuchar", "Bluetooth, entrada AUX o tarjeta TF."],
+        ["Descanso", "Ruido blanco", "Un modo de ruido blanco para relajarte o dormir."]
+      ],
+      "ctxT": "Dónde suena",
+      "ctx": [["En la mesita", "Luz y música para dormir."], ["En el escritorio", "Ambiente para concentrarte."], ["En el salón", "Decoración que suena."], ["Para regalar", "Un regalo que se ve y se oye."]],
+      "dT": "Tapa transparente y centro tipo vinilo",
+      "dX": "Altavoz compacto en verde o blanco, con tapa transparente, centro ondulado tipo vinilo y rueda de volumen frontal.",
+      "steps": ["Carga el altavoz.", "Vincúlalo por Bluetooth o conecta un cable AUX.", "Elige la luz y ajusta el volumen."],
+      "spec": ["Tipo: altavoz Bluetooth con luz ambiental", "Reproducción: Bluetooth, AUX y tarjeta TF", "Modo extra: ruido blanco", "Control: rueda de volumen", "Sonido: 360°", "Colores: verde y blanco"],
+      "faq": [["¿Cuánto dura la batería?", "Te confirmamos la autonomía antes de tu compra."], ["¿Puedo usarlo sin Bluetooth?", "Sí, con cable AUX o tarjeta TF."], ["¿Qué colores hay?", "Verde y blanco."]],
+      "fT": "Pon música a tu ambiente.",
+      "fX": "Un altavoz que decora tanto como suena."
+    },
+    {
+      "t": "Tocadiscos retro con Bluetooth",
+      "badge": "Estilo vintage",
+      "h": "El encanto del vinilo, con conexiones de hoy.",
+      "s": "Tocadiscos retro en color arce con tapa antipolvo, Bluetooth, puerto USB y ranura para tarjeta.",
+      "b": ["Bluetooth, USB y ranura para tarjeta", "Tapa antipolvo transparente", "Acabado en color arce"],
+      "ben": [
+        ["Nostalgia", "El ritual del vinilo", "Pon tus discos y disfruta de la música como antes."],
+        ["Moderno", "Conecta tu móvil", "Escucha también por Bluetooth, USB o tarjeta."],
+        ["Decoración", "Una pieza para el salón", "Su acabado en madera clara luce en cualquier estantería."]
+      ],
+      "ctxT": "Para tus momentos",
+      "ctx": [["Domingo en casa", "Café y vinilos."], ["En el salón", "Una pieza con historia."], ["Cena con amigos", "Música con ambiente."], ["Para regalar", "Un regalo inolvidable."]],
+      "dT": "Madera clara y tapa transparente",
+      "dX": "Tocadiscos en tono madera con tapa transparente, rejilla de altavoz frontal y rueda lateral. Mide 30,3 × 17,4 × 36,5 cm y pesa 3,2 kg.",
+      "steps": ["Colócalo sobre una superficie estable.", "Abre la tapa y coloca el disco.", "O vincula tu móvil por Bluetooth."],
+      "spec": ["Tipo: tocadiscos retro con Bluetooth", "Conexiones: Bluetooth, USB y ranura para tarjeta", "Color: arce", "Material: PVC", "Tapa: antipolvo", "Medidas: 30,3 × 17,4 × 36,5 cm", "Peso: 3,2 kg"],
+      "faq": [["¿Qué discos reproduce?", "Te confirmamos las velocidades compatibles antes de tu compra."], ["¿Tiene altavoz?", "Sí, tiene rejilla de altavoz frontal."], ["¿Puedo usarlo con el móvil?", "Sí, por Bluetooth."]],
+      "fT": "Vuelve a escuchar vinilos.",
+      "fX": "Un clásico con todas las comodidades de hoy."
+    },
+    {
+      "t": "Estabilizador gimbal de 3 ejes para móvil",
+      "badge": "Para creadores",
+      "h": "Graba caminando. Imagen estable.",
+      "s": "Estabilizador de mano de 3 ejes para vlogs con el móvil, con seguimiento facial, cabezal giratorio 360° y trípode.",
+      "b": ["Estabilización en 3 ejes", "Seguimiento facial inteligente", "Incluye trípode"],
+      "ben": [
+        ["Estabilidad", "Vídeos sin temblores", "Tres ejes compensan el movimiento mientras caminas."],
+        ["Seguimiento", "La cámara te sigue", "El seguimiento facial mantiene tu cara en el encuadre."],
+        ["Versátil", "Mano o trípode", "Úsalo en la mano o apóyalo con el trípode incluido."]
+      ],
+      "ctxT": "Para tu contenido",
+      "ctx": [["Vlogs de viaje", "Paseos sin temblores."], ["Reels y TikTok", "Vídeos más profesionales."], ["Directos", "Con el trípode incluido."], ["Eventos", "Recuerdos bien grabados."]],
+      "dT": "Controles en el mango",
+      "dX": "Estabilizador gris claro de ABS, con controles en el mango, cabezal giratorio 360°, Bluetooth y trípode.",
+      "steps": ["Coloca el móvil y equilíbralo.", "Enciende y conecta por Bluetooth.", "Activa el seguimiento y empieza a grabar."],
+      "spec": ["Tipo: estabilizador de mano de 3 ejes", "Material: ABS", "Conexión: Bluetooth", "Funciones: seguimiento facial, cabezal 360°, trípode", "Color: gris claro"],
+      "faq": [["¿Sirve para mi móvil?", "Funciona con la mayoría de smartphones. Te confirmamos el peso máximo antes de tu compra."], ["¿Necesita app?", "Te confirmamos los requisitos de la app con tu pedido."], ["¿Incluye trípode?", "Sí."]],
+      "fT": "Graba como un profesional.",
+      "fX": "Vídeos estables con el móvil que ya tienes."
+    },
+    {
+      "t": "Cámara digital compacta 44 MP",
+      "badge": "Tarjeta 32 GB",
+      "h": "Tu primera cámara cabe en el bolsillo.",
+      "s": "Cámara digital compacta con vídeo 1080P, zoom digital 16X y tarjeta de memoria de 32 GB.",
+      "b": ["Fotos de 44 MP y vídeo 1080P", "Zoom digital 16X", "Tarjeta de 32 GB incluida"],
+      "ben": [
+        ["Fácil", "Ideal para empezar", "Pensada para principiantes y jóvenes que quieren su primera cámara."],
+        ["Bolsillo", "Llévala a todas partes", "Compacta y ligera, con pantalla trasera y flash."],
+        ["Lista", "Saca fotos desde el primer día", "Incluye tarjeta de memoria de 32 GB."]
+      ],
+      "ctxT": "Para guardar recuerdos",
+      "ctx": [["Viajes", "Fotos sin gastar batería del móvil."], ["Fiestas", "Estilo retro en cada foto."], ["Primera cámara", "Para aprender fotografía."], ["Para regalar", "Un regalo que ilusiona."]],
+      "dT": "Compacta con pantalla y flash",
+      "dX": "Cámara compacta rosa con pantalla trasera, flash frontal y objetivo F/3.2 con zoom digital 16X.",
+      "steps": ["Carga la batería e inserta la tarjeta.", "Enciende y elige foto o vídeo.", "Encuadra con la pantalla y dispara."],
+      "spec": ["Tipo: cámara digital compacta", "Vídeo: 1080P", "Resolución: 44 MP", "Zoom: 16X digital", "Memoria: tarjeta de 32 GB", "Objetivo: F/3.2, f=7,36 mm", "Color: rosa"],
+      "faq": [["¿Incluye tarjeta?", "Sí, una tarjeta de 32 GB."], ["¿Graba vídeo?", "Sí, en 1080P."], ["¿Es fácil de usar?", "Está pensada para principiantes."]],
+      "fT": "Guarda cada momento.",
+      "fX": "Una cámara pequeña para recuerdos grandes."
+    },
+    {
+      "t": "Estación de carga inalámbrica con puertos USB",
+      "badge": "Hasta 60 W",
+      "h": "Carga todos tus dispositivos desde un solo enchufe.",
+      "s": "Estación de escritorio con base de carga inalámbrica y varios puertos USB. Adiós al lío de cargadores.",
+      "b": ["Carga inalámbrica de hasta 10 W", "4 USB + USB-C PD y QC 3.0", "Hasta 60 W en total"],
+      "ben": [
+        ["Orden", "Un solo cargador", "Móvil, auriculares y reloj cargando en el mismo sitio."],
+        ["Inalámbrica", "Apoya y carga", "Coloca el móvil en la base y se carga sin cable."],
+        ["Rápida", "Carga rápida", "USB-C PD y Quick Charge 3.0 de 18 W."]
+      ],
+      "ctxT": "Dónde la pondrás",
+      "ctx": [["En el escritorio", "Tu centro de carga."], ["En la mesita de noche", "Todo listo por la mañana."], ["En familia", "Varios móviles a la vez."], ["En la oficina", "Adiós a buscar enchufes."]],
+      "dT": "Soporte inclinado con puertos",
+      "dX": "Soporte inclinado con base de carga inalámbrica y puertos en la parte delantera. Mide 133 × 80 × 70 mm y pesa 336 g.",
+      "steps": ["Conéctala a la corriente.", "Apoya el móvil compatible en la base.", "Conecta el resto de dispositivos por USB."],
+      "spec": ["Tipo: estación de carga múltiple", "Salidas: 4 USB (2,4 A), QC 3.0 y USB-C PD", "Carga rápida: 18 W", "Inalámbrica: hasta 10 W", "Potencia total: hasta 60 W", "Entrada: AC 100-240 V", "Medidas: 133 × 80 × 70 mm", "Peso: 336 g", "Colores: negro y blanco"],
+      "faq": [["¿Trae enchufe europeo?", "Sí, elige la versión con enchufe europeo."], ["¿Mi móvil carga sin cable?", "Funciona con móviles compatibles con carga inalámbrica Qi."], ["¿Qué colores hay?", "Negro y blanco."]],
+      "fT": "Un enchufe. Todos tus dispositivos.",
+      "fX": "Ordena tu escritorio y carga todo a la vez."
+    },
+    {
+      "t": "Arrancador de coche mini con power bank",
+      "badge": "2 en 1",
+      "h": "Batería del coche descargada? Arranca tú mismo.",
+      "s": "Arrancador de baterías compacto para coches de gasolina que también funciona como power bank para tu móvil.",
+      "b": ["Batería de 6000 mAh", "Corriente de arranque 300 A, pico 600 A", "También carga móviles"],
+      "ben": [
+        ["Tranquilidad", "Sin esperar a la grúa", "Un respaldo en la guantera para los días en que la batería falla."],
+        ["2 en 1", "Power bank incluido", "Carga tu móvil cuando estás fuera de casa."],
+        ["Compacto", "Cabe en la guantera", "Mide solo 131 × 75 × 25 mm."]
+      ],
+      "ctxT": "Cuándo te salva",
+      "ctx": [["Mañanas de invierno", "Cuando el coche no arranca."], ["Viajes largos", "Tranquilidad en carretera."], ["Coche que se usa poco", "Respaldo para la batería."], ["Para regalar", "Un regalo muy útil."]],
+      "dT": "Fino y negro",
+      "dX": "Arrancador negro y fino de 6000 mAh para vehículos de gasolina. Funciona entre -25 y 65 °C.",
+      "steps": ["Carga el arrancador por completo.", "Conecta las pinzas a la batería siguiendo las instrucciones.", "Arranca el coche y desconecta."],
+      "spec": ["Tipo: arrancador de coche y power bank", "Capacidad: 6000 mAh", "Corriente de arranque: 300 A", "Pico: 600 A", "Temperatura de uso: -25 a 65 °C", "Medidas: 131 × 75 × 25 mm", "Vehículos: gasolina"],
+      "faq": [["¿Sirve para mi coche?", "Está indicado para vehículos de gasolina. Escríbenos con tu modelo y cilindrada."], ["¿Puedo cargar el móvil?", "Sí, funciona como power bank."], ["¿Cómo se carga?", "Te confirmamos el cable incluido con tu pedido."]],
+      "fT": "Que una batería no te pare.",
+      "fX": "Un arrancador pequeño que siempre llevas en el coche."
+    },
+    {
+      "t": "Dock USB-C con doble HDMI",
+      "badge": "Doble pantalla",
+      "h": "Un puerto USB-C. Un escritorio completo.",
+      "s": "Estación de acoplamiento compacta con doble HDMI, Ethernet, lectores de tarjetas y carga USB-C PD.",
+      "b": ["Doble HDMI hasta 2K a 60 Hz", "Ethernet Gigabit y lector SD/TF", "Carga PD de hasta 100 W"],
+      "ben": [
+        ["Productividad", "Dos pantallas extra", "Conecta dos monitores al portátil y trabaja con más espacio."],
+        ["Todo conectado", "Un solo cable", "Red, audio, USB y tarjetas desde un único puerto USB-C."],
+        ["Carga", "El portátil, cargando", "Paso de carga PD de 60, 87 o 100 W."]
+      ],
+      "ctxT": "Para trabajar mejor",
+      "ctx": [["Teletrabajo", "Tu oficina en casa."], ["Edición de fotos", "Lector de tarjetas integrado."], ["En la oficina", "Llegas y conectas."], ["De viaje", "Compacto y ligero."]],
+      "dT": "Aluminio fino y plateado",
+      "dX": "Hub plateado de aleación de aluminio y acrílico. Mide 120,4 × 62 × 20 mm.",
+      "steps": ["Conecta el dock al USB-C del portátil.", "Conecta monitores, red y periféricos.", "Conecta el cargador al puerto PD."],
+      "spec": ["Tipo: dock y hub USB-C", "Datos: hasta 10 Gbps (USB-C 3.0)", "Carga: PD 3.0 a 60, 87 o 100 W", "Vídeo: doble HDMI, 1080p y 2K a 60 Hz", "Red: Ethernet Gigabit", "Audio: jack 3,5 mm con micrófono", "Tarjetas: SD y TF a la vez", "Medidas: 120,4 × 62 × 20 mm"],
+      "faq": [["¿Funciona con mi portátil?", "Funciona con portátiles con USB-C compatible con salida de vídeo. Escríbenos con tu modelo."], ["¿Puedo conectar dos monitores?", "Sí, tiene doble HDMI."], ["¿Carga el portátil?", "Sí, con paso de carga PD."]],
+      "fT": "Monta tu escritorio ideal.",
+      "fX": "Todo conectado desde un solo puerto."
+    },
+    {
+      "t": "Traductor de voz y fotos de bolsillo",
+      "badge": "Para viajar",
+      "h": "Habla con el mundo sin barreras de idioma.",
+      "s": "Traductor de mano con traducción de voz y traducción de fotos con la cámara. Ideal para viajes.",
+      "b": ["Traducción de voz", "Traducción de fotos con cámara", "Conexión WiFi"],
+      "ben": [
+        ["Viajes", "Comunícate en cualquier país", "Habla y el dispositivo traduce para la otra persona."],
+        ["Cámara", "Lee carteles y menús", "Haz una foto y traduce el texto."],
+        ["Bolsillo", "Pequeño y ligero", "Mide 120 × 48 mm: cabe en cualquier bolsillo."]
+      ],
+      "ctxT": "Para cada viaje",
+      "ctx": [["En el restaurante", "Entiende la carta."], ["En el hotel", "Habla con recepción."], ["Viajes de trabajo", "Reuniones más fáciles."], ["Para aprender", "Practica idiomas."]],
+      "dT": "Pantalla táctil y cámara",
+      "dX": "Dispositivo de mano con pantalla táctil y cámara trasera, disponible en negro y dorado.",
+      "steps": ["Carga el dispositivo y conéctalo al WiFi.", "Elige los idiomas.", "Habla o haz una foto para traducir."],
+      "spec": ["Tipo: traductor de mano", "Funciones: traducción de voz y de fotos", "Conexión: WiFi", "Medidas: 120 × 48 × 12,2 mm", "Colores: negro y dorado"],
+      "faq": [["¿Qué idiomas traduce?", "Te confirmamos la lista de idiomas antes de tu compra."], ["¿Funciona sin internet?", "Usa conexión WiFi. Te confirmamos el modo sin conexión del modelo."], ["¿Qué colores hay?", "Negro y dorado."]],
+      "fT": "Viaja sin barreras.",
+      "fX": "Un traductor de bolsillo para tu próximo viaje."
+    }
+  ]
+}

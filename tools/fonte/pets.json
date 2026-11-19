@@ -1,0 +1,221 @@
+{
+ "id": "pets",
+ "storeName": "Tail & Meadow",
+ "palette": {
+  "background": "#FFF8F1",
+  "surface": "#F5E8DA",
+  "text": "#3F3028",
+  "muted": "#735749",
+  "accent": "#A34229",
+  "onAccent": "#FFFFFF",
+  "border": "#DFBFA8"
+ },
+ "paletteName": "Creme e terracota",
+ "categories": [
+  {
+   "en": "Beds & Cozy Corners",
+   "productIds": [
+    "zd_2794264",
+    "zd_2783530"
+   ]
+  },
+  {
+   "en": "Daily Care & Hydration",
+   "productIds": [
+    "ali_3256809902800013",
+    "zd_2751978",
+    "zd_2642542"
+   ]
+  },
+  {
+   "en": "Travel & Carriers",
+   "productIds": [
+    "zd_2894541",
+    "zd_2645705",
+    "zd_2775210"
+   ]
+  },
+  {
+   "en": "Walks & Outdoors",
+   "productIds": [
+    "zd_2657730",
+    "zd_2622673"
+   ]
+  }
+ ],
+ "products": [
+  {
+   "n": 1,
+   "id": "zd_2794264",
+   "nameEn": "Cake Roll Cat Bed",
+   "categoryEn": "Beds & Cozy Corners",
+   "facts": "Supplier title: Cat and Dog Mat - Cake Roll Cat Bed. Listing says it is designed for cats and small dogs, with a short plush exterior, plush sponge filling, 40 cm height, yellow color, and delivery in a mesh bag. Source images show a round, tunnel-style bed shaped like a roll cake, with a strawberry topper and a kiwi, strawberry and citrus pattern around the opening; a cat is resting inside. Pending supplier confirmation: diameter and length, weight limit, washing instructions, removable cover, exact pet size range and whether the interior lining differs from the exterior. No evidence for orthopedic, calming or temperature claims.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p01-1.webp",
+    "p01-2.webp",
+    "p01-3.webp",
+    "p01-4.webp"
+   ]
+  },
+  {
+   "n": 2,
+   "id": "zd_2783530",
+   "nameEn": "Waterproof High-Back Pet Bed",
+   "categoryEn": "Beds & Cozy Corners",
+   "facts": "Supplier title: Waterproof High-Back Pet Bed for Dogs and Puppies. Listing says polyester, gray, waterproof, easy to clean, high-back design. Sizes listed: S 60x50xH37 cm, 1.83 kg; M 75x60xH39 cm, 2.23 kg; L 90x70xH41 cm, 3.3 kg; XL 120x90xH43 cm, 4.63 kg. Source image shows a golden retriever sleeping in a gray bolster bed with a soft light interior and raised back. Pending supplier confirmation: waterproof rating or which layer is waterproof, removable or machine-washable cover, filling material, recommended pet weight per size. No evidence for orthopedic or joint-support claims.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p02-1.webp",
+    "p02-2.webp",
+    "p02-3.webp",
+    "p02-4.webp",
+    "p02-5.webp"
+   ]
+  },
+  {
+   "n": 3,
+   "id": "ali_3256809902800013",
+   "nameEn": "Self-Cleaning Pet Grooming Comb",
+   "categoryEn": "Daily Care & Hydration",
+   "facts": "Supplier title: Pet Hair Comb Grooming Brush Effectively Remove Loose Hair Pet Cleaning Tool for Hair Removal and Bathing. No supplier description provided. Source image shows a fine-toothed pet comb in pastel green and yellow with a rounded handle and text reading 'One-touch self-cleaning opens a new combing experience' and 'Remove loose hair'. Pending supplier confirmation: dimensions, pin material and spacing, suitable coat types, how the release mechanism works, whether it can be used on wet fur and package contents. No evidence for shedding-reduction, skin-care or painless-grooming claims.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p03-1.webp",
+    "p03-2.webp",
+    "p03-3.webp",
+    "p03-4.webp",
+    "p03-5.webp"
+   ]
+  },
+  {
+   "n": 4,
+   "id": "zd_2751978",
+   "nameEn": "Portable Pet Travel Water Bottle",
+   "categoryEn": "Daily Care & Hydration",
+   "facts": "Supplier title: Portable Travel Water Bottle for Dogs and Cats. Listing says resin, 400 ml capacity, 27.1 x 6.5 cm, lightweight, colors gray, green, blue and pink. Source image shows a tall clear bottle with a gray top, a blue button and a carry loop. Pending supplier confirmation: how the drinking tray opens, leak resistance, food-contact suitability, whether a filter insert is included, cleaning instructions and package contents. No evidence for leak-proof, BPA-free or filtration claims.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p04-1.webp",
+    "p04-2.webp",
+    "p04-3.webp",
+    "p04-4.webp",
+    "p04-5.webp"
+   ]
+  },
+  {
+   "n": 5,
+   "id": "zd_2642542",
+   "nameEn": "Stainless Steel Pet Water Fountain",
+   "categoryEn": "Daily Care & Hydration",
+   "facts": "Supplier title: Stainless Steel Pet Water Dispenser with Filtration. Listing says stainless steel, 2 L capacity, loop filter that circulates water, USB electrical outlet, 100 x 330 x 220 mm, 1.55 kg. Source image shows a silver oval bowl with a raised dome section, set on a woven rug. Pending supplier confirmation: pump specifications and noise level, filter type and replacement, power adapter and cord length, steel grade, dishwasher suitability and package contents. No evidence for water-purity or health claims.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p05-1.webp"
+   ]
+  },
+  {
+   "n": 6,
+   "id": "zd_2894541",
+   "nameEn": "Foldable Pet Trolley Backpack",
+   "categoryEn": "Travel & Carriers",
+   "facts": "Supplier title: Large Capacity Foldable Pet Trolley Backpack with Wheels. No supplier description provided. Source image shows a blue carrier with gray trim, an extendable pull handle, four wheels, mesh side panels, round ventilation holes, two front zip pockets and a gray top panel. Pending supplier confirmation: interior and folded dimensions, pet weight limit, materials, color options, how the backpack straps work, airline suitability and package contents. No evidence for airline-approved, safety-tested or anti-escape claims.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p06-1.webp",
+    "p06-2.webp",
+    "p06-3.webp",
+    "p06-4.webp",
+    "p06-5.webp"
+   ]
+  },
+  {
+   "n": 7,
+   "id": "zd_2645705",
+   "nameEn": "Winter Pet Chest Carrier Backpack",
+   "categoryEn": "Travel & Carriers",
+   "facts": "Supplier title: Winter Thickened Portable Pet Chest Backpack. Listing says nylon and cotton, medium-soft texture, five colors (pink, black, beige, grey, green), 43 cm length, 33 cm width, 506 g, adjustable straps. Source image shows quilted carriers in five colors and a person wearing one on the chest with a dog looking out. Pending supplier confirmation: recommended pet weight and size, padding material, leg opening sizes, closure details and package contents. No evidence for safety-tested or weight-limit claims.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p07-1.webp"
+   ]
+  },
+  {
+   "n": 8,
+   "id": "zd_2775210",
+   "nameEn": "Dog Car Seat Bed",
+   "categoryEn": "Travel & Carriers",
+   "facts": "Supplier title: Travel Car Cushion for Small to Medium Dogs. Listing says cloth, 55 x 50 x 30 cm, doubles as a dog bed, includes a safety buckle, colors blue stripes, coffee stripes and red stripes, 1.83 kg, delivered in compressed packaging. Source image shows a blue-and-white striped raised-sided seat on a car seat, with a strap at the back. Pending supplier confirmation: pet weight limit, how it attaches to the seat, washability, filling material and package contents. No evidence for crash-tested or safety-rated claims.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p08-1.webp",
+    "p08-2.webp",
+    "p08-3.webp"
+   ]
+  },
+  {
+   "n": 9,
+   "id": "zd_2657730",
+   "nameEn": "Waterproof Snow Boots for Dogs",
+   "categoryEn": "Walks & Outdoors",
+   "facts": "Supplier title: Waterproof and Snowproof Pet Shoes for Dogs. Listing says waterproof fabric, anti-slip Oxford bottom, reflective strap, black and blue colors, sizes XS to 2XL, described as wear-resistant. Source image shows a dog in snow wearing black boots with bright green cuffs. Pending supplier confirmation: size chart, closure type, insulation, sole thickness and whether a set of four is included. No evidence for paw-protection, warmth or injury-prevention claims.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p09-1.webp",
+    "p09-2.webp",
+    "p09-3.webp"
+   ]
+  },
+  {
+   "n": 10,
+   "id": "zd_2622673",
+   "nameEn": "Foldable Wooden Dog Ramp",
+   "categoryEn": "Walks & Outdoors",
+   "facts": "Supplier title: Adjustable Wooden Pet Dog Ladder - Foldable Ramp. Listing says wood, wood color finish, foldable and portable, adjustable, non-slip surface, 3.12 kg. Source image shows a wooden ramp with a black textured surface leading down from a car door, with a small dog. The listed dimensions (100 cm height, 430 cm length, 320 cm width) are inconsistent with a portable ramp and are not used. Pending supplier confirmation: actual length, width, height settings, weight capacity, folded size and package contents. No evidence for joint-support or injury-prevention claims.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p10-1.webp"
+   ]
+  }
+ ]
+}

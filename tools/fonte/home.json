@@ -1,0 +1,219 @@
+{
+ "id": "home",
+ "storeName": "Home Natural",
+ "palette": {
+  "background": "#F8F5EF",
+  "surface": "#EDE9E0",
+  "text": "#24392F",
+  "muted": "#53665A",
+  "accent": "#365C46",
+  "onAccent": "#FFFFFF",
+  "border": "#CECFC2"
+ },
+ "paletteName": "Areia e verde sálvia",
+ "categories": [
+  {
+   "en": "Kitchen Organization",
+   "productIds": [
+    "p-2108138510997712896"
+   ]
+  },
+  {
+   "en": "Home Essentials",
+   "productIds": [
+    "p-2093244637737500672",
+    "p-1933444263967592448",
+    "p-1951254976073175040"
+   ]
+  },
+  {
+   "en": "Bedroom & Living",
+   "productIds": [
+    "p-1939931510774566912",
+    "p-2077325502117691392"
+   ]
+  },
+  {
+   "en": "Dining & Drinkware",
+   "productIds": [
+    "p-1991404886714048512",
+    "p-2044709763493941248",
+    "p-2109626165887430656",
+    "p-2060661880570322944"
+   ]
+  }
+ ],
+ "products": [
+  {
+   "n": 1,
+   "id": "p-2108138510997712896",
+   "nameEn": "Rotating Multi-Grain Dispenser",
+   "categoryEn": "Kitchen Organization",
+   "facts": "Supplier title: Rotating Compartmentalized Rice Dispenser / Multi-Grain Storage Container. Beige. Source image shows separated transparent compartments, dispenser buttons and a collection drawer. Image dimensions: top diameter 24 cm; height 27 cm; base width 27 cm. Pending supplier confirmation: capacity, compartment count, material, food-contact suitability, compatible grain sizes, exact dispensing mechanism and package contents. No evidence for airtight, pest-proof, BPA-free or measured-portion claims.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p01-1.webp",
+    "p01-2.webp"
+   ]
+  },
+  {
+   "n": 2,
+   "id": "p-2093244637737500672",
+   "nameEn": "Open Shoe Storage Rack",
+   "categoryEn": "Home Essentials",
+   "facts": "Supplier title: Shoe cabinet for rental rooms. Selected option says '8 layers - black'. Photo shows an open freestanding multi-level rack with black connectors and light-colored horizontal supports; photo appears to show nine shoe levels, conflicting with selected option. Exact dimensions, material, load capacity, assembly instructions and included parts not provided. Do not promise exact shelf count or pair capacity until variant is confirmed.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p02-1.webp",
+    "p02-2.webp"
+   ]
+  },
+  {
+   "n": 3,
+   "id": "p-1939931510774566912",
+   "nameEn": "Chenille Sofa Cover Pad",
+   "categoryEn": "Bedroom & Living",
+   "facts": "Supplier lists chenille material, sofa mat, stripe pattern, combination-sofa use and pad style. Listed sizes in cm: 70×70 (armrest/backrest), 70×120 (armrest/cushion), 70×150 (double seat), 70×180 (large double seat). Source photo shows gray striped pad sections. Supplier title says non-slip, but performance is not verified and copy does not guarantee it. Quantity per order, exact color variant, washing method, waterproofing and accessory inclusions not confirmed.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p03-1.webp",
+    "p03-2.webp"
+   ]
+  },
+  {
+   "n": 4,
+   "id": "p-1991404886714048512",
+   "nameEn": "Glass Serving Pitcher",
+   "categoryEn": "Dining & Drinkware",
+   "facts": "Supplier title: Household living room cup. Description lists glass and Nordic style. Main image shows a faceted glass pitcher with a handle and lid; detail images show a differently shaped pitcher and matching cups. Exact variant, glass composition, capacity, heat resistance and included pieces are not specified. Copy uses only the common pitcher/handle/lid attributes visible in photos and does not promise cups or hot-liquid suitability.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p04-1.webp",
+    "p04-2.webp",
+    "p04-3.webp",
+    "p04-4.webp"
+   ]
+  },
+  {
+   "n": 5,
+   "id": "p-1933444263967592448",
+   "nameEn": "Multi-Slot Hanging Clothes Organizer",
+   "categoryEn": "Home Essentials",
+   "facts": "Supplier title: Multipurpose Cloth Drying Hanger. Description lists a plastic, multifunctional clothes-hanging rack. Source images show an elongated slotted plastic hanger organizer, end hooks, use horizontally with both ends supported and vertically from one end. Standard clothes hangers are shown in the slots. Exact slot count, load limit, dimensions, order quantity and included hangers not confirmed. No faster-drying or quantified space-saving claims.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p05-1.webp",
+    "p05-2.webp",
+    "p05-3.webp"
+   ]
+  },
+  {
+   "n": 6,
+   "id": "p-2077325502117691392",
+   "nameEn": "Diamond-Quilted Bedding Set",
+   "categoryEn": "Bedroom & Living",
+   "facts": "Supplier title: Quilted diamond pattern wavy plush comforter in solid color. Selected color is written 'gery'; photo is gray. Listing states one quilt (135*200) and a pair of pillowcases (51*76), without explicit units. Source photo shows diamond quilting. Fabric composition, fill, warmth rating, care instructions and fit for US bed sizes not specified. Do not convert these numbers to inches or claim twin/queen fit until units are confirmed.",
+   "sections": {
+    "box": true,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p06-1.webp",
+    "p06-2.webp"
+   ]
+  },
+  {
+   "n": 7,
+   "id": "p-2044709763493941248",
+   "nameEn": "950 mL Insulated Bottle with Magnetic Phone Holder",
+   "categoryEn": "Dining & Drinkware",
+   "facts": "Supplier title: Magnetic thermos cup phone holder. Capacity 950 mL. Inner liner and outer shell listed as 304 stainless steel. Vacuum insulation; carrying strap. Listed colors: blue, white, pink, black, yellow, purple. Source shows a hinged magnetic phone attachment on the lid. Supplier mentions 6–12h heat preservation but conditions/testing are not provided; this duration is not used in copy. Phone/case compatibility, attachment stability, charging, leak resistance and package contents unverified.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p07-1.webp",
+    "p07-2.webp",
+    "p07-3.webp",
+    "p07-4.webp",
+    "p07-5.webp",
+    "p07-6.webp"
+   ]
+  },
+  {
+   "n": 8,
+   "id": "p-1951254976073175040",
+   "nameEn": "Digital Bathroom Scale",
+   "categoryEn": "Home Essentials",
+   "facts": "Supplier title identifies an Uclano smart bioimpedance scale; description lists body-fat scale, weight/fat/moisture functions, maximum weighing 180 kg, 26 cm battery and rechargeable versions, USB charging/No.7 dry-battery power. Photo shows black platform and blue-backlit digital display; printed instructions reference OKOK app/Bluetooth but functionality has not been verified. Copy focuses on weight display, with no health, diagnostic, accuracy, app compatibility or body-composition promises. Power method depends on selected version. Included batteries/cable not confirmed.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p08-1.webp",
+    "p08-2.webp",
+    "p08-3.webp"
+   ]
+  },
+  {
+   "n": 9,
+   "id": "p-2109626165887430656",
+   "nameEn": "Textured Glass Fruit Bowl",
+   "categoryEn": "Dining & Drinkware",
+   "facts": "Supplier title describes a glass fruit bowl. Selected color: green. Source photo shows a shallow textured green bowl, gold-colored rim and elevated circular base. Dimensions, capacity, base material, package quantity, food-contact suitability and care instructions are not provided. No dishwasher, microwave or real-gold claims.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p09-1.webp",
+    "p09-2.webp"
+   ]
+  },
+  {
+   "n": 10,
+   "id": "p-2060661880570322944",
+   "nameEn": "Textured Ceramic Dinner Plate",
+   "categoryEn": "Dining & Drinkware",
+   "facts": "Supplier title: Western-style home-use light luxury ceramic steak plate. Ceramic material verified from title. Main photo shows a black plate with radiating textured ridges; other plates appear in the scene. Selected color, dimensions, quantity per order and care/heat-resistance ratings not stated. Do not assume a multi-piece set or dishwasher/microwave/oven suitability.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p10-1.webp",
+    "p10-2.webp",
+    "p10-3.webp",
+    "p10-4.webp",
+    "p10-5.webp"
+   ]
+  }
+ ]
+}

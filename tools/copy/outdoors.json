@@ -1,0 +1,224 @@
+{
+  "store": {
+    "tagline": "Jardín",
+    "categories": ["Macetas", "Huertos de interior", "Iluminación de jardín", "Herramientas y descanso"],
+    "headline": "Más verde en casa, más vida en tu jardín",
+    "subtitle": "Macetas, huertos de interior, luces y herramientas para disfrutar de tus plantas.",
+    "aboutTitle": "Bienvenido a {{store_name}}",
+    "aboutText": "Elegimos piezas que hacen más fácil cuidar tus plantas y disfrutar del exterior, tengas un jardín, una terraza o solo una ventana.",
+    "bannerTitle": "Haz crecer tu rincón verde.",
+    "announcement": "Envíos a toda España · Pago 100% seguro"
+  },
+  "products": [
+    {
+      "t": "Maceta autorriego de doble capa",
+      "badge": "Autorriego",
+      "h": "La maceta que te avisa de cuándo regar.",
+      "s": "Maceta de doble capa con depósito transparente: ves el agua de un vistazo. Perfecta para la ventana, el escritorio o una estantería.",
+      "b": ["Sistema de autorriego por absorción", "Depósito inferior transparente", "En blanco y rosa"],
+      "ben": [
+        ["A la vista", "Sabes cuándo rellenar", "El depósito transparente te muestra el nivel de agua."],
+        ["Comodidad", "Menos riegos olvidados", "La planta absorbe el agua del depósito poco a poco."],
+        ["Bonita", "Facetada y moderna", "Un diseño que decora la ventana o el escritorio."]
+      ],
+      "ctxT": "Dónde ponerla",
+      "ctx": [["En la ventana", "Luz y agua a mano."], ["En la oficina", "Un toque verde en el escritorio."], ["Si viajas", "Un depósito de reserva."], ["Para regalar", "Un regalo que crece."]],
+      "dT": "Doble capa transparente",
+      "dX": "Maceta de plástico en blanco facetado o rosa, con parte inferior transparente que hace de depósito.",
+      "steps": ["Planta en la parte superior.", "Llena el depósito inferior de agua.", "Rellénalo cuando veas el nivel bajo."],
+      "spec": ["Material: plástico", "Construcción: doble capa transparente", "Riego: autorriego por absorción", "Colores: blanco y rosa"],
+      "faq": [["¿Incluye planta?", "No, se vende la maceta."], ["¿Qué tamaño tiene?", "Te confirmamos las medidas antes de tu compra."], ["¿Cada cuánto se rellena?", "Depende de la planta y del clima; el depósito transparente te ayuda a verlo."]],
+      "fT": "Plantas felices, sin esfuerzo.",
+      "fX": "Una maceta bonita que te ayuda a regar."
+    },
+    {
+      "t": "Maceta inteligente con luz de cultivo",
+      "badge": "Con temporizador",
+      "h": "Tus plantas crecen hasta en el rincón más oscuro.",
+      "s": "Maceta con luz de cultivo regulable y temporizador. Para tierra o hidroponía, en casa o en el patio.",
+      "b": ["Luz roja, azul o completa", "Temporizador incluido", "Tierra o hidroponía"],
+      "ben": [
+        ["Luz propia", "Sin depender de la ventana", "La lámpara de cultivo regulable acompaña a tus plantas."],
+        ["Automática", "Temporizador", "Programa la luz y olvídate."],
+        ["Versátil", "Como prefieras", "Usa tierra o cultivo hidropónico."]
+      ],
+      "ctxT": "Ideal para",
+      "ctx": [["Cocina", "Hierbas frescas a mano."], ["Pisos con poca luz", "Verde en cualquier rincón."], ["Oficina", "Plantas en el escritorio."], ["Patio", "También en exterior cubierto."]],
+      "dT": "Brazo de luz extensible",
+      "dX": "Maceta rectangular con tapa en tono madera, base blanca y brazo de luz extensible. Fabricada en ABS y aluminio.",
+      "steps": ["Añade agua y la planta.", "Extiende el brazo de luz.", "Elige el color y programa el temporizador."],
+      "spec": ["Tipo: maceta con luz de cultivo", "Luz: roja, azul o completa (regulable)", "Temporizador: incluido", "Material: ABS y aleación de aluminio", "Cultivo: tierra o hidropónico", "Uso: casa o patio"],
+      "faq": [["¿Incluye cargador?", "Sí, incluye accesorios y cargador."], ["¿Qué plantas puedo poner?", "Hierbas aromáticas, plantas pequeñas y de interior."], ["¿Necesita enchufe?", "Te confirmamos la alimentación del modelo con tu pedido."]],
+      "fT": "Lleva el verde a cualquier rincón.",
+      "fX": "Una maceta con su propio sol."
+    },
+    {
+      "t": "Huerto hidropónico de interior con luz LED",
+      "badge": "Huerto en casa",
+      "h": "Tu propio huerto en la encimera de la cocina.",
+      "s": "Huerto hidropónico con luz LED de espectro completo para cultivar hierbas y verduras en casa o en la oficina.",
+      "b": ["Luz LED de espectro completo", "Sin tierra: cultivo hidropónico", "Ventana de nivel de agua"],
+      "ben": [
+        ["Fresco", "Hierbas recién cortadas", "Albahaca, perejil o lechuga a un paso de tus recetas."],
+        ["Limpio", "Sin tierra", "Cultivo hidropónico: sin manchas en la cocina."],
+        ["Fácil", "Ves el agua", "La ventana frontal muestra el nivel de agua."]
+      ],
+      "ctxT": "Dónde crece",
+      "ctx": [["En la cocina", "Hierbas para cada receta."], ["En la oficina", "Verde que alegra."], ["Con niños", "Aprende cómo crecen las plantas."], ["Todo el año", "Con luz propia."]],
+      "dT": "Panel LED y depósito",
+      "dX": "Huerto blanco de formas redondeadas con panel LED elevado sobre un mástil central y ventana azul de nivel de agua.",
+      "steps": ["Llena el depósito con agua.", "Coloca las semillas o plantones.", "Enciende la luz y vigila el nivel de agua."],
+      "spec": ["Tipo: huerto hidropónico de interior", "Luz: LED de espectro completo", "Uso: casa u oficina", "Color: blanco"],
+      "faq": [["¿Cuántas plantas caben?", "Depende del tamaño elegido. Te lo confirmamos antes de tu compra."], ["¿Incluye semillas?", "Te confirmamos el contenido del paquete con tu pedido."], ["¿Necesita tierra?", "No, es un cultivo hidropónico."]],
+      "fT": "Cultiva lo que comes.",
+      "fX": "Un pequeño huerto con luz incluida."
+    },
+    {
+      "t": "Huerto de interior de bambú con luces LED",
+      "badge": "80 LED",
+      "h": "Un huerto de madera natural que decora tu cocina.",
+      "s": "Huerto de interior con estructura de bambú natural y panel de 80 LED para tus verduras de hoja y hierbas.",
+      "b": ["Estructura de bambú natural", "Panel de 80 LED", "Funciona a 110-220 V"],
+      "ben": [
+        ["Natural", "Bambú que decora", "Un diseño cálido que encaja en cocinas y salones."],
+        ["Luz", "80 LED sobre tus plantas", "El panel superior aporta luz a tus cultivos."],
+        ["Práctico", "En la encimera", "Bandeja para verduras de hoja y hierbas."]
+      ],
+      "ctxT": "Para tu casa",
+      "ctx": [["Cocina", "Ensaladas de tu propio huerto."], ["Zona de trabajo", "Un toque natural."], ["Salón", "Verde y madera."], ["Para regalar", "Un regalo para cocinillas."]],
+      "dT": "Bambú y luz LED",
+      "dX": "Estructura de bambú con panel LED elevado sobre una bandeja gris para verduras de hoja.",
+      "steps": ["Coloca el huerto en una superficie estable.", "Siembra en la bandeja.", "Enciende la luz y riega con regularidad."],
+      "spec": ["Material: bambú natural", "Luz: 80 LED", "Alimentación: 110-220 V", "Enchufe: europeo disponible", "Cantidad: 1 huerto"],
+      "faq": [["¿Trae enchufe europeo?", "Sí, elige la versión con enchufe europeo."], ["¿Qué puedo cultivar?", "Verduras de hoja y hierbas aromáticas."], ["¿Tiene temporizador?", "Te lo confirmamos antes de tu compra."]],
+      "fT": "Madera, luz y verde.",
+      "fX": "Un huerto bonito para tu cocina."
+    },
+    {
+      "t": "Lámpara de jardín tronco rústico",
+      "badge": "Luz cálida",
+      "h": "Un tronco que se ilumina al caer la noche.",
+      "s": "Lámpara LED con forma de tocón rústico y luz cálida, para césped, jardines y rincones exteriores.",
+      "b": ["Forma de tronco rústico", "LED de luz cálida, IP54", "Tamaños S y M"],
+      "ben": [
+        ["Ambiente", "Un jardín con encanto", "La luz cálida sale por las ranuras y crea un ambiente acogedor."],
+        ["Exterior", "Preparada para fuera", "Protección IP54 para el exterior."],
+        ["Natural", "Se integra en el jardín", "De día parece un tocón; de noche, una lámpara."]
+      ],
+      "ctxT": "Dónde brilla",
+      "ctx": [["En el césped", "Un punto de luz natural."], ["Junto al camino", "Ilumina el paso."], ["En la terraza", "Cenas con ambiente."], ["Entre plantas", "Un detalle mágico."]],
+      "dT": "Ranuras de luz cálida",
+      "dX": "Lámpara con forma de tocón, luz cálida a través de ranuras verticales y pantalla de resina. Potencia de 5 W o menos.",
+      "steps": ["Elige el lugar en el jardín.", "Realiza la conexión eléctrica siguiendo las instrucciones.", "Enciéndela y disfruta."],
+      "spec": ["Estilo: rústico, forma de tronco", "Luz: LED cálida", "Tamaños: S y M", "Protección: IP54", "Potencia: 5 W o menos", "Tensión: 111-240 V", "Conexión: por cable", "Autonomía de luz: 6-12 horas"],
+      "faq": [["¿Funciona con energía solar?", "No, se conecta por cable."], ["¿Aguanta la lluvia?", "Tiene protección IP54 para exterior."], ["¿Qué tamaños hay?", "Pequeño (S) y mediano (M)."]],
+      "fT": "Dale magia a tus noches.",
+      "fX": "Una lámpara que convierte el jardín en un cuento."
+    },
+    {
+      "t": "Aplique de pared exterior moderno",
+      "badge": "Diseño minimalista",
+      "h": "Una línea de luz que viste tu fachada.",
+      "s": "Aplique de pared exterior con marco minimalista negro y luz cálida, para patios, jardines, entradas y balcones.",
+      "b": ["Diseño moderno y minimalista", "Luz cálida hacia abajo", "Resistente a la intemperie"],
+      "ben": [
+        ["Diseño", "Estilo arquitectónico", "Su marco negro rectangular da un aire moderno a la pared."],
+        ["Ambiente", "Luz cálida", "Ilumina hacia abajo y realza la textura de la fachada."],
+        ["Exterior", "Para fuera", "Resistente a la intemperie."]
+      ],
+      "ctxT": "Dónde instalarlo",
+      "ctx": [["En la entrada", "Recibe con luz."], ["En el patio", "Cenas al aire libre."], ["En el balcón", "Un rincón acogedor."], ["Junto al jardín", "Luz para tus plantas."]],
+      "dT": "Marco negro rectangular",
+      "dX": "Aplique negro con marco rectangular que proyecta luz cálida hacia abajo sobre la pared.",
+      "steps": ["Elige el punto de la pared.", "Instala siguiendo las indicaciones eléctricas.", "Enciende y disfruta del ambiente."],
+      "spec": ["Estilo: moderno, minimalista", "Color: negro", "Luz: cálida", "Exterior: resistente a la intemperie", "Uso: patios, jardines, entradas y balcones"],
+      "faq": [["¿Qué bombilla usa?", "Te confirmamos el tipo de luz antes de tu compra."], ["¿Es difícil de instalar?", "Recomendamos que lo instale un profesional."], ["¿Aguanta la lluvia?", "Está indicado como resistente a la intemperie."]],
+      "fT": "Ilumina tu casa con estilo.",
+      "fX": "Un aplique sencillo que cambia la fachada."
+    },
+    {
+      "t": "Luces solares colgantes de abeja",
+      "badge": "Pack de 2",
+      "h": "Pequeñas abejas que brillan al anochecer.",
+      "s": "Pack de 2 farolillos solares con forma de abeja para colgar de barandillas o ramas. Sin cables ni enchufes.",
+      "b": ["Energía solar, sin cables", "Pack de 2 abejas", "Gancho de muelle para colgar"],
+      "ben": [
+        ["Solar", "Se cargan solas", "De día cogen el sol, de noche se encienden."],
+        ["Encanto", "Abejas con alas de corazón", "Un detalle tierno que alegra el jardín."],
+        ["Fácil", "Cuelga y listo", "Gancho de muelle para barandillas o ramas."]
+      ],
+      "ctxT": "Dónde colgarlas",
+      "ctx": [["En el árbol", "Brillo entre las ramas."], ["En la barandilla", "Un balcón con encanto."], ["En la terraza", "Ambiente de verano."], ["Para regalar", "A los amantes del jardín."]],
+      "dT": "Metal negro y dorado",
+      "dX": "Farolillos metálicos en forma de abeja, negro y dorado, con alas en forma de corazón. Estilos abeja amarilla y abeja naranja.",
+      "steps": ["Déjalas al sol para la primera carga.", "Cuélgalas con el gancho de muelle.", "Se encienden solas al anochecer."],
+      "spec": ["Alimentación: solar", "Cantidad: 2", "Estilos: abeja amarilla y abeja naranja", "Material: metal", "Colgado: gancho de muelle"],
+      "faq": [["¿Necesitan enchufe?", "No, funcionan con energía solar."], ["¿Aguantan la lluvia?", "Están pensadas para exterior."], ["¿Cuántas vienen?", "Dos abejas por pack."]],
+      "fT": "Un jardín que brilla de noche.",
+      "fX": "Dos abejas solares que lo cambian todo."
+    },
+    {
+      "t": "Tijeras de podar eléctricas inalámbricas",
+      "badge": "Hasta 5 cm",
+      "h": "Poda sin esfuerzo, rama a rama.",
+      "s": "Tijeras de podar eléctricas inalámbricas con cuchillas de acero SK5 para ramas de hasta 5 cm.",
+      "b": ["Cortan ramas de hasta 5 cm", "Cuchillas de acero al carbono SK5", "Inalámbricas con batería"],
+      "ben": [
+        ["Menos esfuerzo", "Tus manos te lo agradecerán", "El motor hace el trabajo en cada corte."],
+        ["Potencia", "Ramas de hasta 5 cm", "Cuchillas de acero SK5 para cortes limpios."],
+        ["Libertad", "Sin cables", "Muévete por todo el jardín con la batería."]
+      ],
+      "ctxT": "Para tu jardín",
+      "ctx": [["Árboles frutales", "Poda de temporada."], ["Setos", "Ramas más gruesas."], ["Rosales", "Cortes precisos."], ["Huerto", "Mantenimiento rápido."]],
+      "dT": "Azul y negro con pantalla",
+      "dX": "Tijeras inalámbricas azul y negro con batería acoplada, pequeña pantalla y mango de goma y plástico.",
+      "steps": ["Carga la batería por completo.", "Activa el seguro y coloca la rama entre las cuchillas.", "Pulsa el gatillo para cortar."],
+      "spec": ["Tipo: tijeras de podar eléctricas", "Cuchillas: acero al carbono SK5", "Mango: goma y plástico", "Corte máximo: 5 cm", "Opciones: solo herramienta o kit completo"],
+      "faq": [["¿Incluyen batería?", "Elige la versión de kit completo para recibir batería y cargador."], ["¿Qué grosor cortan?", "Ramas de hasta 5 cm."], ["¿Son seguras?", "Usa siempre guantes y sigue las instrucciones de seguridad."]],
+      "fT": "El jardín perfecto, sin cansarte.",
+      "fX": "Poda más rápido con menos esfuerzo."
+    },
+    {
+      "t": "Soplador de hojas mini inalámbrico",
+      "badge": "2 baterías",
+      "h": "Hojas fuera en segundos.",
+      "s": "Soplador de mano inalámbrico con motor de 1000 W y dos baterías recargables de 3 Ah.",
+      "b": ["Motor de 1000 W", "2 baterías de 3 Ah", "Hasta 40 minutos de uso"],
+      "ben": [
+        ["Rápido", "Limpieza en minutos", "Hojas, polvo o nieve fuera del patio en un momento."],
+        ["Autonomía", "Dos baterías", "Cambia de batería y sigue trabajando."],
+        ["Compacto", "Cabe en una mano", "Ligero y fácil de guardar."]
+      ],
+      "ctxT": "Para qué sirve",
+      "ctx": [["Patio y terraza", "Hojas fuera."], ["Coche", "Polvo y agua tras el lavado."], ["Garaje", "Limpieza rápida."], ["Barbacoa", "Aviva el carbón."]],
+      "dT": "Empuñadura tipo pistola",
+      "dX": "Soplador negro con empuñadura tipo pistola, batería de 21 V en la base, dos baterías y cargador.",
+      "steps": ["Carga las baterías.", "Coloca una batería en la base.", "Pulsa el gatillo y dirige el aire."],
+      "spec": ["Tipo: soplador de hojas inalámbrico", "Batería: 21 V recargable", "Baterías: 2 de 3 Ah", "Autonomía: hasta 40 minutos", "Motor: 1000 W", "Usos: hojas, nieve, polvo y agua"],
+      "faq": [["¿Cuánto dura la batería?", "Hasta 40 minutos con las dos baterías."], ["¿Incluye cargador?", "Sí, con dos baterías."], ["¿Es ruidoso?", "Es un soplador compacto; te recomendamos usarlo en horario diurno."]],
+      "fT": "Limpia sin cables.",
+      "fX": "Un soplador pequeño con mucha fuerza."
+    },
+    {
+      "t": "Silla plegable de exterior giratoria",
+      "badge": "Gira 360°",
+      "h": "Una silla plegable que gira contigo.",
+      "s": "Silla plegable de aluminio con giro de 360° para camping, pesca o tu jardín.",
+      "b": ["Giro de 360°", "Aluminio ligero y plegable", "Verde militar, negro o marrón"],
+      "ben": [
+        ["Comodidad", "Gira sin levantarte", "Habla con todos alrededor del fuego sin mover la silla."],
+        ["Ligera", "Aluminio plegable", "Se pliega para llevarla en el coche."],
+        ["Para todo", "Camping, pesca y jardín", "Una silla para todas tus escapadas."]
+      ],
+      "ctxT": "Para tus planes",
+      "ctx": [["Camping", "Alrededor del fuego."], ["Pesca", "Gira sin levantarte."], ["Jardín", "Un asiento extra."], ["Playa", "Plegable y ligera."]],
+      "dT": "Base giratoria con cuatro patas",
+      "dX": "Silla de respaldo bajo con asiento de tela sobre una base negra giratoria de cuatro patas.",
+      "steps": ["Despliega la silla.", "Colócala en suelo firme.", "Siéntate y gira."],
+      "spec": ["Material: aluminio", "Función: giro de 360°", "Formato: plegable", "Colores: verde militar, negro y marrón", "Cantidad: 1 silla"],
+      "faq": [["¿Cuánto peso aguanta?", "Te confirmamos la carga máxima antes de tu compra."], ["¿Ocupa mucho plegada?", "Se pliega para llevarla en el maletero."], ["¿Qué colores hay?", "Verde militar, negro y marrón."]],
+      "fT": "Tu asiento favorito al aire libre.",
+      "fX": "Una silla que gira contigo en cada escapada."
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "store": {
+    "tagline": "Belleza",
+    "categories": ["Peinado y cuidado del cabello", "Rituales para la piel", "Pestañas, cejas y maquillaje", "Afeitado y cuidado bucal"],
+    "headline": "Tu ritual de belleza, más fácil cada día",
+    "subtitle": "Herramientas para el pelo, la piel y el maquillaje que caben en tu rutina.",
+    "aboutTitle": "Bienvenida a {{store_name}}",
+    "aboutText": "Seleccionamos herramientas de belleza prácticas y bonitas para que cuidarte sea un momento para ti, no una tarea más.",
+    "bannerTitle": "Tu momento, tu ritual.",
+    "announcement": "Envíos a toda España · Pago 100% seguro"
+  },
+  "products": [
+    {
+      "t": "Plancha inalámbrica 2 en 1 USB",
+      "badge": "Sin cables",
+      "h": "Lisa u ondas, donde quieras y sin cable.",
+      "s": "Plancha compacta y recargable por USB que alisa y riza. Una sola herramienta para los dos looks, lista para el bolso.",
+      "b": ["Alisa y riza en una sola herramienta", "Batería integrada recargable por USB", "Pantalla LED y control de temperatura"],
+      "ben": [
+        ["Libertad", "Retoques en cualquier lugar", "Sin cable ni enchufe: en la oficina, el gimnasio o de viaje."],
+        ["2 en 1", "Un look distinto cada día", "Alisa para un acabado pulido o gira para crear ondas."],
+        ["Control", "La temperatura que tu pelo necesita", "Ajusta la temperatura y consúltala en la pantalla LED."]
+      ],
+      "ctxT": "Para cada ocasión",
+      "ctx": [["En el bolso", "Pesa solo 215 g."], ["De viaje", "Sin buscar enchufes."], ["Antes de una cita", "Retoque en minutos."], ["Pelo corto o flequillo", "Placas finas y precisas."]],
+      "dT": "Compacta, con pantalla y bloqueo",
+      "dX": "Cuerpo blanco y oro rosa con pantalla LED, control de temperatura, placas con revestimiento cerámico y asa con bloqueo. Placas de menos de 15 mm.",
+      "steps": ["Carga la plancha por USB.", "Elige la temperatura en la pantalla.", "Desliza para alisar o gira para crear ondas."],
+      "spec": ["Tipo: plancha alisadora y rizadora", "Alimentación: batería de litio recargable por USB", "Placas: menos de 15 mm", "Peso: 215 g", "Colores: rojo, negro, blanco y oro rosa", "Extras: pantalla LED, control de temperatura, bloqueo"],
+      "faq": [["¿Cuánto dura la batería?", "Depende de la temperatura elegida. Te confirmamos la autonomía del modelo antes de tu compra."], ["¿Sirve para pelo largo?", "Es ideal para retoques, flequillos y melenas cortas o medias."], ["¿Qué colores hay?", "Rojo, negro, blanco y oro rosa."]],
+      "fT": "Tu peinado, siempre listo.",
+      "fX": "Elige tu color y lleva la plancha contigo."
+    },
+    {
+      "t": "Masajeador eléctrico de cuero cabelludo",
+      "badge": "Momento spa",
+      "h": "Un masaje de spa para tu cuero cabelludo, en casa.",
+      "s": "Masajeador de mano con nodos suaves, vibración y amasado para convertir el cuidado del pelo en un momento de relax.",
+      "b": ["Nodos de masaje suaves", "Vibración y amasado", "Tres versiones a elegir"],
+      "ben": [
+        ["Relax", "Desconecta en minutos", "Un masaje con vibración y amasado para cerrar el día."],
+        ["Suavidad", "Nodos tipo dedos", "Nodos blandos que recorren el cuero cabelludo con suavidad."],
+        ["A tu medida", "Elige tu versión", "Con calor, con EMS o solo amasado, según lo que buscas."]
+      ],
+      "ctxT": "Para tus momentos de calma",
+      "ctx": [["Después de la ducha", "El remate de tu rutina."], ["En el sofá", "Relax al final del día."], ["Como regalo", "Un detalle de bienestar."], ["Antes de dormir", "Un ritual tranquilo."]],
+      "dT": "Diseño en cúpula con nodos suaves",
+      "dX": "Masajeador blanco en forma de cúpula con panel plateado y nodos suaves tipo dedos. Pesa 360 g.",
+      "steps": ["Carga el masajeador antes del primer uso.", "Elige el modo en el panel.", "Desliza suavemente sobre el cuero cabelludo."],
+      "spec": ["Tipo: masajeador eléctrico de cuero cabelludo", "K111: calor, vibración, amasado y luz roja, con base", "K112: EMS, vibración, amasado y luz roja, con base", "K113: amasado y luz roja, sin base", "Peso: 360 g"],
+      "faq": [["¿Qué versión elijo?", "La K111 incluye calor, la K112 incluye EMS y la K113 es la versión básica sin base."], ["¿Se puede usar con el pelo mojado?", "Te recomendamos usarlo con el pelo seco."], ["¿Cómo se carga?", "Las versiones K111 y K112 incluyen base. Te confirmamos el cable con tu pedido."]],
+      "fT": "Regálate un momento para ti.",
+      "fX": "Un masaje relajante cuando quieras, sin salir de casa."
+    },
+    {
+      "t": "Limpiador facial de poros por succión",
+      "badge": "3 intensidades",
+      "h": "Una limpieza profunda que se nota.",
+      "s": "Dispositivo facial de succión en formato bolígrafo, con 3 intensidades y cabezales intercambiables. En rosa o blanco.",
+      "b": ["Tecnología de succión", "3 intensidades ajustables", "Cabezales intercambiables"],
+      "ben": [
+        ["Limpieza", "Completa tu rutina", "La succión suave acompaña tu limpieza facial de siempre."],
+        ["Control", "Tú decides la intensidad", "Tres niveles para empezar suave y subir poco a poco."],
+        ["Precisión", "Un cabezal para cada zona", "Cambia de cabezal según la zona del rostro."]
+      ],
+      "ctxT": "En tu rutina facial",
+      "ctx": [["Rutina semanal", "Un paso extra de limpieza."], ["Zona T", "Nariz, frente y barbilla."], ["Antes de la mascarilla", "Piel lista para el tratamiento."], ["Como regalo", "Para quien cuida su piel."]],
+      "dT": "Formato bolígrafo con cabezales",
+      "dX": "Dispositivo blanco tipo bolígrafo con varios cabezales de succión intercambiables, cable USB e instrucciones. Potencia de 5 W y peso de 460 g.",
+      "steps": ["Limpia el rostro y abre los poros con agua tibia.", "Empieza con la intensidad más baja.", "Desliza sin detenerte en el mismo punto."],
+      "spec": ["Tipo: limpiador facial de mano", "Tecnología: succión", "Potencia: 5 W", "Intensidades: 3", "Colores: rosa y blanco", "Peso: 460 g"],
+      "faq": [["¿Duele?", "Empieza siempre por la intensidad más baja y no te detengas en un mismo punto."], ["¿Para qué tipo de piel es?", "Si tienes la piel sensible, haz primero una prueba en una zona pequeña."], ["¿Qué incluye?", "El dispositivo, cabezales intercambiables, cable USB e instrucciones."]],
+      "fT": "Piel limpia, rutina completa.",
+      "fX": "Añade una limpieza profunda a tu cuidado semanal."
+    },
+    {
+      "t": "Varita facial con vibración y luz",
+      "badge": "Ritual facial",
+      "h": "Tu skincare, convertido en ritual.",
+      "s": "Varita rosa recargable que combina vibración suave y luz de color. Sin cabezales que cambiar.",
+      "b": ["Vibración suave", "Luz de color", "Recargable, sin recambios"],
+      "ben": [
+        ["Ritual", "Un momento más pausado", "Acompaña la aplicación de tu sérum o crema con vibración suave."],
+        ["Sin recambios", "Nada que reponer", "No usa cabezales: solo cárgala y úsala."],
+        ["Diseño", "Fina y bonita", "Un acabado rosa que queda precioso en tu tocador."]
+      ],
+      "ctxT": "Cuándo usarla",
+      "ctx": [["Por la noche", "Con tu crema favorita."], ["Por la mañana", "Un despertar suave."], ["Domingo de autocuidado", "Tu mini spa."], ["De viaje", "Fina y ligera."]],
+      "dT": "Varita fina con luz en la punta",
+      "dX": "Varita estrecha en rosa con panel de luz LED en la punta, un solo modo y batería recargable.",
+      "steps": ["Aplica tu sérum o crema habitual.", "Enciende la varita.", "Deslízala suavemente sobre el rostro."],
+      "spec": ["Tipo: varita facial", "Funciones: vibración y luz de color", "Color: rosa", "Modo: único", "Alimentación: recargable", "Cabezales: no necesita"],
+      "faq": [["¿Cómo se carga?", "Es recargable. Te confirmamos el tipo de cable con tu pedido."], ["¿Con qué productos la uso?", "Con tu sérum o crema de siempre."], ["¿Necesita recambios?", "No, no tiene cabezales que cambiar."]],
+      "fT": "Haz de tu rutina un ritual.",
+      "fX": "Una varita bonita para cuidarte con calma."
+    },
+    {
+      "t": "Set de limpieza: mascarilla de barro y jabón",
+      "badge": "Kit de 3",
+      "h": "Un ritual de limpieza en tres pasos.",
+      "s": "Mascarilla de barro y árnica, jabón con lufa natural y set de 5 lufas. Todo lo que necesitas para tu momento de limpieza.",
+      "b": ["Mascarilla de barro y árnica en polvo", "Jabón con lufa natural y cordón", "Set de 5 lufas naturales"],
+      "ben": [
+        ["Completo", "Todo en un solo kit", "Mascarilla, jabón y lufas para una rutina de limpieza completa."],
+        ["Ingredientes", "Chía, limón, perejil y coco", "El jabón incluye chía, limón, perejil y aceite de coco."],
+        ["Natural", "Lufa de verdad", "Lufas naturales para una limpieza agradable."]
+      ],
+      "ctxT": "Para tu rutina",
+      "ctx": [["Ducha de la mañana", "Jabón y lufa para empezar."], ["Mascarilla semanal", "Tu momento de pausa."], ["Para regalar", "Un kit bonito y completo."], ["Escapada de fin de semana", "Todo en un set."]],
+      "dT": "Tres piezas, una rutina",
+      "dX": "Incluye mascarilla de barro y árnica en polvo, jabón con lufa natural y cordón para colgar, y un set de 5 lufas.",
+      "steps": ["Mezcla 2 cucharaditas de mascarilla con agua hasta hacer una pasta.", "Haz espuma con el jabón y masajea en círculos, sin tocar los ojos.", "Aclara con agua tibia."],
+      "spec": ["Mascarilla: barro y árnica, en polvo", "Jabón: con lufa natural y cordón", "Ingredientes del jabón: chía, limón, perejil y aceite de coco", "Lufas: set de 5", "Preparación: 2 cucharaditas de polvo con agua"],
+      "box": "Mascarilla de barro y árnica (en polvo)\nJabón con lufa natural y cordón\nSet de 5 lufas naturales",
+      "faq": [["¿Cómo se prepara la mascarilla?", "Mezcla 2 cucharaditas de polvo con agua hasta formar una pasta."], ["¿Puedo usarlo en piel sensible?", "Haz primero una prueba en una zona pequeña de la piel."], ["¿Qué incluye?", "Mascarilla, jabón con lufa y set de 5 lufas."]],
+      "fT": "Regálate un momento de limpieza.",
+      "fX": "Un kit completo para tu ritual semanal."
+    },
+    {
+      "t": "Rizador de pestañas térmico",
+      "badge": "Listo en 30 s",
+      "h": "Pestañas de infarto en segundos.",
+      "s": "Rizador compacto recargable por USB-C, con almohadilla de silicona térmica y 3 niveles de calor.",
+      "b": ["3 niveles de calor", "Almohadilla de silicona termosensible", "Recargable por USB-C"],
+      "ben": [
+        ["Rapidez", "Un paso más de tu mañana", "Calienta rápido y te deja las pestañas listas en un momento."],
+        ["Suavidad", "Silicona térmica", "La almohadilla de silicona termosensible trata tus pestañas con cuidado."],
+        ["Control", "Tres niveles", "Bajo, medio o alto, según tus pestañas."]
+      ],
+      "ctxT": "Para tus pestañas",
+      "ctx": [["Por la mañana", "Mirada despierta en segundos."], ["Antes de salir", "Retoque rápido."], ["En el bolso", "Compacto y ligero."], ["Sin máscara", "Un look natural."]],
+      "dT": "Compacto, con luces indicadoras",
+      "dX": "Rizador blanco compacto con almohadilla de silicona térmica, luces indicadoras y carga USB-C.",
+      "steps": ["Cárgalo y elige el nivel de calor.", "Espera a que se caliente.", "Apoya sobre las pestañas unos segundos, sin tocar el párpado."],
+      "spec": ["Tipo: rizador de pestañas térmico", "Niveles de calor: 3 (bajo, medio, alto)", "Almohadilla: silicona termosensible", "Carga: USB-C", "Calentamiento: unos 30 segundos", "Color: blanco"],
+      "faq": [["¿Cuánto tarda en calentarse?", "Unos 30 segundos."], ["¿Se puede usar con máscara?", "Te recomendamos usarlo antes de aplicar la máscara."], ["¿Cómo se carga?", "Con cable USB-C."]],
+      "fT": "Mirada lista en segundos.",
+      "fX": "Un rizador pequeño que cambia tu mañana."
+    },
+    {
+      "t": "Set depiladora facial y perfilador de cejas",
+      "badge": "Set de 2",
+      "h": "Los retoques finales, en dos gestos.",
+      "s": "Depiladora facial y perfilador de cejas recargables, con luz LED integrada y cuchillas de acero inoxidable.",
+      "b": ["2 dispositivos en el set", "Luz LED integrada", "Recargables por USB"],
+      "ben": [
+        ["Precisión", "Ves cada detalle", "La luz LED integrada ilumina la zona mientras trabajas."],
+        ["Fácil", "Como usar un bolígrafo", "Formato tipo bolígrafo que se sujeta y desliza con comodidad."],
+        ["Completo", "Rostro y cejas", "Un dispositivo para el rostro y otro para perfilar las cejas."]
+      ],
+      "ctxT": "Para tus retoques",
+      "ctx": [["Antes de maquillarte", "Piel lista y cejas definidas."], ["En el neceser", "Discretos y compactos."], ["Entre citas", "Retoques en casa."], ["Para regalar", "Set bonito en oro rosa."]],
+      "dT": "Dos piezas en oro rosa",
+      "dX": "Dos dispositivos tipo bolígrafo en oro rosa con tapa, luz LED y cuchillas de acero inoxidable. Incluyen cables USB.",
+      "steps": ["Carga ambos dispositivos.", "Retira la tapa y enciende la luz.", "Desliza suavemente sobre la zona, como una goma de borrar."],
+      "spec": ["Tipo: depiladora facial y perfilador de cejas", "Piezas: 2 dispositivos", "Alimentación: recargable por USB", "Luz: LED integrada", "Cuchillas: acero inoxidable", "Color: oro rosa"],
+      "box": "Depiladora facial\nPerfilador de cejas\nCables USB",
+      "faq": [["¿Qué incluye?", "Depiladora facial, perfilador de cejas y cables USB."], ["¿Cómo se carga?", "Por USB, con los cables incluidos."], ["¿Se puede usar a diario?", "Sí, para retoques rápidos cuando lo necesites."]],
+      "fT": "Retoques perfectos en casa.",
+      "fX": "Dos herramientas pequeñas para un acabado impecable."
+    },
+    {
+      "t": "Brocha de maquillaje eléctrica",
+      "badge": "Acabado pro",
+      "h": "Maquillaje uniforme sin esfuerzo.",
+      "s": "Brocha eléctrica con cabezal redondo y mango negro estilizado para darle un toque profesional a tu rutina.",
+      "b": ["Cabezal redondo de cerdas suaves", "Mango negro estilizado", "Para tu rutina de cada día"],
+      "ben": [
+        ["Rapidez", "Menos tiempo frente al espejo", "La brocha motorizada te ayuda a extender el producto en menos tiempo."],
+        ["Acabado", "Un resultado más uniforme", "El cabezal redondo trabaja en movimientos suaves y constantes."],
+        ["Diseño", "Bonita en tu tocador", "Mango negro con anillo plateado, elegante y fácil de sujetar."]
+      ],
+      "ctxT": "Para tu rutina",
+      "ctx": [["Base de maquillaje", "Extiende con suavidad."], ["Mañanas con prisa", "Maquillaje en minutos."], ["Para regalar", "Un detalle diferente."], ["Neceser de viaje", "Fina y ligera."]],
+      "dT": "Mango negro y cabezal redondo",
+      "dX": "Mango cilíndrico negro con anillo plateado y cabezal de cerdas claras con forma redondeada.",
+      "steps": ["Aplica un poco de producto en el rostro o en el cabezal.", "Enciende la brocha.", "Extiende con movimientos suaves."],
+      "spec": ["Tipo: brocha de maquillaje eléctrica", "Mango: negro con anillo plateado", "Cabezal: redondo, cerdas claras"],
+      "faq": [["¿Cómo funciona?", "Te confirmamos si funciona con pilas o es recargable antes de tu compra."], ["¿Con qué productos sirve?", "Con bases y productos de textura fluida o en polvo."], ["¿Cómo se limpia?", "Retira el cabezal y lávalo con agua tibia y jabón suave."]],
+      "fT": "Un acabado de salón, en casa.",
+      "fX": "Pon tu rutina en piloto automático."
+    },
+    {
+      "t": "Set de afeitado clásico con brocha de tejón",
+      "badge": "Caja regalo",
+      "h": "El afeitado clásico, con todo lo que necesitas.",
+      "s": "Brocha de pelo de tejón, soporte cromado, cuenco para jabón, maquinilla de doble filo y 10 cuchillas en caja de regalo.",
+      "b": ["Brocha de pelo de tejón", "Maquinilla de doble filo + 10 cuchillas", "Presentado en caja negra de regalo"],
+      "ben": [
+        ["Ritual", "Afeitarse como antes", "Espuma con brocha y maquinilla clásica: un momento con calma."],
+        ["Completo", "Todo en una caja", "Brocha, soporte, cuenco, maquinilla y cuchillas listos para usar."],
+        ["Regalo", "Presentación impecable", "La caja negra lo convierte en un regalo perfecto."]
+      ],
+      "ctxT": "Para quién es",
+      "ctx": [["Día del Padre", "Un regalo que se usa cada día."], ["Cumpleaños", "Un detalle con estilo."], ["Para empezar en el clásico", "Todo lo necesario."], ["Baño con estilo", "El soporte cromado decora."]],
+      "dT": "Brocha, soporte y cuenco",
+      "dX": "Brocha de pelo de tejón con mango cromado, soporte cromado, cuenco de aleación de zinc, maquinilla de doble filo y 10 cuchillas.",
+      "steps": ["Humedece la brocha y carga el jabón en el cuenco.", "Haz espuma en círculos sobre la piel.", "Afeita en el sentido del pelo con la maquinilla."],
+      "spec": ["Tipo: set de afeitado clásico", "Brocha: pelo de tejón", "Acabado: cromado", "Cuenco: aleación de zinc", "Maquinilla: doble filo", "Cuchillas: 10 de doble filo", "Compatible con: cremas y jabones duros"],
+      "box": "Maquinilla de doble filo\nBrocha de pelo de tejón\nSoporte cromado\nCuenco para jabón\n10 cuchillas de doble filo\nCaja negra de regalo",
+      "faq": [["¿Incluye jabón?", "Incluye el cuenco; usa tu jabón o crema de afeitar favoritos."], ["¿Cuántas cuchillas trae?", "10 cuchillas de doble filo."], ["¿Viene en caja de regalo?", "Sí, en una caja negra."]],
+      "fT": "Un regalo que se usa cada mañana.",
+      "fX": "El afeitado clásico, completo y listo para regalar."
+    },
+    {
+      "t": "Irrigador dental portátil inalámbrico",
+      "badge": "IPX7",
+      "h": "Sonrisa fresca, estés donde estés.",
+      "s": "Irrigador dental inalámbrico y resistente al agua IPX7, con 3 niveles, 4 modos y 4 boquillas.",
+      "b": ["12 combinaciones: 3 niveles × 4 modos", "Resistente al agua IPX7", "4 boquillas y bolsa de viaje"],
+      "ben": [
+        ["Portátil", "Tu rutina viaja contigo", "Sin cables, con bolsa de transporte: al trabajo o de viaje."],
+        ["A tu medida", "12 combinaciones", "3 niveles de intensidad y 4 modos para encontrar el tuyo."],
+        ["Resistente", "Úsalo en la ducha", "Protección IPX7 frente al agua."]
+      ],
+      "ctxT": "Cuándo usarlo",
+      "ctx": [["Después de cenar", "El final de tu rutina."], ["De viaje", "Con su bolsa de transporte."], ["En la ducha", "Resistente al agua."], ["Para toda la familia", "4 boquillas incluidas."]],
+      "dT": "Compacto, con boquillas",
+      "dX": "Cuerpo en forma de cápsula, batería integrada de 1000-1200 mAh, función memoria y depósito interno. Disponible en verde, morado y blanco.",
+      "steps": ["Llena el depósito con agua tibia.", "Elige nivel y modo.", "Inclínate sobre el lavabo y recorre la línea de las encías."],
+      "spec": ["Tipo: irrigador dental inalámbrico", "Resistencia al agua: IPX7", "Modos: 3 niveles × 4 modos (12 combinaciones)", "Batería: 1000-1200 mAh integrada", "Boquillas: 4", "Colores: verde, morado y blanco"],
+      "box": "Irrigador dental\n4 boquillas\nBolsa de transporte",
+      "faq": [["¿Cuánto dura la batería?", "Tiene batería integrada de 1000-1200 mAh; la duración depende del uso."], ["¿Se puede usar en la ducha?", "Sí, tiene protección IPX7 frente al agua."], ["¿Qué incluye?", "El irrigador, 4 boquillas y una bolsa de transporte."]],
+      "fT": "Lleva tu cuidado bucal a otro nivel.",
+      "fX": "Un irrigador que cabe en tu neceser."
+    }
+  ]
+}

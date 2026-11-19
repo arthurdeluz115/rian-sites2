@@ -1,0 +1,22 @@
+{% doc %}
+  Imagen editable o marcador numerado para generar con IA.
+  @param {image} [image] - Imagen subida en el editor
+  @param {string} [asset] - Imagen incluida en el tema
+  @param {number} number - Número del prompt
+  @param {number} width - Ancho objetivo
+  @param {number} height - Alto objetivo
+  @param {string} [loading] - lazy o eager
+{% enddoc %}
+{% liquid
+  assign img_loading = loading | default: 'lazy'
+%}
+{% if image != blank %}
+  {{ image | image_url: width: width | image_tag: loading: img_loading, class: 'store-image', sizes: '(min-width: 900px) 50vw, 100vw' }}
+{% elsif asset != blank %}
+  <img src="{{ asset | asset_url }}" class="store-image" width="{{ width }}" height="{{ height }}" loading="{{ img_loading }}" alt="">
+{% else %}
+  <div class="image-placeholder" style="aspect-ratio: {{ width }}/{{ height }}" role="img" aria-label="{{ 'general.placeholder' | t: number: number | escape }}">
+    <span>{{ width }} × {{ height }} px</span>
+    <small>{{ 'general.placeholder' | t: number: number }}</small>
+  </div>
+{% endif %}

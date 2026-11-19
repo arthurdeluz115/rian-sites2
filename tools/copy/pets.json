@@ -1,0 +1,224 @@
+{
+  "store": {
+    "tagline": "Mascotas",
+    "categories": ["Camas y rincones", "Cuidado diario", "Viaje y transportines", "Paseos y exterior"],
+    "headline": "Todo lo que tu mascota necesita, con un diseño que te encantará",
+    "subtitle": "Camas, transportines y cuidado diario para perros y gatos.",
+    "aboutTitle": "Bienvenido a {{store_name}}",
+    "aboutText": "Seleccionamos camas, transportines y básicos del día a día para que la vida con tu mascota sea más fácil, más cómoda y mucho más bonita.",
+    "bannerTitle": "Mímalo como se merece.",
+    "announcement": "Envíos a toda España · Pago 100% seguro"
+  },
+  "products": [
+    {
+      "t": "Cama para gatos Brazo de Gitano",
+      "badge": "Diseño viral",
+      "h": "Una cama tan bonita que parece un postre.",
+      "s": "Un escondite blandito con forma de brazo de gitano y detalles de fruta. Tu gato no va a querer salir de ahí.",
+      "b": ["Exterior de peluche suave y relleno esponjoso", "Forma de túnel con abertura frontal", "Para gatos y perros pequeños"],
+      "ben": [
+        ["Refugio propio", "Un rincón cerrado y acogedor", "La forma redonda con abertura frontal crea un escondite donde tu mascota se acurruca y se siente protegida."],
+        ["Suavidad", "Blandita donde importa", "Peluche corto por fuera y relleno de esponja por dentro: un lugar mullido para echarse la siesta."],
+        ["Decoración", "Un detalle que alegra el salón", "La fresa de arriba y el estampado de frutas la convierten en una pieza que todos querrán fotografiar."]
+      ],
+      "ctxT": "Dónde encaja este escondite",
+      "ctx": [["En el salón", "Una cama que también decora."], ["Junto a la ventana", "Su rincón tranquilo para mirar el mundo."], ["Como regalo", "Perfecto para quien ama a los gatos."], ["Nueva rutina de siesta", "Un sitio fijo para descansar, no un cojín cualquiera."]],
+      "dT": "Divertida por fuera, acogedora por dentro",
+      "dX": "Túnel redondo con un extremo abierto, peluche corto y una fresa decorativa arriba. Mide 40 cm de alto: comprueba el espacio donde la vas a colocar.",
+      "steps": ["Colócala en un sitio plano y tranquilo donde no ruede.", "Deja que tu mascota la explore y entre a su ritmo.", "Revisa el peluche de vez en cuando y sigue las instrucciones de cuidado."],
+      "spec": ["Color: amarillo", "Forma: rollo redondo con abertura frontal", "Exterior: peluche corto", "Relleno: esponja", "Altura: 40 cm", "Embalaje: bolsa de malla"],
+      "faq": [["¿Sirve para perros?", "Está pensada para gatos y perros pequeños. Si tu perro es mediano, escríbenos con sus medidas y te ayudamos."], ["¿Qué tamaño tiene?", "Tiene 40 cm de alto. Si necesitas el diámetro exacto, escríbenos antes de comprar."], ["¿Se puede lavar?", "Te enviamos las indicaciones de cuidado con tu pedido. Ante la duda, consúltanos."]],
+      "fT": "Dale a la siesta un lugar propio.",
+      "fX": "Alegra el salón y regala a tu mascota un rincón acogedor solo para ella."
+    },
+    {
+      "t": "Cama impermeable con respaldo alto",
+      "badge": "4 tamaños",
+      "h": "El respaldo que tu perro buscaba para dormir a gusto.",
+      "s": "Cama de poliéster gris con respaldo elevado e interior suave. Fácil de limpiar y disponible en cuatro tamaños.",
+      "b": ["Respaldo alto para apoyar la cabeza", "Tejido impermeable y fácil de limpiar", "Tallas S, M, L y XL"],
+      "ben": [
+        ["Apoyo", "Para los que duermen apoyados", "El borde elevado le da un lugar donde reposar la cabeza y sentirse recogido."],
+        ["Limpieza", "Menos preocupación por las manchas", "El tejido impermeable de poliéster se limpia con facilidad después de un paseo."],
+        ["Talla justa", "Uno para cada perro", "Desde 60 cm hasta 120 cm de largo: hay una medida para cachorros y para perros grandes."]
+      ],
+      "ctxT": "Pensada para su rutina",
+      "ctx": [["En el salón", "Su sitio para descansar mientras estás en casa."], ["En el dormitorio", "Cerca de ti, pero en su propia cama."], ["Para cachorros", "Un lugar seguro para crecer."], ["Después del paseo", "Fácil de limpiar si llega con las patas mojadas."]],
+      "dT": "Respaldo alto, interior mullido",
+      "dX": "Cama gris con borde elevado e interior claro y suave. Compara las medidas de cada talla con el tamaño de tu perro tumbado.",
+      "steps": ["Mide a tu perro tumbado y elige la talla.", "Coloca la cama en un rincón sin corrientes.", "Limpia la superficie con un paño húmedo cuando lo necesite."],
+      "spec": ["Material: poliéster", "Color: gris", "Diseño: respaldo alto", "Impermeable: sí", "S: 60 x 50 x 37 cm · 1,83 kg", "M: 75 x 60 x 39 cm · 2,23 kg", "L: 90 x 70 x 41 cm · 3,3 kg", "XL: 120 x 90 x 43 cm · 4,63 kg"],
+      "faq": [["¿Qué talla elijo?", "Mide a tu perro tumbado de la nariz a la cola y elige la talla con unos centímetros de margen."], ["¿Es impermeable?", "Sí, el tejido está indicado como impermeable y se limpia con facilidad."], ["¿La funda se quita?", "Escríbenos antes de comprar y te confirmamos el detalle de la funda."]],
+      "fT": "Su mejor siesta empieza aquí.",
+      "fX": "Elige su talla y regálale una cama con respaldo para descansar de verdad."
+    },
+    {
+      "t": "Peine autolimpiable para mascotas",
+      "badge": "Un clic",
+      "h": "Adiós al pelo suelto. Y a limpiar el peine.",
+      "s": "Peine de púas finas que se abre con un solo toque para soltar todo el pelo acumulado. Cepillar nunca fue tan rápido.",
+      "b": ["Botón para soltar el pelo con un toque", "Púas finas para retirar el pelo suelto", "Diseño ergonómico en colores pastel"],
+      "ben": [
+        ["Un toque", "Lo cepillas y lo vacías al momento", "Pulsa y el pelo se suelta del peine. Sin tirar con los dedos ni ensuciarte."],
+        ["Púas finas", "Llega al pelo suelto", "Las púas finas recogen el pelo muerto mientras cepillas a tu mascota."],
+        ["Cómodo", "Un mango que se sujeta bien", "Mango redondeado y colores suaves para que cepillar sea un momento agradable."]
+      ],
+      "ctxT": "Para el cuidado de cada día",
+      "ctx": [["En época de muda", "Retira el pelo suelto antes de que acabe en el sofá."], ["Después del paseo", "Un repaso rápido antes de entrar en casa."], ["Momento de mimos", "Cepillar también es tiempo juntos."], ["En casa o de viaje", "Pequeño y fácil de llevar."]],
+      "dT": "Púas finas y botón de limpieza",
+      "dX": "Peine de púas finas en verde y amarillo pastel, con mango redondeado y sistema de limpieza de un toque.",
+      "steps": ["Cepilla en la dirección del pelo con pasadas suaves.", "Pulsa el botón para soltar el pelo acumulado.", "Retira el pelo y sigue cepillando."],
+      "spec": ["Tipo: peine de aseo para mascotas", "Función: autolimpieza con un toque", "Colores: verde y amarillo pastel", "Púas: finas"],
+      "faq": [["¿Para qué tipo de pelo sirve?", "Funciona muy bien para retirar pelo suelto. Si tu mascota tiene el pelo muy largo o rizado, escríbenos y te orientamos."], ["¿Se puede usar en el baño?", "Te recomendamos usarlo con el pelo seco para mejores resultados."], ["¿Qué colores hay?", "Lo tenemos en verde y amarillo pastel."]],
+      "fT": "Menos pelo en casa, más tiempo con él.",
+      "fX": "Convierte el cepillado en un momento rápido y agradable."
+    },
+    {
+      "t": "Botella de agua portátil para mascotas",
+      "badge": "Imprescindible",
+      "h": "Agua fresca donde os lleve el paseo.",
+      "s": "Botella de 400 ml para perros y gatos, ligera y con asa. Para paseos, viajes y días de parque.",
+      "b": ["Capacidad de 400 ml", "Ligera, con asa para colgar", "Cuatro colores a elegir"],
+      "ben": [
+        ["Siempre a mano", "Que nunca se quede con sed", "Llévala en la mano o colgada de la mochila y dale de beber en cualquier momento."],
+        ["Ligera", "No pesa en el paseo", "Su formato alargado de 27 cm cabe en bolsos y portavasos."],
+        ["A tu estilo", "Elige su color", "Disponible en gris, verde, azul y rosa."]
+      ],
+      "ctxT": "Para cada salida",
+      "ctx": [["Paseos largos", "Una pausa para beber sin buscar fuentes."], ["En el coche", "Agua lista en cada parada del viaje."], ["Días de parque", "Hidratación después de correr y jugar."], ["Excursiones", "Ligera para llevar en la mochila."]],
+      "dT": "Compacta y fácil de llevar",
+      "dX": "Botella transparente con tapa, botón y asa para transportarla. Mide 27,1 x 6,5 cm y tiene una capacidad de 400 ml.",
+      "steps": ["Llénala con agua fresca antes de salir.", "Ofrécele agua cuando haga una pausa.", "Vacía y lava la botella después de cada uso."],
+      "spec": ["Material: resina", "Capacidad: 400 ml", "Medidas: 27,1 x 6,5 cm", "Colores: gris, verde, azul y rosa", "Para: perros y gatos"],
+      "faq": [["¿Cuánta agua lleva?", "Tiene una capacidad de 400 ml, ideal para paseos y viajes."], ["¿Gotea en la mochila?", "Te recomendamos llevarla en posición vertical y bien cerrada."], ["¿Lleva filtro?", "Si el filtro es importante para ti, escríbenos y te confirmamos el modelo disponible."]],
+      "fT": "Sal de casa con todo lo necesario.",
+      "fX": "Agua fresca en cada paseo, sin complicaciones."
+    },
+    {
+      "t": "Fuente de agua de acero inoxidable",
+      "badge": "Agua en movimiento",
+      "h": "Agua siempre en movimiento para que beba más.",
+      "s": "Fuente de 2 litros de acero inoxidable con filtro de circulación y alimentación USB.",
+      "b": ["Depósito de 2 litros", "Acero inoxidable", "Filtro que hace circular el agua"],
+      "ben": [
+        ["Circulación", "Agua que se mueve", "Muchos gatos prefieren el agua en movimiento: el filtro la mantiene circulando."],
+        ["Acero", "Bonita y resistente", "El acero inoxidable queda bien en cualquier cocina y es fácil de limpiar."],
+        ["Capacidad", "Menos recargas", "Con 2 litros de capacidad no tendrás que rellenarla a cada rato."]
+      ],
+      "ctxT": "Para su rincón de agua",
+      "ctx": [["En la cocina", "Junto a su comedero, siempre lista."], ["Para gatos exigentes", "Para los que solo beben del grifo."], ["Si pasas el día fuera", "2 litros de reserva mientras trabajas."], ["Casa con varias mascotas", "Capacidad para compartir."]],
+      "dT": "Diseño ovalado en acero",
+      "dX": "Fuente ovalada plateada con zona central elevada. Mide 100 x 330 x 220 mm, pesa 1,55 kg y funciona por USB.",
+      "steps": ["Llena el depósito con agua fresca.", "Conecta el cable USB a un enchufe con adaptador.", "Limpia la fuente y revisa el filtro con regularidad."],
+      "spec": ["Material: acero inoxidable", "Capacidad: 2 L", "Medidas: 100 x 330 x 220 mm", "Peso: 1,55 kg", "Alimentación: USB", "Función: filtro de circulación"],
+      "faq": [["¿Cómo se enchufa?", "Funciona con cable USB. Puedes conectarlo a un adaptador de móvil o a un puerto USB."], ["¿Hace ruido?", "Es una fuente de circulación suave, pensada para estar en casa."], ["¿Cómo se cambia el filtro?", "Con tu pedido te indicamos cómo limpiar y sustituir el filtro."]],
+      "fT": "Que beber agua sea un placer.",
+      "fX": "Una fuente bonita, resistente y siempre con agua en movimiento."
+    },
+    {
+      "t": "Mochila trolley plegable para mascotas",
+      "badge": "2 en 1",
+      "h": "Mochila o trolley: tú decides cómo viajar.",
+      "s": "Transportín plegable con ruedas, asa extensible, paneles de malla y bolsillos delanteros.",
+      "b": ["Ruedas y asa extensible", "Paneles de malla y orificios de ventilación", "Dos bolsillos frontales con cremallera"],
+      "ben": [
+        ["Versátil", "Cambia de modo en segundos", "Llévala a la espalda o arrastra con el asa cuando el trayecto se hace largo."],
+        ["Ventilación", "Para que respire tranquilo", "Malla lateral y orificios redondos para que tu mascota vea y respire durante el viaje."],
+        ["Organización", "Todo en su sitio", "Dos bolsillos delanteros para correa, premios y documentación."]
+      ],
+      "ctxT": "Viajes sin estrés",
+      "ctx": [["Al veterinario", "Más cómodo que llevarlo en brazos."], ["En tren o autobús", "Ruedas para los pasillos de la estación."], ["De escapada", "Todo lo suyo en un solo bulto."], ["Por la ciudad", "Para los que se cansan a mitad del paseo."]],
+      "dT": "Ruedas, malla y bolsillos",
+      "dX": "Transportín azul con detalles grises, asa extensible, cuatro ruedas, paneles de malla, orificios de ventilación y dos bolsillos delanteros.",
+      "steps": ["Despliega el transportín y coloca una mantita dentro.", "Deja que tu mascota entre y se acostumbre antes del viaje.", "Elige mochila o trolley según el trayecto."],
+      "spec": ["Tipo: transportín plegable con ruedas", "Color: azul con detalles grises", "Asa extensible", "Cuatro ruedas", "Paneles de malla y orificios de ventilación", "Dos bolsillos delanteros"],
+      "faq": [["¿Qué tamaño tiene?", "Escríbenos y te enviamos las medidas interiores para que compruebes que tu mascota cabe cómoda."], ["¿Cuánto peso aguanta?", "Te confirmamos el peso máximo recomendado antes de tu compra."], ["¿Sirve para avión?", "Cada aerolínea tiene sus normas. Revisa sus requisitos antes de volar."]],
+      "fT": "Viajad juntos, sin cargar peso.",
+      "fX": "Un transportín que se adapta a cada trayecto."
+    },
+    {
+      "t": "Mochila portabebés de invierno para mascotas",
+      "badge": "5 colores",
+      "h": "Tu perro cerca de ti y las manos libres.",
+      "s": "Mochila acolchada para llevar a tu perro pequeño en el pecho, con tirantes ajustables. Ideal para los paseos de invierno.",
+      "b": ["Tejido acolchado de nailon y algodón", "Tirantes ajustables", "Cinco colores a elegir"],
+      "ben": [
+        ["Manos libres", "Llévalo contigo a todas partes", "Va pegado a ti mientras tienes las manos libres para el móvil o un café."],
+        ["Acolchada", "Suave y abrigada", "Tejido acolchado de textura media para los días fríos."],
+        ["Tu estilo", "Un color para cada look", "Rosa, negro, beige, gris o verde."]
+      ],
+      "ctxT": "Para salir juntos",
+      "ctx": [["Paseos de invierno", "Cerca de ti y abrigado."], ["De compras", "Para cuando no puede ir por el suelo."], ["Perros mayores", "Para los que se cansan antes."], ["Transporte público", "Seguro y a tu lado."]],
+      "dT": "Acolchada y ajustable",
+      "dX": "Mochila acolchada que se lleva en el pecho, con abertura para que tu perro asome la cabeza. Mide 43 x 33 cm y pesa 506 g.",
+      "steps": ["Ajusta los tirantes a tu altura.", "Coloca a tu perro con cuidado y comprueba que va cómodo.", "Haz paseos cortos al principio para que se acostumbre."],
+      "spec": ["Material: nailon y algodón", "Textura: acolchado medio", "Largo: 43 cm", "Ancho: 33 cm", "Peso: 506 g", "Colores: rosa, negro, beige, gris y verde", "Tirantes: ajustables"],
+      "faq": [["¿Para qué tamaño de perro es?", "Está pensada para perros pequeños. Escríbenos con el peso de tu perro y te confirmamos si es adecuada."], ["¿Qué medidas tiene?", "Mide 43 cm de largo y 33 cm de ancho."], ["¿Qué colores hay?", "Rosa, negro, beige, gris y verde."]],
+      "fT": "Juntos, también en invierno.",
+      "fX": "Elige tu color y salid a pasear sin preocupaciones."
+    },
+    {
+      "t": "Cama asiento de coche para perros",
+      "badge": "Coche y casa",
+      "h": "Un asiento cómodo para el viaje. Una cama para todo lo demás.",
+      "s": "Cojín de coche a rayas con bordes elevados y hebilla de sujeción, para perros pequeños y medianos.",
+      "b": ["Bordes elevados para ir recogido", "Hebilla de sujeción incluida", "También sirve como cama en casa"],
+      "ben": [
+        ["En el coche", "Su sitio en cada viaje", "Bordes elevados y un asiento mullido para que viaje cómodo y en su lugar."],
+        ["En casa", "Dos usos en uno", "Al llegar, se convierte en su cama de siempre."],
+        ["Estilo", "Rayas que combinan", "Rayas azules, café o rojas para elegir."]
+      ],
+      "ctxT": "Del coche al salón",
+      "ctx": [["Escapadas de fin de semana", "Viajes más tranquilos para los dos."], ["Visitas al veterinario", "Un sitio conocido en un momento de nervios."], ["En casa", "Su cama de siempre."], ["En casa de los abuelos", "Su rincón vaya donde vaya."]],
+      "dT": "Rayas, bordes elevados y hebilla",
+      "dX": "Asiento a rayas con laterales elevados y correa trasera. Mide 55 x 50 x 30 cm y llega en embalaje comprimido.",
+      "steps": ["Sácala del embalaje y deja que recupere su forma.", "Colócala en el asiento y fija la correa.", "Usa la hebilla con un arnés, nunca con el collar."],
+      "spec": ["Material: tela", "Medidas: 55 x 50 x 30 cm", "Peso: 1,83 kg", "Colores: rayas azules, café o rojas", "Hebilla de sujeción", "Embalaje comprimido"],
+      "faq": [["¿Está homologada como sistema de retención?", "Es un asiento cómodo, no un sistema de retención homologado. Usa siempre un arnés."], ["¿Para qué tamaño de perro?", "Para perros pequeños y medianos."], ["¿La puedo usar como cama?", "Sí, también funciona como cama en casa."]],
+      "fT": "Cada viaje, un poco más cómodo.",
+      "fX": "Un asiento para el coche que también es su cama favorita."
+    },
+    {
+      "t": "Botas impermeables para perros",
+      "badge": "XS a 2XL",
+      "h": "Lluvia, nieve o charcos: listos para salir.",
+      "s": "Botas impermeables para perros con suela antideslizante y tira reflectante, de la talla XS a la 2XL.",
+      "b": ["Tejido impermeable", "Suela antideslizante", "Tira reflectante para paseos de noche"],
+      "ben": [
+        ["Impermeables", "Patas secas al volver", "El tejido impermeable acompaña en los días de lluvia y nieve."],
+        ["Agarre", "Más seguridad en cada paso", "Suela Oxford antideslizante para superficies mojadas."],
+        ["Visibilidad", "Se le ve de noche", "La tira reflectante ayuda en los paseos con poca luz."]
+      ],
+      "ctxT": "Para cualquier tiempo",
+      "ctx": [["Días de lluvia", "Menos barro al llegar a casa."], ["En la nieve", "Paseos de invierno más cómodos."], ["Paseos nocturnos", "Detalle reflectante."], ["Montaña", "Para salir de ruta con él."]],
+      "dT": "Impermeables y reflectantes",
+      "dX": "Botas negras con puño de color vivo, suela antideslizante y tira reflectante. Disponibles en negro y azul.",
+      "steps": ["Mide la pata de tu perro y elige la talla.", "Ponle las botas en casa unos minutos para que se acostumbre.", "Ajusta la tira y sal a pasear."],
+      "spec": ["Material: tejido impermeable", "Suela: Oxford antideslizante", "Tira reflectante", "Colores: negro y azul", "Tallas: XS a 2XL"],
+      "faq": [["¿Qué talla elijo?", "Mide el ancho de la pata apoyada y escríbenos: te ayudamos a elegir entre XS y 2XL."], ["¿Abrigan?", "Están pensadas para proteger de la lluvia y la nieve. Para frío intenso, combínalas con paseos cortos."], ["¿Vienen cuatro?", "Te confirmamos el contenido del paquete antes de tu compra."]],
+      "fT": "Que el mal tiempo no cancele el paseo.",
+      "fX": "Elige su talla y salid a la calle con cualquier tiempo."
+    },
+    {
+      "t": "Rampa plegable de madera para perros",
+      "badge": "Plegable",
+      "h": "Subir al coche, al sofá o a la cama, sin saltos.",
+      "s": "Rampa de madera plegable y ajustable con superficie antideslizante. Ligera para llevarla donde haga falta.",
+      "b": ["Superficie antideslizante", "Plegable y ajustable", "Madera, solo 3,12 kg"],
+      "ben": [
+        ["Acceso fácil", "Un camino en lugar de un salto", "Perfecta para perros pequeños, mayores o con patas cortas."],
+        ["Agarre", "Superficie antideslizante", "La superficie texturizada le da confianza al subir y bajar."],
+        ["Portátil", "Se pliega y se guarda", "Plegada ocupa poco espacio en el maletero o en casa."]
+      ],
+      "ctxT": "Donde le hace falta",
+      "ctx": [["Para subir al coche", "Sin cogerlo en brazos."], ["En el sofá", "Que suba solo a su sitio."], ["En la cama", "Para los que duermen contigo."], ["Perros mayores", "Más tranquilidad en su día a día."]],
+      "dT": "Madera con superficie texturizada",
+      "dX": "Rampa de madera con superficie oscura antideslizante, plegable y regulable. Pesa 3,12 kg.",
+      "steps": ["Despliega la rampa y apóyala sobre una superficie firme.", "Ajusta la inclinación a la altura del acceso.", "Guíalo con un premio las primeras veces."],
+      "spec": ["Material: madera", "Acabado: color madera", "Superficie: antideslizante", "Formato: plegable y ajustable", "Peso: 3,12 kg"],
+      "faq": [["¿Cuánto mide?", "Escríbenos y te confirmamos el largo desplegado y plegado antes de tu compra."], ["¿Cuánto peso aguanta?", "Te confirmamos la carga máxima según el tamaño de tu perro."], ["¿Sirve para perros pequeños?", "Sí, es ideal para perros pequeños que no pueden subir de un salto."]],
+      "fT": "Menos saltos, más tranquilidad.",
+      "fX": "Una rampa ligera para que suba y baje con confianza."
+    }
+  ]
+}

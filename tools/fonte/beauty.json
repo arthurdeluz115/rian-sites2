@@ -1,0 +1,225 @@
+{
+ "id": "beauty",
+ "storeName": "Lumi Ritual",
+ "palette": {
+  "background": "#FBF7FE",
+  "surface": "#EFE6F6",
+  "text": "#392745",
+  "muted": "#705C7C",
+  "accent": "#704089",
+  "onAccent": "#FFFFFF",
+  "border": "#D8C4E4"
+ },
+ "paletteName": "Lavanda e ameixa",
+ "categories": [
+  {
+   "en": "Hair Styling & Care",
+   "productIds": [
+    "zd_2860130",
+    "zd_2913471"
+   ]
+  },
+  {
+   "en": "Face & Skin Rituals",
+   "productIds": [
+    "zd_2600455",
+    "zd_2601436",
+    "zd_1631387"
+   ]
+  },
+  {
+   "en": "Lash, Brow & Makeup",
+   "productIds": [
+    "shop_9771522228469",
+    "zd_1631373",
+    "zd_2793867"
+   ]
+  },
+  {
+   "en": "Grooming & Oral Care",
+   "productIds": [
+    "zd_2762222",
+    "zd_2880705"
+   ]
+  }
+ ],
+ "products": [
+  {
+   "n": 1,
+   "id": "zd_2860130",
+   "nameEn": "Cordless USB Hair Straightener & Curler",
+   "categoryEn": "Hair Styling & Care",
+   "facts": "Supplier title: Portable USB Rechargeable Hair Straightener and Curler. Supplier text: dual-purpose straighten-and-curl tool, heat conductor diameter under 15 mm, wireless with built-in lithium battery, listed colors Red, Black, White and Rose Gold, weight 0.215 kg. Source image shows a white and rose-gold body with LED display, temperature control, ceramic-coated plates, lockable handle, a 2600 mAh battery label and a USB charging port. Pending supplier confirmation: temperature range, heat-up time, battery run time, plate width, charging time, voltage, safety certifications and package contents. Supplier text also makes speed, wet-hair and material claims that are not repeated here.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p01-1.webp",
+    "p01-2.webp",
+    "p01-3.webp",
+    "p01-4.webp",
+    "p01-5.webp"
+   ]
+  },
+  {
+   "n": 2,
+   "id": "zd_2913471",
+   "nameEn": "Handheld Electric Scalp Massager",
+   "categoryEn": "Hair Styling & Care",
+   "facts": "Supplier title: Electric Handheld Scalp Massager with Heating Function. Supplier text: handheld head and scalp massager in a solid color; versions K111 (hand warming + vibration + kneading + red light, with base), K112 (EMS + vibration + kneading + red light, with base) and K113 (kneading + red light, without base); Chinese and English manual; weight 0.360 kg. Source image shows a white dome-shaped body with a silver control panel and soft finger-style massage nodes. Pending supplier confirmation: dimensions, battery capacity, run time, charging method, noise level, water resistance and which version is shipped. Supplier text also makes stress, headache and health claims that are not repeated here.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p02-1.webp",
+    "p02-2.webp",
+    "p02-3.webp",
+    "p02-4.webp"
+   ]
+  },
+  {
+   "n": 3,
+   "id": "zd_2600455",
+   "nameEn": "Facial Pore Cleansing Device",
+   "categoryEn": "Face & Skin Rituals",
+   "facts": "Supplier title: Pore Cleaner Set with Facial Cleansing Tools. Supplier text: handheld pore-cleaning device using negative-pressure (suction) technology, 5W, 3 adjustable gears, colors pink and white, weight 0.46 kg. Source image shows a white pen-style device with several interchangeable suction heads, metal heads, a USB cable, a manual and small accessories. Pending supplier confirmation: exact package contents, charging method, battery, head sizes and materials, safety certifications and intended skin types. Supplier text makes pore, blackhead and skin-result claims that are not repeated here.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p03-1.webp"
+   ]
+  },
+  {
+   "n": 4,
+   "id": "zd_2601436",
+   "nameEn": "Facial Wand with Vibration & Light",
+   "categoryEn": "Face & Skin Rituals",
+   "facts": "Supplier title: Facial Beauty Device (One Set). Supplier text: handheld facial beauty instrument combining vibration with colored light, pink finish, single gear mode, rechargeable, no brush heads to replace. Source image shows a slim rose-pink wand with a red LED panel at the tip. Pending supplier confirmation: dimensions, weight, battery capacity, run time, charging cable, which light colors are available and safety certifications. Supplier text makes circulation, wrinkle and skin-concern claims that are not repeated here.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p04-1.webp"
+   ]
+  },
+  {
+   "n": 5,
+   "id": "zd_1631387",
+   "nameEn": "Mud Mask & Soap Bar Cleansing Set",
+   "categoryEn": "Face & Skin Rituals",
+   "facts": "Supplier title: Acne Care Bundle (renamed to avoid a skin-condition claim). Supplier text: kit with a mud and arnica mask (powder, mixed with water), a soap bar with a natural loofah and hanging cord, and a natural loofah set of 5 pieces. Soap ingredients named: chia, lemon, parsley and coconut oil. Directions in the source: lather the soap bar under water, apply and massage gently in circular motions, avoid the eyes; for the mask, mix 2 tsp of powder with enough water to make a paste. Source image is a promotional graphic with text over a pouch of mask and arnica flowers. Pending supplier confirmation: full ingredient lists, product sizes and weights, remaining mask directions, shelf life, labeling and cosmetic import compliance. Supplier text makes acne, pore and skin-result claims that are not repeated here.",
+   "sections": {
+    "box": true,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p05-1.webp",
+    "p05-2.webp",
+    "p05-3.webp",
+    "p05-4.webp",
+    "p05-5.webp"
+   ]
+  },
+  {
+   "n": 6,
+   "id": "shop_9771522228469",
+   "nameEn": "Heated Eyelash Curler",
+   "categoryEn": "Lash, Brow & Makeup",
+   "facts": "Supplier title: USB Rechargeable Heated Eyelash Curler. Supplier page text and image labels: gentle heated technology, quick heat-up (image label: 30s fast heating), 3 adjustable heat levels (low, medium, high), thermo-sensitive silicone heating pad, USB-C rechargeable, white compact body with indicator lights. Source image also shows a before-and-after lash comparison that is not repeated here. Pending supplier confirmation: battery capacity, run time, charging time, safety certifications, exact temperatures and package contents. Supplier text makes salon-result, pinch-free and long-lasting claims that are not repeated here.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p06-1.webp",
+    "p06-2.webp",
+    "p06-3.webp",
+    "p06-4.webp",
+    "p06-5.webp"
+   ]
+  },
+  {
+   "n": 7,
+   "id": "zd_1631373",
+   "nameEn": "Facial & Eyebrow Hair Remover Set",
+   "categoryEn": "Lash, Brow & Makeup",
+   "facts": "Supplier title: Rechargeable Facial + Eyebrow Hair Removers Set - 2 Pack. Supplier text: set of a facial hair remover and an electric eyebrow trimmer, USB-rechargeable, built-in LED light, stainless steel blades, eyebrow trimmer is held like an eraser and glided over the brows; package of 2 pieces plus USB cables. Source image shows two rose-gold pen-style devices with caps. Pending supplier confirmation: battery capacity, run time, charging time, blade type and replacement, dimensions and safety certifications. Supplier text also makes pain-free, hypoallergenic, sensitive-skin and dermatologist claims that are not repeated here.",
+   "sections": {
+    "box": true,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p07-1.webp",
+    "p07-2.webp",
+    "p07-3.webp",
+    "p07-4.webp",
+    "p07-5.webp"
+   ]
+  },
+  {
+   "n": 8,
+   "id": "zd_2793867",
+   "nameEn": "Electric Makeup Brush",
+   "categoryEn": "Lash, Brow & Makeup",
+   "facts": "Supplier title: Automatic Makeup Brush - Multifunctional Electric Tool. No supplier description provided. Source image shows a slim black cylindrical handle with a silver ring beside a separate round-top brush head with light bristles; the image carries a third-party 'Design by' brand overlay that must not be reused. Pending supplier confirmation: power source (battery or rechargeable), brush speed, which makeup products it suits, head replacement, dimensions, weight, materials, package contents and what 'multifunctional' means. No evidence for any finish, coverage or application-result claim.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p08-1.webp",
+    "p08-2.webp"
+   ]
+  },
+  {
+   "n": 9,
+   "id": "zd_2762222",
+   "nameEn": "Badger-Hair Shaving Brush Set",
+   "categoryEn": "Grooming & Oral Care",
+   "facts": "Supplier title: Shaving Kit with Beard Brush and Comb. Supplier text: shaving set with a double edge safety razor, a badger hair shaving brush, a chrome stand, a zinc alloy shaving soap bowl and a pack of 10 double edge blades, in a black gift box; compatible with shaving creams and hard soaps; step-by-step lather directions. Source image shows a chrome-handled badger-hair brush only. The title mentions a comb, but no comb is described in the supplier text. The supplier text contains a third-party brand name that is not used. Pending supplier confirmation: whether a comb is included, brush and razor dimensions, handle weight, blade brand and package contents. Supplier text makes closer-shave and skin-moisturizing claims that are not repeated here.",
+   "sections": {
+    "box": true,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p09-1.webp",
+    "p09-2.webp",
+    "p09-3.webp",
+    "p09-4.webp"
+   ]
+  },
+  {
+   "n": 10,
+   "id": "zd_2880705",
+   "nameEn": "Portable Cordless Water Flosser",
+   "categoryEn": "Grooming & Oral Care",
+   "facts": "Supplier title: Portable Waterproof Electric Dental Floss Cleaner. Supplier text: cordless portable electric water flosser, IPX7 waterproof, piston pump, colors green, purple and white, built-in 1000-1200 mAh battery with over 30 days of endurance claimed (usage pattern not stated), 12 combination modes (3 adjustable levels and 4 working modes), memory function, low-noise operation, leak-proof internal storage, 4 jet tips and a storage bag. Source image shows a white and teal capsule-shaped body with gold accents and a mode diagram in Portuguese. Pending supplier confirmation: tank capacity, charging cable and time, pressure range, noise level, dimensions and safety certifications. Supplier text makes thoroughness and superiority claims that are not repeated here.",
+   "sections": {
+    "box": true,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p10-1.webp",
+    "p10-2.webp",
+    "p10-3.webp",
+    "p10-4.webp",
+    "p10-5.webp"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+  "store": {
+    "tagline": "Motor y taller",
+    "categories": ["Limpieza del coche", "Básicos para el coche", "Herramientas de precisión", "Taller y aire libre"],
+    "headline": "Herramientas que te sacan de apuros, en casa y en carretera",
+    "subtitle": "Cuidado del coche, herramientas y equipo para el aire libre.",
+    "aboutTitle": "Bienvenido a {{store_name}}",
+    "aboutText": "Elegimos herramientas prácticas y fiables para cuidar el coche, hacer tus reparaciones y disfrutar del aire libre sin complicaciones.",
+    "bannerTitle": "Listo para cualquier ruta.",
+    "announcement": "Envíos a toda España · Pago 100% seguro"
+  },
+  "products": [
+    {
+      "t": "Hidrolimpiadora de mano inalámbrica",
+      "badge": "Sin cables",
+      "h": "Lava el coche sin sacar una máquina enorme.",
+      "s": "Pistola de agua a presión inalámbrica con boquilla 6 en 1 para coche, suelos y jardín.",
+      "b": ["Boquilla 6 en 1", "Batería de litio recargable", "Para coche, suelos y jardín"],
+      "ben": [
+        ["Libertad", "Sin enchufes ni mangueras largas", "Batería recargable para lavar donde quieras."],
+        ["Versátil", "6 chorros en una boquilla", "Cambia de chorro según la tarea: lavar, aclarar o regar."],
+        ["Completa", "Con accesorios", "Incluye boquillas, conectores, botella de espuma y cargador."]
+      ],
+      "ctxT": "Para qué la usarás",
+      "ctx": [["Lavar el coche", "En casa o en la calle."], ["Terraza", "Suelos limpios."], ["Jardín", "Riego y limpieza."], ["Bicicletas", "Barro fuera."]],
+      "dT": "Pistola con accesorios",
+      "dX": "Pistola negra y naranja con batería de 48 V, manguera, boquillas, conectores, botella de espuma y cargador.",
+      "steps": ["Carga la batería.", "Conecta la manguera al depósito o cubo de agua.", "Elige el chorro y empieza a limpiar."],
+      "spec": ["Tipo: hidrolimpiadora de mano inalámbrica", "Boquilla: 6 en 1", "Batería: litio recargable, 48 V", "Usos: coche, suelos y jardín", "Accesorios: varios incluidos"],
+      "faq": [["¿Necesita toma de agua?", "Puede tomar agua de un cubo o depósito con la manguera."], ["¿Cuánto dura la batería?", "Te confirmamos la autonomía antes de tu compra."], ["¿Qué incluye?", "Pistola, batería, manguera, boquillas, botella de espuma y cargador."]],
+      "fT": "Un coche limpio, sin complicaciones.",
+      "fX": "Lava donde quieras, cuando quieras."
+    },
+    {
+      "t": "Spray cerámico de acabado rápido",
+      "badge": "3 en 1",
+      "h": "Brillo de recién lavado en tres pasos.",
+      "s": "Spray de 100 ml para lavar sin agua y dejar un acabado repelente al agua en pintura, cristales y llantas.",
+      "b": ["Lavado sin agua", "Acabado repelente al agua", "Pintura, cristales, plásticos y llantas"],
+      "ben": [
+        ["Brillo", "Como recién salido del lavado", "Deja un acabado brillante y repelente al agua."],
+        ["Sin agua", "Lava en cualquier sitio", "Pulveriza, extiende y abrillanta: sin manguera."],
+        ["Multisuperficie", "Un producto para todo", "Pintura, cristales, plásticos, cromados y llantas."]
+      ],
+      "ctxT": "Cuándo usarlo",
+      "ctx": [["Antes de una cita", "Coche brillante en minutos."], ["En el garaje", "Sin manguera."], ["Tras la lluvia", "Agua que resbala."], ["Para regalar", "A los amantes del motor."]],
+      "dT": "Botella de 100 ml",
+      "dX": "Botella negra de 100 ml para lavar sin agua y abrillantar con una toalla o esponja.",
+      "steps": ["Pulveriza sobre la superficie.", "Extiende con una toalla de microfibra.", "Abrillanta con la cara seca."],
+      "spec": ["Tipo: spray cerámico, lavado sin agua", "Contenido: 100 ml", "Aplicación: pulverizar, extender y abrillantar", "Superficies: pintura, cristal, plásticos, cromados y llantas"],
+      "faq": [["¿Incluye toalla?", "Te confirmamos el contenido del pack antes de tu compra."], ["¿Sirve en cristales?", "Sí, también en cristales."], ["¿Se aplica al sol?", "Mejor a la sombra y con la superficie fría."]],
+      "fT": "Tu coche, brillante siempre.",
+      "fX": "Un spray que cabe en la guantera."
+    },
+    {
+      "t": "Manómetro digital para neumáticos",
+      "badge": "Pantalla LCD",
+      "h": "Neumáticos a punto antes de cada viaje.",
+      "s": "Manómetro tipo pistola con manguera y pantalla LCD retroiluminada. Lee en PSI, BAR, kPa y kg/cm².",
+      "b": ["Pantalla LCD retroiluminada", "Lectura en PSI, BAR, kPa y kg/cm²", "Hasta 200 psi"],
+      "ben": [
+        ["Seguridad", "Viaja tranquilo", "Revisa la presión antes de cada viaje en segundos."],
+        ["Lectura clara", "También de noche", "Pantalla LCD con retroiluminación LED."],
+        ["Preciso", "Precisión de ±1 %", "Mide en la unidad que prefieras."]
+      ],
+      "ctxT": "Cuándo usarlo",
+      "ctx": [["Antes de vacaciones", "Neumáticos a punto."], ["Cada mes", "Mantenimiento sencillo."], ["En la gasolinera", "Comprueba lo que inflas."], ["Bici y moto", "También para otras ruedas."]],
+      "dT": "Tipo pistola con manguera",
+      "dX": "Manómetro tipo pistola con gatillo, manguera de 37 cm y cuerpo de aleación de zinc y ABS. Funciona con 2 pilas de 1,5 V.",
+      "steps": ["Conecta la boquilla a la válvula del neumático.", "Lee la presión en la pantalla.", "Ajusta hasta la presión recomendada."],
+      "spec": ["Tipo: manómetro con manguera", "Pantalla: LCD retroiluminada", "Unidades: PSI, BAR, kPa, kg/cm²", "Presión máxima: 200 psi", "Manguera: 37 cm", "Cuerpo: aleación de zinc y ABS", "Pilas: 2 × 1,5 V", "Temperatura de uso: -18 a 40 °C"],
+      "faq": [["¿Puede inflar?", "Se usa con un compresor para inflar y medir a la vez."], ["¿Mide en BAR?", "Sí, también en PSI, kPa y kg/cm²."], ["¿Qué pilas usa?", "Dos pilas de 1,5 V."]],
+      "fT": "Seguridad en cada kilómetro.",
+      "fX": "Comprueba tus neumáticos en segundos."
+    },
+    {
+      "t": "Soporte de móvil para salpicadero",
+      "badge": "Gira 360°",
+      "h": "El GPS siempre a la vista, el móvil siempre seguro.",
+      "s": "Soporte para el salpicadero con giro de 360°, ángulo ajustable y base antideslizante. Para iPhone y Android.",
+      "b": ["Giro de 360°", "Ángulo horizontal y vertical", "Base antideslizante"],
+      "ben": [
+        ["Conducción", "Mira el mapa sin tocar el móvil", "El móvil queda a la vista mientras conduces."],
+        ["Una mano", "Pones y quitas al momento", "Brazos con muelle para colocarlo con una mano."],
+        ["Ajustable", "En vertical o en horizontal", "Gira 360° hasta el ángulo perfecto."]
+      ],
+      "ctxT": "Para tus trayectos",
+      "ctx": [["Con GPS", "La ruta siempre visible."], ["Llamadas", "Manos libres en el volante."], ["Repartidores", "Pedidos a la vista."], ["Viajes largos", "Música y mapas a mano."]],
+      "dT": "Brazos con muelle y base redonda",
+      "dX": "Soporte con dos brazos de muelle sobre una base redonda antideslizante para el salpicadero.",
+      "steps": ["Limpia la zona del salpicadero.", "Fija la base.", "Abre los brazos y coloca el móvil."],
+      "spec": ["Tipo: soporte de móvil para salpicadero", "Giro: 360°", "Ángulo: horizontal y vertical", "Fijación: ventosa o base antideslizante", "Compatibilidad: iPhone y Android"],
+      "faq": [["¿Sirve para mi móvil?", "Funciona con iPhone y Android. Te confirmamos el rango de tamaños antes de tu compra."], ["¿Se pega al salpicadero?", "Usa ventosa o base antideslizante. Limpia bien la superficie antes."], ["¿Se puede girar?", "Sí, 360°."]],
+      "fT": "Conduce con todo a la vista.",
+      "fX": "Un soporte sencillo para cada trayecto."
+    },
+    {
+      "t": "Llave de ruedas de esfuerzo reducido",
+      "badge": "17-19-21 mm",
+      "h": "Cambia una rueda sin dejarte la espalda.",
+      "s": "Llave de esfuerzo reducido con vasos de 17, 19 y 21 mm en estuche compacto. Para coches y todoterrenos.",
+      "b": ["Mecanismo de esfuerzo reducido", "Vasos de 17, 19 y 21 mm", "Acero al cromo vanadio"],
+      "ben": [
+        ["Menos fuerza", "Tuercas que ceden", "El mecanismo de engranajes multiplica tu fuerza."],
+        ["Resistente", "Cromo vanadio", "Acero cromado pensado para durar."],
+        ["Ordenada", "Estuche rígido", "Todo en su sitio dentro del maletero."]
+      ],
+      "ctxT": "Cuándo te salva",
+      "ctx": [["Pinchazo", "Cambia la rueda tú mismo."], ["Ruedas de invierno", "Cambio de temporada."], ["Todoterreno", "Tuercas duras."], ["Para regalar", "Un básico del maletero."]],
+      "dT": "Estuche con engranaje",
+      "dX": "Estuche negro rígido con mango de llave con engranaje y vasos de 17, 19 y 21 mm.",
+      "steps": ["Elige el vaso de tu tuerca.", "Encaja la llave en la tuerca.", "Gira la manivela para aflojar o apretar."],
+      "spec": ["Tipo: llave de ruedas de esfuerzo reducido", "Material: acero al cromo vanadio cromado", "Vasos: 17, 19 y 21 mm", "Cabeza: simple", "Estuche: 280 × 210 × 85 mm", "Peso: 2,34 kg"],
+      "faq": [["¿Sirve para mi coche?", "Comprueba que tus tuercas son de 17, 19 o 21 mm."], ["¿Viene con estuche?", "Sí, estuche rígido."], ["¿Es pesada?", "Unos 2,3 kg con estuche."]],
+      "fT": "Que un pinchazo no te pare.",
+      "fX": "La llave que todo maletero debería tener."
+    },
+    {
+      "t": "Kit de destornillador eléctrico mini",
+      "badge": "Recargable",
+      "h": "Monta muebles sin que te duela la muñeca.",
+      "s": "Destornillador eléctrico mini inalámbrico de 3,6 V en estuche rígido con puntas variadas.",
+      "b": ["3,6 V inalámbrico", "Batería de litio recargable", "Estuche con puntas variadas"],
+      "ben": [
+        ["Menos esfuerzo", "Atornilla sin cansarte", "El motor hace el trabajo repetitivo."],
+        ["Para todo", "Muebles, electrónica y bricolaje", "Un kit para las pequeñas reparaciones."],
+        ["Ordenado", "Estuche rígido", "Puntas y destornillador en su sitio."]
+      ],
+      "ctxT": "Para tus proyectos",
+      "ctx": [["Muebles de montar", "Más rápido."], ["Electrónica", "Tornillos pequeños."], ["Mudanzas", "Desmonta y vuelve a montar."], ["Para regalar", "Un kit muy práctico."]],
+      "dT": "Negro y rojo en estuche",
+      "dX": "Mango negro y rojo, estuche rígido y surtido de puntas de destornillador y broca. Pesa 740 g.",
+      "steps": ["Carga el destornillador.", "Coloca la punta adecuada.", "Elige el sentido de giro y atornilla."],
+      "spec": ["Tipo: destornillador eléctrico mini", "Voltaje: 3,6 V", "Entrada de carga: 5 V 1 A", "Batería: litio recargable", "Peso: 740 g", "Estuche: rígido"],
+      "faq": [["¿Cuántas puntas trae?", "Te confirmamos el número de puntas antes de tu compra."], ["¿Cómo se carga?", "Con entrada de 5 V 1 A."], ["¿Sirve para taladrar?", "Está pensado para atornillar; incluye algunas puntas tipo broca."]],
+      "fT": "Bricolaje sin esfuerzo.",
+      "fX": "Un destornillador pequeño para grandes proyectos."
+    },
+    {
+      "t": "Kit destornillador eléctrico de precisión",
+      "badge": "Puntas magnéticas",
+      "h": "Repara móviles y consolas como un técnico.",
+      "s": "Destornillador eléctrico tipo bolígrafo con puntas magnéticas, alfombrilla y herramientas de reparación.",
+      "b": ["Puntas magnéticas de precisión", "Batería de litio recargable", "Con alfombrilla, pinzas y palancas"],
+      "ben": [
+        ["Precisión", "Para tornillos diminutos", "Puntas magnéticas que no pierden el tornillo."],
+        ["Completo", "Todo para abrir dispositivos", "Ventosa, palancas, pinzas y espátula incluidas."],
+        ["Orden", "Alfombrilla de trabajo", "Cada tornillo en su sitio mientras reparas."]
+      ],
+      "ctxT": "Para qué sirve",
+      "ctx": [["Móviles", "Cambios de batería y pantalla."], ["Consolas", "Mantenimiento y limpieza."], ["Gafas y relojes", "Tornillos diminutos."], ["Para regalar", "A los manitas de la tecnología."]],
+      "dT": "Tipo bolígrafo con accesorios",
+      "dX": "Destornillador gris tipo bolígrafo, estuches de aluminio con puntas, alfombrilla, cable USB, ventosa, palancas, pinzas y espátula.",
+      "steps": ["Carga el destornillador por USB.", "Coloca la punta magnética adecuada.", "Ordena los tornillos en la alfombrilla."],
+      "spec": ["Tipo: destornillador eléctrico de precisión", "Batería: litio recargable", "Puntas: magnéticas", "Para: móviles y consolas", "Accesorios: alfombrilla, pinzas, palancas, espátula, ventosa y cable USB"],
+      "faq": [["¿Cuántas puntas incluye?", "Te confirmamos el número exacto antes de tu compra."], ["¿Cómo se carga?", "Por USB, cable incluido."], ["¿Sirve para portátiles?", "Sí, para tornillos pequeños de electrónica."]],
+      "fT": "Repara tú mismo.",
+      "fX": "Un kit de técnico en tu cajón."
+    },
+    {
+      "t": "Regla en T de aluminio para marcar",
+      "badge": "4 medidas",
+      "h": "Líneas rectas y limpias en cada corte.",
+      "s": "Regla en T de aluminio rojo para marcar y medir, en cuatro longitudes de 300 a 600 mm.",
+      "b": ["Aleación de aluminio ligera", "Largos de 300, 400, 500 y 600 mm", "Agujeros para marcar"],
+      "ben": [
+        ["Precisión", "Ángulos rectos al instante", "La forma en T se apoya en el borde de la pieza."],
+        ["Ligera", "Aluminio resistente", "Fácil de manejar y transportar."],
+        ["Marcado", "Agujeros guía", "Marca líneas paralelas con el lápiz."]
+      ],
+      "ctxT": "Para tu taller",
+      "ctx": [["Carpintería", "Marcas exactas."], ["Bricolaje", "Cortes rectos."], ["Estanterías", "Medidas iguales."], ["Para regalar", "A los amantes de la madera."]],
+      "dT": "Roja con escala",
+      "dX": "Regla en T roja de aleación de aluminio con agujeros redondos y escala, en modelos TS-300, TS-400, TS-500 y TS-600.",
+      "steps": ["Apoya la T en el borde de la pieza.", "Coloca el lápiz en el agujero de la medida.", "Desliza para marcar la línea."],
+      "spec": ["Tipo: regla de marcar en T", "Material: aleación de aluminio", "Largos: 300, 400, 500 y 600 mm", "Color: rojo"],
+      "faq": [["¿Qué largo elijo?", "Según el tamaño de tus piezas: 300 mm para trabajos pequeños, 600 mm para tableros."], ["¿La escala es en cm?", "Te confirmamos la escala antes de tu compra."], ["¿Viene una o varias?", "Se vende por longitud."]],
+      "fT": "Mide bien, corta mejor.",
+      "fX": "Una regla que no puede faltar en tu taller."
+    },
+    {
+      "t": "Guía de taladro vertical",
+      "badge": "Agujeros rectos",
+      "h": "Agujeros perfectamente rectos, sin taladro de columna.",
+      "s": "Guía de aluminio y acero inoxidable para taladrar agujeros rectos, en ángulo y en piezas redondas.",
+      "b": ["Aluminio y acero inoxidable", "Versiones de 5 y 8 casquillos", "En rojo o azul"],
+      "ben": [
+        ["Precisión", "Taladro siempre recto", "La guía mantiene la broca perpendicular."],
+        ["Versátil", "Planos, ángulos y redondos", "Posiciona agujeros también en piezas cilíndricas."],
+        ["Compacta", "Cabe en la caja", "Ligera: desde 329 g."]
+      ],
+      "ctxT": "Para tus proyectos",
+      "ctx": [["Carpintería", "Espigas perfectas."], ["Muebles", "Uniones limpias."], ["Piezas redondas", "Centrado fácil."], ["Bricolaje", "Sin taladro de columna."]],
+      "dT": "Anillo con collar moleteado",
+      "dX": "Guía en forma de anillo con collar moleteado que sujeta la broca. En rojo o azul.",
+      "steps": ["Elige el casquillo de tu broca.", "Apoya la guía sobre la pieza.", "Taladra a través del casquillo."],
+      "spec": ["Tipo: guía de taladro vertical", "Material: aleación de aluminio y acero inoxidable", "Colores: rojo y azul", "Versiones: 5 y 8 casquillos", "Peso: 329 g (estándar), 493 g (deluxe)"],
+      "faq": [["¿Sirve para metal?", "Sí, usando brocas específicas para metal."], ["¿Qué versión elijo?", "La de 8 casquillos admite más medidas de broca."], ["¿Incluye brocas?", "Te confirmamos el contenido antes de tu compra."]],
+      "fT": "Taladra como un profesional.",
+      "fX": "La guía que hace rectos todos tus agujeros."
+    },
+    {
+      "t": "Cámara submarina para pesca",
+      "badge": "Visión nocturna",
+      "h": "Mira lo que pasa bajo el agua antes de lanzar.",
+      "s": "Kit de cámara submarina con pantalla de 4,3\", objetivo gran angular de 220° y 8 luces de visión nocturna.",
+      "b": ["Pantalla IPS de 4,3\"", "Gran angular de 220°", "8 luces de visión nocturna"],
+      "ben": [
+        ["Visión", "Encuentra dónde están los peces", "Ve el fondo y los peces en directo en la pantalla."],
+        ["Noche", "Pesca también al anochecer", "8 luces de visión nocturna."],
+        ["Autonomía", "Para toda la jornada", "Batería de 8000 mAh."]
+      ],
+      "ctxT": "Para tus jornadas",
+      "ctx": [["Pesca en barca", "Explora el fondo."], ["Pesca en hielo", "Mira bajo la superficie."], ["Embalses", "Encuentra los bancos."], ["Para regalar", "A los pescadores."]],
+      "dT": "Monitor plegable y carrete",
+      "dX": "Monitor plegable con visera, carrete de cable, cámara con soporte, maletín rígido y cargador.",
+      "steps": ["Carga la batería del monitor.", "Conecta la cámara y desenrolla el cable.", "Sumerge la cámara y mira la pantalla."],
+      "spec": ["Tipo: cámara submarina con monitor", "Pantalla: IPS de 4,3\"", "Objetivo: gran angular de 220°, sumergible", "Luces: 8 de visión nocturna", "Cable: 15, 20 o 30 m", "Batería: 8000 mAh", "Autonomía: hasta 16 horas"],
+      "faq": [["¿Qué largo de cable elijo?", "15, 20 o 30 m según la profundidad donde pesques."], ["¿Cuánto dura la batería?", "Hasta 16 horas según el fabricante."], ["¿Viene con maletín?", "Sí, maletín rígido."]],
+      "fT": "Pesca sabiendo dónde mirar.",
+      "fX": "Una cámara que te enseña el fondo."
+    }
+  ]
+}

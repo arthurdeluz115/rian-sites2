@@ -1,0 +1,16 @@
+{% doc %}
+  Tarjeta de producto de la home.
+  @param {object} block - Bloque de producto de la sección
+{% enddoc %}
+<article class="product-card" {{ block.shopify_attributes }}>
+  <a href="{% if block.settings.product != blank %}{{ block.settings.product.url }}{% else %}#{% endif %}">
+    <div class="card-media">
+      {% render 'rm-image', image: block.settings.image, asset: block.settings.asset, number: block.settings.prompt, width: 1200, height: 1200 %}
+      {% if block.settings.badge != blank %}<span class="card-badge">{{ block.settings.badge | escape }}</span>{% endif %}
+    </div>
+    <h3>{{ block.settings.title | escape }}</h3>
+    {% if block.settings.product != blank %}
+      <p class="card-price">{{ block.settings.product.price | money }}{% if block.settings.product.compare_at_price > block.settings.product.price %} <s>{{ block.settings.product.compare_at_price | money }}</s>{% endif %}</p>
+    {% elsif request.design_mode %}<small>{{ 'general.assign_product' | t }}</small>{% endif %}
+  </a>
+</article>

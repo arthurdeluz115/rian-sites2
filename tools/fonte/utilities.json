@@ -1,0 +1,233 @@
+{
+ "id": "utilities",
+ "storeName": "Roadready Goods",
+ "palette": {
+  "background": "#F4F5F6",
+  "surface": "#E6E9EC",
+  "text": "#1D2429",
+  "muted": "#5B656D",
+  "accent": "#2D5670",
+  "onAccent": "#FFFFFF",
+  "border": "#C8CED3"
+ },
+ "paletteName": "Asfalto e azul aço",
+ "categories": [
+  {
+   "en": "Car Care & Cleaning",
+   "productIds": [
+    "zd_3576637",
+    "shop_15812497703072"
+   ]
+  },
+  {
+   "en": "Car Essentials",
+   "productIds": [
+    "zd_2910626",
+    "wh_1732205382431839167",
+    "zd_2923327"
+   ]
+  },
+  {
+   "en": "Repair & Precision Tools",
+   "productIds": [
+    "zd_2912865",
+    "zd_2915952"
+   ]
+  },
+  {
+   "en": "Workshop & Outdoor Gear",
+   "productIds": [
+    "zd_2929545",
+    "zd_2920237",
+    "zd_3569443"
+   ]
+  }
+ ],
+ "products": [
+  {
+   "n": 1,
+   "id": "zd_3576637",
+   "nameEn": "Cordless Handheld Pressure Washer",
+   "categoryEn": "Car Care & Cleaning",
+   "facts": "Supplier title: 48V Handheld High Pressure Water Washer. Supplier description: handheld water gun with a 6-in-1 nozzle for cleaning and watering tasks, rechargeable lithium battery, large-capacity water tank, safety protections, listed for cars, floors and gardens, multiple accessories included. Source image shows a black-and-orange spray gun with a rechargeable battery marked 48V, a coiled hose, several nozzle and connector pieces, a foam bottle and a charger. Pending supplier confirmation: pressure rating, flow rate, battery capacity and run time, water tank size, charging time, exact accessory list and package contents, plug type for US outlets.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p01-1.webp",
+    "p01-2.webp",
+    "p01-3.webp",
+    "p01-4.webp",
+    "p01-5.webp"
+   ]
+  },
+  {
+   "n": 2,
+   "id": "shop_15812497703072",
+   "nameEn": "Quick Ceramic Coating Spray",
+   "categoryEn": "Car Care & Cleaning",
+   "facts": "Supplier title: 3-in-1 High Protection Quick Ceramic Coating Spray, waterless car wash, 100 ml / 3.38 fl oz. Supplier description: spray-on waterless wash and detail with a water-repellent finish, listed for paint, glass, plastic trim, chrome and wheels, three-step application with a towel or sponge. Source image shows a black bottle and a blue microfiber towel; the bottle label carries a brand name that is not used here. Pending supplier confirmation: ingredients, safety data, full package contents (the supplier text is cut off after the bottle), durability, vehicle and surface compatibility. No evidence for scratch-repair, durability or UV-protection claims beyond supplier wording; do not promise results.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p02-1.webp",
+    "p02-2.webp",
+    "p02-3.webp",
+    "p02-4.webp",
+    "p02-5.webp"
+   ]
+  },
+  {
+   "n": 3,
+   "id": "zd_2910626",
+   "nameEn": "Digital Tire Pressure Gauge",
+   "categoryEn": "Car Essentials",
+   "facts": "Supplier title: Digital Car Tire Pressure Gauge with LCD display (brand name in the supplier title not used). Supplier description: LCD with LED backlight, maximum 200 psi, readings in PSI, BAR, kPa and kg/cm2, stated accuracy plus or minus 1 percent, zinc alloy and ABS plastic body, 14.5-inch inflatable hose, operating range -18 to 40 C, powered by two 1.5V batteries. Source image shows three inflation-gun style gauges with a trigger handle and hose (one analog, one digital, one with a dial), and a tire; the photo shows several versions and may not match the described digital model. Pending supplier confirmation: which version ships, whether batteries are included, calibration and certification, air-chuck type, package contents.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p03-1.webp",
+    "p03-2.webp",
+    "p03-3.webp"
+   ]
+  },
+  {
+   "n": 4,
+   "id": "wh_1732205382431839167",
+   "nameEn": "Dashboard Phone Mount",
+   "categoryEn": "Car Essentials",
+   "facts": "Supplier title: Car phone holder with 360 degree rotation for car navigation, in-car dashboard, adjustable horizontal and vertical screen angle, suction cup fixed, non-slip, suitable for iPhone and Android. Source images show a mount with two spring clamp arms on a round non-slip base on a car dashboard, with the caption 'one handed handling' in the image text. Pending supplier confirmation: phone size range, material, weight, base adhesion method and surface compatibility, rotation range details, package contents. No evidence for crash-test, stability on all surfaces or compatibility with every phone model.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p04-1.webp",
+    "p04-2.webp",
+    "p04-3.webp",
+    "p04-4.webp",
+    "p04-5.webp"
+   ]
+  },
+  {
+   "n": 5,
+   "id": "zd_2923327",
+   "nameEn": "Labor-Saving Lug Wrench Kit",
+   "categoryEn": "Car Essentials",
+   "facts": "Supplier title: Torque Wrench for Cars and Off-Road Vehicles ('Trolley Labor-Saving Wrench' in the description). Supplier description: for cars and off-road vehicles, tire-nut loosening and tightening, chrome vanadium steel with chrome plating, single-head design, 17 mm, 19 mm and 21 mm sockets, box size 280 x 210 x 85 mm (or 205 x 160 x 78 mm for the new style), weight 2.34 kg (or 2.18 kg for the new design). Source image shows a black hard case holding a wrench handle with a gear mechanism and sockets; image text is partly in Portuguese. No torque range or calibration is stated, so it should not be presented as a calibrated torque wrench. Pending supplier confirmation: exact package contents, which version ships, load rating.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p05-1.webp",
+    "p05-2.webp",
+    "p05-3.webp",
+    "p05-4.webp",
+    "p05-5.webp"
+   ]
+  },
+  {
+   "n": 6,
+   "id": "zd_2912865",
+   "nameEn": "Mini Electric Screwdriver Kit",
+   "categoryEn": "Repair & Precision Tools",
+   "facts": "Supplier title: 3.6V Mini Electric Screwdriver with Multi-Function (model 9907 in the description). Supplier description: for DIY, assembling furniture and fixing electronics, rechargeable lithium battery, 5V 1A power input, weight 0.74 kg. Source image shows a black-and-red handle, a hard case and an assortment of screwdriver and drill-style bits. Pending supplier confirmation: bit types and count, torque, charging time, run time, case dimensions, exact package contents.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p06-1.webp",
+    "p06-2.webp",
+    "p06-3.webp",
+    "p06-4.webp"
+   ]
+  },
+  {
+   "n": 7,
+   "id": "zd_2915952",
+   "nameEn": "Precision Electric Screwdriver Kit",
+   "categoryEn": "Repair & Precision Tools",
+   "facts": "Supplier title: Precision Electric Screwdriver Set with Magnetic Tips. Supplier description: designed for mobile phones and game consoles, rechargeable lithium battery, 'ED-62-in-one' electric screwdriver, magnetic precision repair kit. Source image shows a slim grey pen-style screwdriver, aluminum bit cases with many bits, a measuring mat, a USB cable, a suction cup, pry picks, tweezers and a spudger tool. Pending supplier confirmation: bit count and types (the title suggests a multi-piece set), torque settings, battery capacity, charging time, exact package contents.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p07-1.webp",
+    "p07-2.webp",
+    "p07-3.webp",
+    "p07-4.webp",
+    "p07-5.webp"
+   ]
+  },
+  {
+   "n": 8,
+   "id": "zd_2929545",
+   "nameEn": "Aluminum Marking T-Ruler",
+   "categoryEn": "Workshop & Outdoor Gear",
+   "facts": "Supplier title: Woodworking Multi-Function Measuring Tools (T-type ruler). Supplier description: multi-functional woodworking ruler, high-quality aluminum alloy, lightweight, lengths of 300, 400, 500 and 600 mm, dimensions 651 x 150 x 44.2 mm (likely for the longest size). Source image shows four red T-shaped rulers labeled TS-300, TS-400, TS-500 and TS-600 with round holes and a scale. Pending supplier confirmation: scale units and accuracy, which dimensions go with which length, hole sizes, package contents.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p08-1.webp",
+    "p08-2.webp",
+    "p08-3.webp",
+    "p08-4.webp"
+   ]
+  },
+  {
+   "n": 9,
+   "id": "zd_2920237",
+   "nameEn": "Vertical Drill Hole Locator",
+   "categoryEn": "Workshop & Outdoor Gear",
+   "facts": "Supplier title: Woodworking Vertical Hole Locator and Right Angle Drill. Supplier description: aluminum alloy and stainless steel, red and blue colors, helps position flat, right-angle and round holes, five-drill-sleeve and eight-drill-sleeve versions, 329 g (standard) and 493 g (deluxe); special drill bits are needed for metal. Source image shows a red ring-shaped guide with a knurled collar holding a gold drill bit above a round piece of wood; small caption text reads 'Positioning circular objects'. Pending supplier confirmation: sleeve diameters, which accessories come with each version, package contents. Use with a drill and safety eyewear only; not a standalone tool.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p09-1.webp",
+    "p09-2.webp",
+    "p09-3.webp",
+    "p09-4.webp"
+   ]
+  },
+  {
+   "n": 10,
+   "id": "zd_3569443",
+   "nameEn": "Underwater Fishing Camera Kit",
+   "categoryEn": "Workshop & Outdoor Gear",
+   "facts": "Supplier title: Fish Finder Underwater HD Camera with Temperature Sensing. Supplier description: underwater visual camera with temperature sensing, 15, 20 or 30 m video cable options, 220-degree ultra-wide-angle waterproof lens, 8 night-vision lights, 4.3-inch IPS screen, DC 10V-18V, 16-hour battery life, 8000 mAh. Source image shows a folding monitor with a sun hood, a cable reel, a camera with a bracket, a hard case, a charger and a swivel connector. Pending supplier confirmation: which cable length ships, waterproof rating and depth, charging time, exact package contents. No evidence for fish-detection accuracy.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p10-1.webp",
+    "p10-2.webp",
+    "p10-3.webp",
+    "p10-4.webp",
+    "p10-5.webp"
+   ]
+  }
+ ]
+}
