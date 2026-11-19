@@ -6,9 +6,16 @@ Site estático (sem build) com três páginas:
 |---|---|
 | `index.html` | Landing page da demonstração |
 | `app.html` | Área do aluno: formulário → plano → estrutura → loja pronta, produtos, prompts e guia |
+| `demo/` | Versão demo (`/demo`): mesmo app, com configuração própria em `demo/index.html` |
 | `loja.html` | Prévia da loja em espanhol (`?n=pets`, `&p=3` para um produto, `&nome=` para outro nome) |
 
 As respostas do aluno ficam salvas no navegador (`localStorage`), então recarregar a página não reinicia a demonstração. O botão de recomeçar fica no topo do formulário e na barra lateral.
+
+## Versão demo (`/demo`)
+
+`demo/index.html` carrega o mesmo `js/app.js` com `window.RM_CONFIG`. O progresso fica salvo separado do app principal.
+Diferenças atuais: sem a pergunta "Quais contas você já tem?" (`semContas: true`).
+Para uma nova diferença: crie a opção em `RM_CONFIG` e trate em `js/app.js` usando `CFG.<opção>`.
 
 ## Publicar
 

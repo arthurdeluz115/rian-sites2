@@ -2,7 +2,9 @@
    Estado salvo no navegador (localStorage). Rotas por hash. */
 (() => {
   'use strict';
-  const KEY = 'rm-demo-es-v2';
+  // Configuração da página (ex.: demo/index.html define window.RM_CONFIG antes deste script)
+  const CFG = Object.assign({ storageKey: 'rm-demo-es-v2', semContas: false }, window.RM_CONFIG || {});
+  const KEY = CFG.storageKey;
   const $ = (s, r = document) => r.querySelector(s);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const ic = d => `<svg class="i" viewBox="0 0 24 24" aria-hidden="true">${d}</svg>`;
@@ -148,7 +150,7 @@
     if (i === 3) {
       const v = Number(String(a.investment).replace(',', '.'));
       if (a.investment === '' || !Number.isFinite(v) || v < 0) return 'Informe quanto pretende investir (pode ser zero).';
-      if (!a.returnGoal || !a.company || !a.accounts.length) return 'Responda às perguntas sobre recursos.';
+      if (!a.returnGoal || !a.company || (!CFG.semContas && !a.accounts.length)) return 'Responda às perguntas sobre recursos.';
     }
     if (i === 4 && !a.acknowledged) return 'Confirme que entendeu como funciona a instalação.';
     return null;
@@ -214,7 +216,7 @@
           <input class="input" data-text="investment" inputmode="decimal" placeholder="Ex.: 1500" value="${esc(a.investment)}" aria-label="Valor"></div></div>
         <div class="q"><h3>Em quanto tempo gostaria de recuperar o investimento?</h3>${single('returnGoal', ent(OPT.returnGoal), a.returnGoal, 1)}</div>
         <div class="q"><h3>Você tem empresa?</h3>${single('company', ent(OPT.company), a.company)}</div>
-        <div class="q"><h3>Quais contas você já tem?</h3><p class="hint">Ter a conta não significa que ela já está pronta para receber.</p>${multi('accounts', ent(OPT.accounts), a.accounts, { cols: 1 })}</div>`;
+        ${CFG.semContas ? '' : `<div class="q"><h3>Quais contas você já tem?</h3><p class="hint">Ter a conta não significa que ela já está pronta para receber.</p>${multi('accounts', ent(OPT.accounts), a.accounts, { cols: 1 })}</div>`}`;
     }
     const nome = id => NICHOS.find(n => n.id === id)?.nome || id;
     const rows = [
@@ -314,7 +316,7 @@
         <div class="panel"><p class="eyebrow">Orçamento inicial</p><div class="stat"><strong>${money(String(a.investment).replace(',', '.'), a.currency)}</strong><span>Meta de retorno: ${esc(OPT.returnGoal[a.returnGoal])}</span></div>
           <p class="muted" style="font-size:13px;margin:12px 0 0">Prazo de retorno é objetivo, não previsão. A margem depende do custo na Zendrop, frete, taxas, IVA e anúncios — você calcula isso na etapa de custos.</p></div>
         <div class="panel"><p class="eyebrow">Contas e recebimento</p>
-          <div class="kv">${contas.map(k => `<div><span>${OPT.accounts[k]}</span><strong>${a.accounts.includes(k) ? '<span class="chip ok">Você já tem</span>' : '<span class="chip warn">Preparar</span>'}</strong></div>`).join('')}</div>
+          <div class="kv">${contas.map(k => `<div><span>${OPT.accounts[k]}</span><strong>${CFG.semContas ? '<span class="chip">Vai precisar</span>' : a.accounts.includes(k) ? '<span class="chip ok">Você já tem</span>' : '<span class="chip warn">Preparar</span>'}</strong></div>`).join('')}</div>
           <p class="muted" style="font-size:13px;margin:12px 0 0">${a.company === 'none' ? 'Antes de ativar o recebimento, confira a elegibilidade dos provedores para a sua situação.' : 'Confira país, dados da empresa e titularidade da conta antes de ativar o recebimento.'}</p></div>
       </div>`;
     const dock = `<div class="dock"><div class="row single"><button class="btn" data-act="toStructure">Ver meus 10 produtos ${I.next}</button></div></div>`;
@@ -526,6 +528,9 @@
   document.addEventListener('click', async e => {
     const t = e.target.closest('button, a');
     if (!t) return;
+    // Links de rota (#...) ficam nesta página mesmo quando há <base> (ex.: /demo)
+    const h = t.tagName === 'A' && t.getAttribute('href');
+    if (h && h.startsWith('#')) { e.preventDefault(); go(h.slice(1)); return; }
     const a = S.a;
     if (t.dataset.multi) {
       if (t.classList.contains('off')) return toast('Este nicho chega em breve.');
