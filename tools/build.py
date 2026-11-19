@@ -13,8 +13,8 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 T = os.path.join(ROOT, 'tools')
-SITE = os.path.join(ROOT, 'site')
-NICHOS = ['home', 'pets', 'beauty', 'technology', 'outdoors', 'utilities', 'general']
+SITE = ROOT
+NICHOS = ['home', 'pets', 'beauty', 'fitness', 'technology', 'outdoors', 'fashion', 'utilities', 'general']
 # Nichos do formulário (ordem de exibição). Sem dados = "em breve".
 CATALOGO = [
     ('home', 'Casa e organização'), ('pets', 'Pets'), ('beauty', 'Beleza e cuidados pessoais'),
@@ -22,6 +22,7 @@ CATALOGO = [
     ('fashion', 'Moda e acessórios'), ('utilities', 'Carro, ferramentas e viagem'),
 ]
 NOMES_PT = dict(CATALOGO, general='Variedade')
+GERAR_HOME = set(NICHOS)  # categorias e 'sobre' gerados a partir das fotos mais limpas
 FONT_SERIF = '/usr/share/fonts/truetype/gelasio/Gelasio-Medium.ttf'
 FONT_SANS = '/usr/share/fonts/truetype/dm-sans/DMSans-Bold.ttf'
 
@@ -100,10 +101,21 @@ def logo(text, tagline, color, accent):
     return cv.crop(cv.getbbox() or (0, 0, W, H))
 
 
-def gerar_imagens(n, fonte, copy):
+def gerar_imagens(n, fonte, copy, cats):
     pal = fonte['palette']
     d = os.path.join(SITE, 'img', n)
     p = lambda i: os.path.join(d, fonte['products'][i]['images'][0])
+    # Categorias (h4-h7) e sobre (h8): gerados só quando não vieram do site antigo
+    for i, c in enumerate(cats):
+        f = os.path.join(d, f'h{i + 4}.webp')
+        if not os.path.exists(f) or n in GERAR_HOME:
+            ks = c['produtos'][:2]
+            lay = [(90, 90, 620, 620)] if len(ks) == 1 else [(60, 60, 520, 520), (240, 470, 480, 480)]
+            collage([p(k - 1) for k in ks], (800, 1000), pal['surface'], lay).save(f, quality=84)
+    f = os.path.join(d, 'h8.webp')
+    if not os.path.exists(f) or n in GERAR_HOME:
+        collage([p(i) for i in (3, 4, 7, 9)], (1200, 1200), pal['surface'],
+                [(90, 90, 480, 480), (630, 90, 480, 480), (90, 630, 480, 480), (630, 630, 480, 480)]).save(f, quality=84)
     logo(fonte['storeName'], copy['store']['tagline'], pal['text'], pal['accent']).save(os.path.join(d, 'h1.webp'), quality=90)
     # Hero desktop 1600x1100: 3 cartões
     collage([p(0), p(1), p(2)], (1600, 1100), pal['surface'],
@@ -390,7 +402,10 @@ def build_theme(n, fonte, copy, cats, out_zip):
         for path, content in sorted(files.items()):
             z.writestr(path, content)
         img = os.path.join(SITE, 'img', n)
+        usados = {im for p in fonte['products'] for im in p['images']}
         for f in sorted(os.listdir(img)):
+            if not f.startswith('h') and f not in usados:
+                continue
             arc = f'assets/rm-home-{f[1:]}' if f.startswith('h') else f'assets/rm-{f}'
             z.write(os.path.join(img, f), arc)
 
@@ -399,10 +414,21 @@ def build_theme(n, fonte, copy, cats, out_zip):
 def build_nicho(n):
     fonte = json.load(open(os.path.join(T, 'fonte', f'{n}.json')))
     copy = json.load(open(os.path.join(T, 'copy', f'{n}.json')))
+    # Fotos com muito texto (em inglês) do fornecedor: a mais limpa vira a principal e as
+    # muito carregadas saem da galeria, mantendo pelo menos 2 fotos (ver tools/texto_fotos.py).
+    for p in fonte['products']:
+        sc = p.get('textScore')
+        if not sc:
+            continue
+        order = sorted(range(len(p['images'])), key=lambda i: (sc[i] > 6, sc[i] > 15, i))
+        keep = [i for i in order if sc[i] <= 15]
+        if len(keep) < 2:
+            keep = order[:max(2, len(keep))]
+        p['images'] = [p['images'][i] for i in keep]
     assert len(copy['products']) == 10, n
-    gerar_imagens(n, fonte, copy)
     by_id = {p['id']: p['n'] for p in fonte['products']}
     cats = [{'nombre': copy['store']['categories'][i], 'produtos': [by_id[x] for x in c['productIds']]} for i, c in enumerate(fonte['categories'])]
+    gerar_imagens(n, fonte, copy, cats)
     cat_of = {k: c['nombre'] for c in cats for k in c['produtos']}
     zip_name = f"{slug(fonte['storeName'])}-tema-es.zip"
     os.makedirs(os.path.join(SITE, 'temas'), exist_ok=True)

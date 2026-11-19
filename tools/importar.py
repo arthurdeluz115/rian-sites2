@@ -7,7 +7,7 @@ import json, os, re, shutil, sys
 SRC = sys.argv[1]
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONTE = os.path.join(ROOT, 'tools', 'fonte')
-IMG = os.path.join(ROOT, 'site', 'img')
+IMG = os.path.join(ROOT, 'img')
 NICHOS = ['home', 'pets', 'beauty', 'technology', 'outdoors', 'utilities', 'general']
 
 os.makedirs(FONTE, exist_ok=True)

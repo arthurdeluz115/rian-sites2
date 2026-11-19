@@ -1,0 +1,218 @@
+{
+ "id": "fitness",
+ "storeName": "Pulso Active",
+ "palette": {
+  "background": "#F5F8F7",
+  "surface": "#E4EEEA",
+  "text": "#15241F",
+  "muted": "#4D625B",
+  "accent": "#0F7A62",
+  "onAccent": "#FFFFFF",
+  "border": "#C8D8D2"
+ },
+ "paletteName": "Menta e verde profundo",
+ "categories": [
+  {
+   "en": "Sneakers & Slides",
+   "productIds": [
+    "fitness-01",
+    "fitness-02",
+    "fitness-03"
+   ]
+  },
+  {
+   "en": "Training Wear",
+   "productIds": [
+    "fitness-04",
+    "fitness-05",
+    "fitness-06",
+    "fitness-07"
+   ]
+  },
+  {
+   "en": "Hoodies",
+   "productIds": [
+    "fitness-08",
+    "fitness-09"
+   ]
+  },
+  {
+   "en": "Caps",
+   "productIds": [
+    "fitness-10"
+   ]
+  }
+ ],
+ "products": [
+  {
+   "n": 1,
+   "id": "fitness-01",
+   "nameEn": "Pink Chunky Running Sneakers",
+   "categoryEn": "Sneakers & Slides",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Dusty pink chunky sneakers with laces and a thick white sole.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p01-1.webp",
+    "p01-2.webp",
+    "p01-3.webp"
+   ]
+  },
+  {
+   "n": 2,
+   "id": "fitness-02",
+   "nameEn": "White Velcro Sneakers",
+   "categoryEn": "Sneakers & Slides",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). White sneakers with two hook-and-loop straps.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p02-1.webp",
+    "p02-2.webp",
+    "p02-3.webp"
+   ]
+  },
+  {
+   "n": 3,
+   "id": "fitness-03",
+   "nameEn": "Pink Pool Slides",
+   "categoryEn": "Sneakers & Slides",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Bright pink one-strap slides.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p03-1.webp",
+    "p03-2.webp",
+    "p03-3.webp"
+   ]
+  },
+  {
+   "n": 4,
+   "id": "fitness-04",
+   "nameEn": "Turquoise Drawstring Shorts",
+   "categoryEn": "Training Wear",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Turquoise shorts with an elastic drawstring waist.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p04-1.webp",
+    "p04-2.webp",
+    "p04-3.webp"
+   ]
+  },
+  {
+   "n": 5,
+   "id": "fitness-05",
+   "nameEn": "Pink Drawstring Shorts",
+   "categoryEn": "Training Wear",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Pink shorts with an elastic drawstring waist.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p05-1.webp",
+    "p05-2.webp",
+    "p05-3.webp"
+   ]
+  },
+  {
+   "n": 6,
+   "id": "fitness-06",
+   "nameEn": "Blue Racerback Tank Top",
+   "categoryEn": "Training Wear",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Blue racerback tank top with a studded neckline detail.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p06-1.webp",
+    "p06-2.webp",
+    "p06-3.webp"
+   ]
+  },
+  {
+   "n": 7,
+   "id": "fitness-07",
+   "nameEn": "Yellow Ribbed Crop Top",
+   "categoryEn": "Training Wear",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Bright yellow ribbed sleeveless crop top.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p07-1.webp",
+    "p07-2.webp",
+    "p07-3.webp"
+   ]
+  },
+  {
+   "n": 8,
+   "id": "fitness-08",
+   "nameEn": "White Zip-Up Hoodie",
+   "categoryEn": "Hoodies",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). White zip-up hoodie in soft fleece.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p08-1.webp",
+    "p08-2.webp",
+    "p08-3.webp"
+   ]
+  },
+  {
+   "n": 9,
+   "id": "fitness-09",
+   "nameEn": "Orange Zip-Up Hoodie",
+   "categoryEn": "Hoodies",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Bright orange zip-up hoodie.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p09-1.webp",
+    "p09-2.webp",
+    "p09-3.webp"
+   ]
+  },
+  {
+   "n": 10,
+   "id": "fitness-10",
+   "nameEn": "Light Blue Baseball Cap",
+   "categoryEn": "Caps",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Light blue baseball cap with a curved brim.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p10-1.webp",
+    "p10-2.webp",
+    "p10-3.webp"
+   ]
+  }
+ ]
+}

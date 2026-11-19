@@ -4,22 +4,22 @@ Site estático (sem build) com três páginas:
 
 | Página | O que é |
 |---|---|
-| `site/index.html` | Landing page da demonstração |
-| `site/app.html` | Área do aluno: formulário → plano → estrutura → loja pronta, produtos, prompts e guia |
-| `site/loja.html` | Prévia da loja em espanhol (`?n=pets`, `&p=3` para um produto, `&nome=` para outro nome) |
+| `index.html` | Landing page da demonstração |
+| `app.html` | Área do aluno: formulário → plano → estrutura → loja pronta, produtos, prompts e guia |
+| `loja.html` | Prévia da loja em espanhol (`?n=pets`, `&p=3` para um produto, `&nome=` para outro nome) |
 
 As respostas do aluno ficam salvas no navegador (`localStorage`), então recarregar a página não reinicia a demonstração. O botão de recomeçar fica no topo do formulário e na barra lateral.
 
 ## Publicar
 
-**Vercel:** importe o repositório. O `vercel.json` já aponta a pasta `site` como saída; não há comando de build.
+**Vercel:** crie o projeto a partir do repositório com as configurações padrão (Framework: *Other*, sem comando de build). O site está na raiz. O `.vercelignore` só evita publicar a pasta `tools/`.
 
-**Local:** `npx serve site` (o app precisa de um servidor porque carrega os JSON com `fetch`).
+**Local:** `npx serve .` (o app precisa de um servidor porque carrega os JSON com `fetch`).
 
 ## Estrutura
 
 ```
-site/
+(raiz)
   css/app.css         visual do app e da landing (paleta verde original)
   css/loja.css        visual da loja (o mesmo CSS que vai dentro do tema Shopify)
   js/app.js           lógica do app (rotas por hash)
@@ -31,6 +31,8 @@ site/
 tools/
   build.py            gera data/, banners, logo e temas a partir de fonte + copy
   importar.py         importação única do site antigo (já executada)
+  estudio.py          cria fotos de estúdio (remove o fundo) para as lojas de exemplo
+  texto_fotos.py      mede texto (OCR) nas fotos; o build põe a mais limpa como principal
   fonte/<nicho>.json  dados dos fornecedores (fatos, imagens, categorias)
   copy/<nicho>.json   TODA a copy em espanhol (edite aqui)
   tema/               código-fonte do tema Shopify (Liquid, CSS, JS)
@@ -40,9 +42,17 @@ tools/
 
 1. Edite `tools/copy/<nicho>.json` (loja, categorias e os 10 produtos).
 2. Rode `python3 tools/build.py` (precisa de `pip install pillow`). Para um nicho só: `python3 tools/build.py pets`.
-3. Faça commit de `site/`.
+3. Faça commit de tudo.
 
-Um nicho só aparece como disponível no formulário quando existe `tools/copy/<id>.json` e `tools/fonte/<id>.json`. **Moda** e **Saúde e fitness** aparecem como "Em breve": os arquivos do site antigo para esses dois eram cópias da loja de beleza.
+Um nicho só aparece como disponível no formulário quando existe `tools/copy/<id>.json` e `tools/fonte/<id>.json`.
+
+## Lojas de exemplo: Moda (Alma Studio) e Saúde e fitness (Pulso Active)
+
+São lojas de teste. As fotos vêm do [clothing-dataset](https://github.com/alexeygrigorev/clothing-dataset), em domínio público (CC0), com o fundo removido e recompostas em estilo estúdio (`tools/estudio.py`). Antes de vender de verdade, troque pelos produtos reais da Zendrop e rode o build.
+
+## Fotos dos fornecedores com texto em inglês
+
+`tools/texto_fotos.py` mede o texto de cada foto com OCR (tesseract). No build, a foto mais limpa vira a principal e as fotos com muito texto saem da galeria (sempre ficam pelo menos 2). Para refazer a medição depois de trocar fotos: `python3 tools/texto_fotos.py`.
 
 ## Tema Shopify
 

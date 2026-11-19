@@ -1,0 +1,218 @@
+{
+ "id": "fashion",
+ "storeName": "Alma Studio",
+ "palette": {
+  "background": "#FBF7F4",
+  "surface": "#F2E8E2",
+  "text": "#2A2321",
+  "muted": "#6F625C",
+  "accent": "#8C3B3B",
+  "onAccent": "#FFFFFF",
+  "border": "#E3D3CA"
+ },
+ "paletteName": "Nude e vinho",
+ "categories": [
+  {
+   "en": "Dresses",
+   "productIds": [
+    "fashion-01",
+    "fashion-02",
+    "fashion-03"
+   ]
+  },
+  {
+   "en": "Skirts & Tops",
+   "productIds": [
+    "fashion-04",
+    "fashion-05",
+    "fashion-06"
+   ]
+  },
+  {
+   "en": "Shoes",
+   "productIds": [
+    "fashion-07",
+    "fashion-08"
+   ]
+  },
+  {
+   "en": "Outerwear & Accessories",
+   "productIds": [
+    "fashion-09",
+    "fashion-10"
+   ]
+  }
+ ],
+ "products": [
+  {
+   "n": 1,
+   "id": "fashion-01",
+   "nameEn": "Red Short-Sleeve Sheath Dress",
+   "categoryEn": "Dresses",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Red sheath dress with short sleeves and a fitted waist.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p01-1.webp",
+    "p01-2.webp",
+    "p01-3.webp"
+   ]
+  },
+  {
+   "n": 2,
+   "id": "fashion-02",
+   "nameEn": "White Sleeveless Maxi Dress",
+   "categoryEn": "Dresses",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). White sleeveless long dress with a light, flowing skirt.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p02-1.webp",
+    "p02-2.webp",
+    "p02-3.webp"
+   ]
+  },
+  {
+   "n": 3,
+   "id": "fashion-03",
+   "nameEn": "Polka Dot Dress with Pink Waistband",
+   "categoryEn": "Dresses",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Black and white polka dot dress with a pink band at the waist.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p03-1.webp",
+    "p03-2.webp",
+    "p03-3.webp"
+   ]
+  },
+  {
+   "n": 4,
+   "id": "fashion-04",
+   "nameEn": "Red Mini Skirt",
+   "categoryEn": "Skirts & Tops",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Straight red mini skirt.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p04-1.webp",
+    "p04-2.webp",
+    "p04-3.webp"
+   ]
+  },
+  {
+   "n": 5,
+   "id": "fashion-05",
+   "nameEn": "Black Skater Skirt",
+   "categoryEn": "Skirts & Tops",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Short black flared skater skirt.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p05-1.webp",
+    "p05-2.webp",
+    "p05-3.webp"
+   ]
+  },
+  {
+   "n": 6,
+   "id": "fashion-06",
+   "nameEn": "Black Floral Tank Top",
+   "categoryEn": "Skirts & Tops",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Black sleeveless top with a colorful rose print.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p06-1.webp",
+    "p06-2.webp",
+    "p06-3.webp"
+   ]
+  },
+  {
+   "n": 7,
+   "id": "fashion-07",
+   "nameEn": "Pink Ballet Flats with Bow",
+   "categoryEn": "Shoes",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Pink ballet flats with a small bow at the front.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p07-1.webp",
+    "p07-2.webp",
+    "p07-3.webp"
+   ]
+  },
+  {
+   "n": 8,
+   "id": "fashion-08",
+   "nameEn": "Black Knee-High Heeled Boots",
+   "categoryEn": "Shoes",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Black knee-high boots with stiletto heels and a side zip.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p08-1.webp",
+    "p08-2.webp",
+    "p08-3.webp"
+   ]
+  },
+  {
+   "n": 9,
+   "id": "fashion-09",
+   "nameEn": "Blue Quilted Puffer Jacket",
+   "categoryEn": "Outerwear & Accessories",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Blue lightweight quilted puffer jacket with a zip and stand collar.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p09-1.webp",
+    "p09-2.webp",
+    "p09-3.webp"
+   ]
+  },
+  {
+   "n": 10,
+   "id": "fashion-10",
+   "nameEn": "Straw Fedora Hat with Band",
+   "categoryEn": "Outerwear & Accessories",
+   "facts": "Example product photographed for the demo (CC0 photo from the clothing-dataset, background replaced in a studio style). Light straw fedora hat with a black band.",
+   "sections": {
+    "box": false,
+    "comparison": false,
+    "guarantee": false
+   },
+   "images": [
+    "p10-1.webp",
+    "p10-2.webp",
+    "p10-3.webp"
+   ]
+  }
+ ]
+}
