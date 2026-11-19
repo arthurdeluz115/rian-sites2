@@ -28,13 +28,13 @@
   // ---------- opções do formulário ----------
   const OPT = {
     value: [['problem', 'Resolver um problema', '🛠️'], ['practical', 'Facilitar a rotina', '⚡'], ['design', 'Design e apresentação', '✨'], ['hobby', 'Ajudar em um hobby', '🎯'], ['system', 'O sistema pode indicar', '🧭']],
-    vision: [['system', 'Quero uma indicação do sistema', 'Escolhemos o melhor formato para você'], ['niche', 'Uma marca focada em um assunto', 'Loja nichada, mais fácil de posicionar'], ['general', 'Uma marca com variedade', 'Produtos de categorias diferentes']],
+    vision: [['system', 'Quero uma indicação do sistema', 'Escolhemos o melhor formato para você'], ['niche', 'Uma marca focada em um assunto', 'Estrutura nichada, mais fácil de posicionar'], ['general', 'Uma marca com variedade', 'Produtos de categorias diferentes']],
     skills: { service: 'Atender clientes', writing: 'Escrever', organizing: 'Organizar', selling: 'Vender', design: 'Criar imagens ou vídeos', none: 'Estou começando' },
     difficulties: { technology: 'Tecnologia', spanish: 'Espanhol', time: 'Tempo', money: 'Dinheiro', marketing: 'Divulgação', none: 'Nenhuma dessas' },
     experience: { none: 'Nunca vendi pela internet', social: 'Já vendi em redes sociais ou marketplaces', store: 'Já tive uma loja virtual' },
     dailyTime: { 30: 'Até 30 minutos', 60: 'Cerca de 1 hora', 120: 'Cerca de 2 horas', 240: '4 horas ou mais', varies: 'Minha rotina varia' },
     brandGoal: { brand: 'Construir uma marca', sales: 'Começar vendendo produtos' },
-    returnGoal: { 1: 'Até 1 mês', 3: 'Até 3 meses', 6: 'Até 6 meses', 12: 'Até 12 meses', flexible: 'Sem prazo definido' },
+    returnGoal: { w1: 'Até 1 semana', m1: 'Até 1 mês', m3: 'Até 3 meses', m6: 'Até 6 meses', m12: 'Até 12 meses', flexible: 'Sem prazo definido' },
     company: { none: 'Ainda não tenho empresa', br: 'Tenho CNPJ no Brasil', abroad: 'Tenho empresa fora do Brasil', both: 'Tenho CNPJ e empresa fora' },
     accounts: { shopify: 'Shopify', zendrop: 'Zendrop', paypal: 'PayPal', card: 'Cartão internacional', none: 'Ainda não tenho essas contas' },
   };
@@ -63,7 +63,7 @@
 
   let NICHOS = [];
   const cache = {};
-  const loadNicho = async id => cache[id] || (cache[id] = fetch(`data/${id}.json`).then(r => { if (!r.ok) throw new Error('Não foi possível carregar a loja. Confira a conexão.'); return r.json(); }));
+  const loadNicho = async id => cache[id] || (cache[id] = fetch(`data/${id}.json`).then(r => { if (!r.ok) throw new Error('Não foi possível carregar a estrutura. Confira a conexão.'); return r.json(); }));
 
   // ---------- utilidades ----------
   let toastT;
@@ -121,7 +121,7 @@
     if (!sup.length) sup.push('Revisar instalação e atendimento com o checklist antes da abertura.');
     let acc = 0;
     const timeline = [
-      ['Estrutura e revisão', 120, 'Gerar a loja e revisar nome, coleção, copies e páginas.'],
+      ['Estrutura e revisão', 120, 'Gerar a estrutura e revisar nome, coleção, copies e páginas.'],
       ['Imagens e identidade', a.brandGoal === 'brand' ? 180 : 120, 'Conferir as imagens incluídas e, se quiser, gerar novas com os prompts.'],
       ['Instalação e conexões', 180, 'Importar o tema, importar os produtos pela Zendrop e associar os templates.'],
       ['Custos e teste', 120, 'Levantar o custo de cada produto na Zendrop, definir preços em euro e testar a compra.'],
@@ -178,8 +178,8 @@
       const favs = a.interests.filter(x => x !== 'none');
       return `
         <h1>O que combina com você?</h1>
-        <p class="muted">Responda rápido — cada resposta ajusta o nicho, o plano e a sua loja.</p>
-        <div class="dest"><span class="flag">🇪🇸</span><div><strong>Sua loja vai vender na Espanha.</strong><br><span class="muted">Loja em espanhol · preços em euro · cores definidas pelo nicho</span></div></div>
+        <p class="muted">Responda rápido — cada resposta ajusta o nicho, o plano e a sua estrutura.</p>
+        <div class="dest"><span class="flag">🇪🇸</span><div><strong>Sua estrutura vai vender na Espanha.</strong><br><span class="muted">Estrutura em espanhol · preços em euro · cores definidas pelo nicho</span></div></div>
         <div class="q"><h3>Quais assuntos você gostaria de vender?</h3><p class="hint">Até três.</p>
           ${multi('interests', [...cats.map(c => [c.id, c.nome, EMOJI[c.id], !c.disponivel]), ['none', 'Ainda não tenho preferência', '🤷']], a.interests, { cols: 1 })}</div>
         ${favs.length > 1 ? `<div class="q"><h3>E o favorito?</h3>${single('favorite', favs.map(f => [f, cats.find(c => c.id === f)?.nome, EMOJI[f]]), a.favorite, 1)}</div>` : ''}
@@ -189,7 +189,7 @@
     if (i === 1) {
       return `
         <h1>O que prefere deixar de fora?</h1>
-        <p class="muted">Opcional. Suas exclusões são respeitadas na escolha da loja.</p>
+        <p class="muted">Opcional. Suas exclusões são respeitadas na escolha da estrutura.</p>
         <div class="q"><h3>Categorias que você não quer vender</h3>
           ${multi('excluded', cats.filter(c => c.disponivel).map(c => [c.id, c.nome, EMOJI[c.id]]), a.excluded, { cols: 1 })}</div>
         <div class="q"><h3>Alguma outra restrição?</h3><p class="hint">Ex.: não quero produtos elétricos.</p>
@@ -222,11 +222,11 @@
       ['Destaque', OPT.value.find(v => v[0] === a.value)?.[1]], ['Formato', OPT.vision.find(v => v[0] === a.vision)?.[1]],
       ['Excluir', a.excluded.map(nome).join(', ') || 'Nada'], ['Tempo por dia', OPT.dailyTime[a.dailyTime]],
       ['Investimento', money(String(a.investment).replace(',', '.'), a.currency)], ['Retorno', OPT.returnGoal[a.returnGoal]],
-      ['Loja', 'Espanha · espanhol · euro'],
+      ['Estrutura', 'Espanha · espanhol · euro'],
     ];
     return `
       <h1>Vamos conferir?</h1>
-      <p class="muted">Depois da análise, sua loja fica definida — você não precisa escolher produto nenhum.</p>
+      <p class="muted">Depois da análise, sua estrutura fica definida — você não precisa escolher produto nenhum.</p>
       <div class="panel review">${rows.map(([k, v]) => `<div><span>${k}</span><strong>${esc(v || '—')}</strong></div>`).join('')}</div>
       ${a.otherExclusion.trim() ? `<p class="muted" style="margin-top:12px">Sua observação (“${esc(a.otherExclusion.trim())}”) fica registrada para revisão da equipe.</p>` : ''}
       <label class="check-line" style="margin-top:16px"><input type="checkbox" data-check="acknowledged" ${a.acknowledged ? 'checked' : ''}>
@@ -234,7 +234,7 @@
   }
 
   // ---------- telas ----------
-  const stagesHtml = cur => `<div class="stages">${['Formulário', 'Meu plano', 'Estrutura', 'Loja pronta'].map((s, i) =>
+  const stagesHtml = cur => `<div class="stages">${['Formulário', 'Meu plano', 'Estrutura', 'Estrutura pronta'].map((s, i) =>
     `<div class="stage ${i === cur ? 'on' : ''} ${i < cur ? 'done' : ''}"><b>${i < cur ? '✓' : i + 1}</b><span>${s}</span></div>`).join('')}</div>`;
   const brand = `<a class="brand" href="index.html" aria-label="Rian Medeiros — início"><span class="brand-mark">RM</span><span class="brand-name">RIAN<small>MEDEIROS</small></span></a>`;
   const obShell = (cur, inner, dock = '') => `
@@ -268,7 +268,7 @@
 
   async function analyze() {
     const app = $('#app');
-    app.innerHTML = obShell(1, loaderHtml('Analisando suas respostas', ['Encontrando a direção da loja', 'Escolhendo os 10 produtos', 'Montando seu plano de ação', 'Definindo a identidade visual']));
+    app.innerHTML = obShell(1, loaderHtml('Analisando suas respostas', ['Encontrando a direção da estrutura', 'Escolhendo os 10 produtos', 'Montando seu plano de ação', 'Definindo a identidade visual']));
     const id = escolher(S.a);
     const [d] = await Promise.all([loadNicho(id), runSteps(650)]);
     S.nicho = id; S.storeName = S.storeName && NOMES[id]?.includes(S.storeName) ? S.storeName : d.tienda;
@@ -284,7 +284,7 @@
     const inner = `
       <div class="hero-card">
         <p class="eyebrow">Seu plano está pronto</p>
-        <h1 style="font-size:clamp(1.7rem,7vw,2.6rem)">Uma loja de ${esc(d.nicho.toLowerCase())} para a Espanha.</h1>
+        <h1 style="font-size:clamp(1.7rem,7vw,2.6rem)">Uma estrutura de ${esc(d.nicho.toLowerCase())} para a Espanha.</h1>
         <p class="muted">${esc(S.reason)} Seu orçamento, ritmo e prioridades usam as respostas do formulário.</p>
         <div class="store-pill"><span class="sw" style="background:${pal.background};color:${pal.accent}">${EMOJI[d.id] || '🛍️'}</span>
           <div><strong>${esc(d.tienda)}</strong><div class="muted" style="font-size:13px">${esc(d.paletaNombre)} · 10 produtos · 4 categorias</div>
@@ -293,10 +293,10 @@
       </div>
 
       <div class="panel" style="margin-top:14px">
-        <p class="eyebrow">Dê um nome à sua loja</p>
+        <p class="eyebrow">Dê um nome à sua estrutura</p>
         <p class="muted" style="font-size:14px">Escolha uma sugestão ou escreva o seu. Ele aparece na prévia e você aplica na Shopify em um clique.</p>
         <div class="names">${nomes.map(n => `<button type="button" class="${S.storeName === n ? 'on' : ''}" data-name="${esc(n)}">${esc(n)}</button>`).join('')}</div>
-        <input class="input" id="storeName" maxlength="40" value="${esc(S.storeName)}" aria-label="Nome da loja">
+        <input class="input" id="storeName" maxlength="40" value="${esc(S.storeName)}" aria-label="Nome da estrutura">
         <p class="muted" style="font-size:12.5px;margin:8px 0 0">Confira domínio e marca disponíveis antes de registrar.</p>
       </div>
 
@@ -335,8 +335,8 @@
       <p class="muted">Escolhidos pela curadoria para o seu perfil, já com copy em espanhol, fotos e página pronta.</p>
       <div class="chips" style="margin:6px 0 18px">${d.categorias.map(c => `<span class="chip">${esc(c.nombre)} · ${c.produtos.length}</span>`).join('')}</div>
       <div class="prod-list">${d.productos.map((p, i) => prodCard(d, p, i === 0)).join('')}</div>
-      <div class="panel" style="margin-top:16px"><h3>Pronto para gerar sua loja?</h3><p class="muted" style="margin:0">A geração monta a home, as 10 páginas de produto, os prompts e o tema .zip para a Shopify.</p></div>`;
-    const dock = `<div class="dock"><div class="row"><a class="btn ghost" href="#plano" aria-label="Voltar ao plano">${I.back}</a><button class="btn" data-act="generate">Gerar minha loja ${I.spark}</button></div></div>`;
+      <div class="panel" style="margin-top:16px"><h3>Pronto para gerar sua estrutura?</h3><p class="muted" style="margin:0">A geração monta a home, as 10 páginas de produto, os prompts e o tema .zip para a Shopify.</p></div>`;
+    const dock = `<div class="dock"><div class="row"><a class="btn ghost" href="#plano" aria-label="Voltar ao plano">${I.back}</a><button class="btn" data-act="generate">Gerar minha estrutura ${I.spark}</button></div></div>`;
     return obShell(2, inner, dock);
   }
 
@@ -344,17 +344,17 @@
     $('#app').innerHTML = obShell(3, loaderHtml(`Montando a ${S.storeName}`, ['Aplicando a identidade visual', 'Compondo a página inicial', 'Criando as 10 páginas de produto', 'Escrevendo as copies em espanhol', 'Empacotando o tema para a Shopify']));
     await Promise.all([runSteps(600), loadNicho(S.nicho)]);
     S.generatedAt = new Date().toISOString(); save();
-    toast('Sua loja está pronta! 🎉');
+    toast('Sua estrutura está pronta! 🎉');
     go('loja');
   }
 
   // ----- área pós-geração -----
-  const NAV = [['inicio', 'Início', I.home], ['loja', 'Minha loja', I.store], ['produtos', 'Produtos', I.box], ['prompts', 'Prompts', I.spark], ['guia', 'Guia', I.book]];
+  const NAV = [['inicio', 'Início', I.home], ['loja', 'Estrutura', I.store], ['produtos', 'Produtos', I.box], ['prompts', 'Prompts', I.spark], ['guia', 'Guia', I.book]];
   function appShell(cur, title, inner) {
     const nav = NAV.map(([h, l, ico]) => `<a class="nav ${cur === h ? 'on' : ''}" href="#${h}">${ico}${l}</a>`).join('');
     return `<div class="app">
       <aside class="sidebar">${brand}${nav}<a class="nav ${cur === 'plano' ? 'on' : ''}" href="#plano">${I.map}Meu plano</a>
-        <div class="side-foot"><button class="btn ghost sm" data-act="reset">${I.reset} Recomeçar demo</button><p style="margin-top:12px">Do primeiro passo à sua loja internacional.</p></div></aside>
+        <div class="side-foot"><button class="btn ghost sm" data-act="reset">${I.reset} Recomeçar demo</button><p style="margin-top:12px">Do primeiro passo à sua estrutura internacional.</p></div></aside>
       <div><header class="topbar">${brand}<strong class="desk-title" style="font-size:14px">${esc(title)}</strong>
         <div class="who"><span class="chip warn">Demo</span><span class="avatar">A</span></div></header>
         <main class="main view">${inner}</main></div>
@@ -369,9 +369,9 @@
       <div class="welcome">
         <div class="hero-card">
           <p class="eyebrow">Olá, Aluno 👋</p><h1 style="font-size:clamp(1.7rem,7vw,2.6rem)">A ${esc(S.storeName)} está pronta.</h1>
-          <p class="muted">Sua loja para a Espanha tem home, 10 páginas de produto com copy em espanhol, prompts de imagem e o tema para importar na Shopify.</p>
+          <p class="muted">Sua estrutura para a Espanha tem home, 10 páginas de produto com copy em espanhol, prompts de imagem e o tema para importar na Shopify.</p>
           <div class="chips" style="margin:14px 0 18px"><span class="chip ok">🇪🇸 Espanha</span><span class="chip">${esc(d.nicho)}</span><span class="chip">${done}/6 etapas do guia</span></div>
-          <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn" href="#loja">${I.store} Ver minha loja</a><a class="btn ghost" href="${d.tema}" download>${I.dl} Baixar tema</a></div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn" href="#loja">${I.store} Ver minha estrutura</a><a class="btn ghost" href="${d.tema}" download>${I.dl} Baixar tema</a></div>
         </div>
         <a class="shot" href="#loja" aria-label="Abrir prévia"><img src="img/${d.id}/h3.webp" alt=""></a>
       </div>
@@ -389,13 +389,13 @@
   async function viewLoja() {
     const d = await loadNicho(S.nicho);
     const pages = [{ n: 0, l: 'Home', img: `img/${d.id}/h3.webp` }, ...d.productos.map(p => ({ n: p.n, l: `Prod. ${p.n}`, img: `img/${d.id}/${p.imagenes[0]}` }))];
-    return appShell('loja', 'Minha loja', `
+    return appShell('loja', 'Minha estrutura', `
       <div class="page-head"><p class="eyebrow">Sua marca ganhou forma</p><h1>${esc(S.storeName)}</h1>
-        <p>Navegue pela loja como um cliente espanhol veria. A prévia usa as mesmas seções do tema que você instala na Shopify.</p>
+        <p>Navegue pela estrutura como um cliente espanhol veria. A prévia usa as mesmas seções do tema que você instala na Shopify.</p>
         <div class="actions"><a class="btn" href="${d.tema}" download>${I.dl} Baixar tema .zip</a><a class="btn ghost" href="${lojaUrl(d, page)}" target="_blank" rel="noopener">${I.ext} Abrir em nova aba</a></div></div>
       <div class="preview-bar"><div class="seg" role="group" aria-label="Dispositivo"><button class="${device === 'mobile' ? 'on' : ''}" data-device="mobile">${I.phone} Celular</button><button class="${device === 'desktop' ? 'on' : ''}" data-device="desktop">${I.desk} Computador</button></div>
         <button class="copy-btn" data-copylink="${esc(new URL(lojaUrl(d, page), location.href).href)}">${I.copy} Copiar link</button></div>
-      <div class="device ${device}"><iframe id="preview" title="Prévia da loja" src="${lojaUrl(d, page, true)}" loading="lazy"></iframe></div>
+      <div class="device ${device}"><iframe id="preview" title="Prévia da estrutura" src="${lojaUrl(d, page, true)}" loading="lazy"></iframe></div>
       <div class="page-pick" aria-label="Páginas">${pages.map(p => `<button class="${p.n === page ? 'on' : ''}" data-page="${p.n}"><img src="${p.img}" alt=""><span>${p.l}</span></button>`).join('')}</div>
       <p class="muted" style="font-size:13px;margin-top:14px">Preços, variantes e checkout vêm dos produtos reais depois da importação na Shopify.</p>`);
   }
@@ -475,7 +475,7 @@
     const d = await loadNicho(S.nicho);
     const pct = Math.round(S.checklist.length / 6 * 100);
     const steps = [
-      ['Crie a loja e configure a Espanha', `<ol><li>Crie sua conta na Shopify.</li><li>Em <b>Configurações → Mercados</b>, adicione <b>Espanha</b> e defina o <b>euro (€)</b>.</li><li>Em <b>Idiomas</b>, publique o <b>espanhol</b> como idioma padrão.</li><li>Em <b>Impostos</b>, revise o IVA e mostre os preços com impostos incluídos.</li></ol>`],
+      ['Crie a estrutura e configure a Espanha', `<ol><li>Crie sua conta na Shopify.</li><li>Em <b>Configurações → Mercados</b>, adicione <b>Espanha</b> e defina o <b>euro (€)</b>.</li><li>Em <b>Idiomas</b>, publique o <b>espanhol</b> como idioma padrão.</li><li>Em <b>Impostos</b>, revise o IVA e mostre os preços com impostos incluídos.</li></ol>`],
       ['Importe e publique o tema', `<ol><li>Baixe o tema abaixo.</li><li>Na Shopify, abra <b>Loja virtual → Temas → Adicionar tema → Fazer upload</b>.</li><li>Publique o tema. Os templates rian-01 a rian-10 passam a aparecer nos produtos.</li></ol><a class="btn sm" href="${d.tema}" download>${I.dl} Baixar tema .zip</a>`],
       ['Importe os 10 produtos pela Zendrop', `<ol><li>Conecte a Zendrop à sua Shopify.</li><li>Busque cada produto pelo <b>nome original</b> (está em Produtos).</li><li>Confira variantes, custo, prazo e frete para a Espanha antes de importar.</li><li>Cole o título e a descrição em espanhol.</li></ol><a class="btn sm soft" href="#produtos">${I.box} Abrir meus produtos</a>`],
       ['Atribua o template de cada produto', `<ol><li>Abra cada produto na Shopify.</li><li>Em <b>Modelo de tema</b>, escolha o template indicado (rian-01 a rian-10).</li><li>Salve.</li></ol>`],
@@ -514,7 +514,7 @@
       // se o plano foi aberto depois de gerar, mostra no shell do app
       if (route === 'plano' && S.generatedAt) html = appShell('plano', 'Meu plano', html.replace(/^[\s\S]*?<div class="form-wrap view">/, '').replace(/<div class="dock">[\s\S]*$/, ''));
       app.innerHTML = html;
-      document.title = `${{ formulario: 'Formulário', plano: 'Meu plano', estrutura: 'Estrutura', loja: 'Minha loja', produtos: 'Produtos', produto: 'Produto', prompts: 'Prompts', guia: 'Guia' }[route] || 'Início'} · Rian Medeiros`;
+      document.title = `${{ formulario: 'Formulário', plano: 'Meu plano', estrutura: 'Estrutura', loja: 'Minha estrutura', produtos: 'Produtos', produto: 'Produto', prompts: 'Prompts', guia: 'Guia' }[route] || 'Início'} · Rian Medeiros`;
       if (route === 'prompts') renderPrompts(await loadNicho(S.nicho));
       window.scrollTo({ top: 0, behavior: 'instant' });
     } catch (e) {
@@ -552,7 +552,7 @@
       case 'next': { const err = validar(S.step); if (err) return toast(err, 'error'); S.step++; save(); render(); break; }
       case 'prev': S.step = Math.max(0, S.step - 1); save(); render(); break;
       case 'analyze': { const err = validar(4) || validar(0) || validar(2) || validar(3); if (err) return toast(err, 'error'); analyze(); break; }
-      case 'toStructure': { const v = $('#storeName').value.trim(); if (v.length < 2) return toast('Dê um nome à sua loja.', 'error'); S.storeName = v; S.planOk = true; save(); go('estrutura'); break; }
+      case 'toStructure': { const v = $('#storeName').value.trim(); if (v.length < 2) return toast('Dê um nome à sua estrutura.', 'error'); S.storeName = v; S.planOk = true; save(); go('estrutura'); break; }
       case 'generate': generate(); break;
       case 'previewProduct': page = Number(t.dataset.n); go('loja'); break;
       case 'reset': if (confirmReset()) { S = blank(); save(); go('formulario'); } break;

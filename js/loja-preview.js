@@ -25,7 +25,7 @@
 
   async function main() {
     const res = await fetch(`data/${nicho}.json`);
-    if (!res.ok) throw new Error('Loja não encontrada');
+    if (!res.ok) throw new Error('Estrutura não encontrada');
     const d = await res.json();
     const nome = (qs.get('nome') || d.tienda).slice(0, 60);
     const img = f => `img/${d.id}/${f}`;
