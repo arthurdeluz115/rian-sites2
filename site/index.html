@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0d130c">
+  <title>Rian Medeiros · Sua loja na Espanha, pronta para vender</title>
+  <meta name="description" content="Responda um formulário de 3 minutos e receba uma loja Shopify para a Espanha: 10 produtos com copy em espanhol, fotos, tema pronto e guia de instalação.">
+  <meta property="og:title" content="Sua loja na Espanha, pronta para vender">
+  <meta property="og:description" content="10 produtos, copy em espanhol, tema Shopify e guia passo a passo.">
+  <meta property="og:image" content="img/pets/h2.webp">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=Space+Grotesk:wght@500..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header class="l-nav">
+    <a class="brand" href="index.html"><span class="brand-mark">RM</span><span class="brand-name">RIAN<small>MEDEIROS</small></span></a>
+    <a class="btn sm" href="app.html#formulario">Começar</a>
+  </header>
+
+  <section class="l-hero">
+    <div class="l-wrap">
+      <p class="eyebrow">🇪🇸 Lojas para a Espanha</p>
+      <h1>Sua loja na Espanha,<br><em>pronta para vender.</em></h1>
+      <p class="lead">Responda um formulário de 3 minutos. Você recebe uma loja Shopify com 10 produtos escolhidos, páginas com copy em espanhol, fotos, tema pronto e um guia passo a passo.</p>
+      <div class="l-cta">
+        <a class="btn" href="app.html#formulario">Montar minha loja grátis →</a>
+        <a class="btn ghost" href="loja.html?n=pets">Ver uma loja de exemplo</a>
+      </div>
+      <div class="l-note"><span>Sem cadastro na demonstração</span><span>Copy em espanhol</span><span>Produtos via Zendrop</span></div>
+      <div class="marquee" id="stores" aria-label="Lojas de exemplo"></div>
+    </div>
+  </section>
+
+  <section class="l-sec">
+    <div class="l-wrap">
+      <p class="eyebrow">Como funciona</p>
+      <h2>Do formulário à loja no ar em 4 passos.</h2>
+      <ol class="l-steps" style="margin-top:20px">
+        <li><h3>Conte sobre você</h3><p>Seus interesses, tempo e orçamento definem o nicho e o ritmo do plano.</p></li>
+        <li><h3>Receba seu plano</h3><p>Cronograma em dias, prioridades e o nome da sua marca.</p></li>
+        <li><h3>Gere a loja</h3><p>Home, 10 páginas de produto e tema Shopify em espanhol, em segundos.</p></li>
+        <li><h3>Coloque no ar</h3><p>Importe pela Zendrop e siga o guia com checklist até o primeiro pedido.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="l-sec" style="padding-top:0">
+    <div class="l-wrap">
+      <p class="eyebrow">O que você recebe</p>
+      <h2>Tudo pronto para vender para espanhóis.</h2>
+      <div class="l-get" style="margin-top:20px">
+        <div><svg class="i" viewBox="0 0 24 24"><path d="M21 8l-9-5-9 5 9 5 9-5zM3 8v8l9 5 9-5V8M12 13v8"/></svg><div><h3>10 produtos com curadoria</h3><p>Escolhidos para o seu nicho, organizados em 4 categorias e com produto principal definido.</p></div></div>
+        <div><svg class="i" viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h13"/></svg><div><h3>Copy que vende, em espanhol</h3><p>Headline, benefícios, contextos de uso, especificações e FAQ — prontos para colar.</p></div></div>
+        <div><svg class="i" viewBox="0 0 24 24"><path d="M4 9l1.5-5h13L20 9M4 9v11h16V9M4 9h16"/></svg><div><h3>Tema Shopify mobile-first</h3><p>Galeria deslizante, barra de compra fixa no celular e um template por produto.</p></div></div>
+        <div><svg class="i" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4"/></svg><div><h3>Prompts de imagem</h3><p>Mais de 100 prompts numerados para criar fotos próprias com IA.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-final">
+    <h2>Sua próxima loja começa com você.</h2>
+    <p>Leva 3 minutos. Suas respostas ficam salvas neste navegador.</p>
+    <a class="btn" href="app.html#formulario">Começar agora →</a>
+  </section>
+
+  <footer class="l-foot"><span>RIAN MEDEIROS · Estrutura para o seu próximo passo.</span><span>Demonstração · as lojas usam fotos de catálogo dos fornecedores.</span></footer>
+
+  <script>
+    fetch('data/nichos.json').then(r => r.json()).then(list => {
+      const el = document.getElementById('stores');
+      el.innerHTML = list.filter(n => n.disponivel).map(n => `
+        <a class="store-card" href="loja.html?n=${n.id}">
+          <div class="img"><img src="img/${n.id}/h3.webp" alt="" loading="lazy"></div>
+          <div class="meta"><div><strong>${n.tienda}</strong><br><small>${n.nome}</small></div><span class="chip" style="background:${n.bg};color:${n.accent};border-color:transparent">Ver →</span></div>
+        </a>`).join('');
+    });
+  </script>
+</body>
+</html>
